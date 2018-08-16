@@ -1,0 +1,17 @@
+#+html: <a name="22"></a>
+** I22: Defensiv programmering
+
+ #+begin_quote
+ Förklara innebörden av, och tillämpa på ett konsekvent sätt,
+ defensiv programmering i ett program.
+ #+end_quote
+
+ Studera konceptet defensiv programmering. Vid tillämpning, använd
+ [[https://github.com/IOOPM-UU/ioopm15/blob/master/extramaterial/Defensiv%2520Programmering%2520-%2520Checklista.pdf][checklistan som finns i kursmaterialet]] och fundera på hur man kan
+ kritisera den.
+
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20I22&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

@@ -1,0 +1,31 @@
+#+html: <a name="62"></a>
+** X62: Kommunikation 1:1
+
+ #+BEGIN_QUOTE
+ Visa förmåga att förmedla kunskap genom att handleda ett pass.
+ #+END_QUOTE
+
+ Att hålla en presentation utan förberedelser är vanligt -- jämför
+ t.ex. med "elevator pitch" eller när någon frågar om något som man
+ känner till. Vid labbhandledning är det vanligt att man måste
+ berätta om olika koncept etc.
+
+ Även om man inte kan en viss aspekt av kursen bör man kunna hjälpa
+ någon med en diskussion, både lyssna och tala.
+
+ Redovisning sker med hjälp av ordinarie labassar som bitvis följer
+ med dig och lyssnar på dina förklaringar etc. till andra.
+ Obeservera att du inte får ta redovisningar.
+
+ Ett bra sätt att förbereda sig är att sätta sig in i labassens
+ roll genom att titta på hur (särskilt de seniora) labassarna gör.
+
+ Om du vill redovisa detta mål, maila till [[mailto:gustaf.borgstrom@it.uu.se][Gustaf]].
+
+ Det blir lätt fullt i slutet av kursen, så hör av dig i tid!
+
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20X62&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

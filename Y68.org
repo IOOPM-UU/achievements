@@ -1,0 +1,43 @@
+#+html: <a name="68"></a>
+** TODO Y68: Redovisa en fungerande projektuppgift
+
+ Se övriga Y-mål som alla hör till projektet!
+
+ Utöver att vara ett seriöst försök att implementera
+ specifikationen fullständigt, modulo "frivilliga utökningar" skall
+ ert program:
+
+ - fungera på avsedda plattformar
+ - inte göra odokumenterade eller omotiverade avsteg från specifikationen
+ - vara fritt från minnesläckage (verifieras t.ex. med valgrind)
+ - inte krascha vid körning med valid indata
+ - skydda sig från felaktig indata på lämpligt sätt och i lämplig utsträckning
+ - inte behöva kompileras om när indata ändras
+ - ha ett lämpligt förhållningssätt till [[http://en.wikipedia.org/wiki/Not_invented_here][NIH]] och [[http://en.wikipedia.org/wiki/Don't_repeat_yourself][DRY]]
+
+ Ytterligare icke-funktionella krav är att:
+
+ - kodens indentering lyfter fram [kontrollflödet](http://en.wikipedia.org/wiki/Control_flow)
+ - ingen "machokodning" (t.ex. omotiverade oneliners)
+ - återkommande logik är utbruten och inkapslad i funktioner
+ - namn på filer, variabler, funktioner, etc. skall hjälpa läsaren att förstå deras innebörd, och beteende (t.ex. vilka värden som är rimliga, eller vad man kan förvänta sig från ett funktionsanrop)
+ - har tydligt dokumenterade gränssnitt som går att förstå utan att läsa koden och *helst* är formaterade med Doxygen eller JavaDoc
+ - programmet går att bygga och testa med en makefil
+ - programmet har enhetstester för *alla viktiga funktioner*
+   - som *inte* bara skrevs *efter* att programmet var klart "för att ha tester"
+   - som använder cunit
+   - där varje test prövar en sak, och flera tester görs ej i samma testfunktion
+ - konsekvent tillämpa en kodstandard
+ - ha en vettig git log
+ - överensstämma med aktiviteter på Trello
+
+ Lämna in detta program genom att skriva i `readme.md`-filen i
+ roten på **gruppens** GitHub-repo vilken commit som var
+ inlämningen, alltså:
+
+*** TODO Tagga projektuppgiften med ...
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20Y68&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

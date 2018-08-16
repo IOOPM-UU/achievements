@@ -1,0 +1,52 @@
+#+html: <a name="61"></a>
+** X61:  Välstrukturerad presentation 2/2
+
+ #+BEGIN_QUOTE
+ Håll en välstrukturerad presentation om ett mål på kursen.
+ #+END_QUOTE
+
+ Se föregående presentationsmål för ytterligare instruktioner.
+
+ Du skall ha ett tydligt mål med din presentation: du vill lära ut
+ X, etc. Något som åhörarna i efterhand kan ta ställning till om du
+ har lyckats med eller inte och kan använda som utgångspunkt för
+ återkopplingen på din presentation.
+
+ Som ämne skall du välja något mål på kursen. En lämplig längd på
+ presentationen är 15 minuter.
+
+ Fundera över vad för slags presentation du skall ge. Kolla t.ex.
+ [[http://www.skillsyouneed.com/presentation-skills.html][här]] för inspiration och vägledning.
+
+ Fundera över vad du tycker är svårt med en presentation och
+ fokusera på det. Tycker du att det är svårt att berätta en
+ sammanhängande historia -- jobba med det. Är det svåra att stå
+ inför folk -- jobba med det.
+
+ På första bilden av din presentation, ange:
+
+ - Målet med din presentation
+ - Vad du aktivt försöker träna på (t.ex. inte vara nervös)
+
+ Om du inte använder bilder kan du bara berätta det.
+
+ Här bedömer vi två saker:
+
+ - Din förmåga att presentera (bl.a. uppfylla det mål som du själv
+   satt)
+ - Innehållet för det mål som du presenterar
+
+ Du kan bli godkänd på båda mål individuellt, alltså presentationen
+ i sig och målet som var ämnet för presentationen. Det betyder att
+ om du gör ett bra jobb har du möjlighet att bocka av två mål här.
+
+ Presentationerna kommer att gå till på samma sätt som i föregående
+ mål, dvs. du presenterar både inför andra studenter och lärare.
+ För att anmäla dig för en presentation, skicka ett mail till
+ [[mailto:gustaf.borgstrom@it.uu.se][Gustaf]]. Tider för presentationer hanteras på mail i takt med att
+ anmälningar kommer in.
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20X61&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

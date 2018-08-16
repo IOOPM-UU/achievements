@@ -1,0 +1,29 @@
+#+html: <a name="101"></a>
+** TODO Z101: Inlupp 2
+
+*** Redovisa utökad förståelse för imperativ programmering i C
+
+ I den andra inlämningen blir programmets icke-funktionella
+ aspekter viktigare. Utöver att det implementerar specifikationen
+ fullständigt, modulo "frivilliga utökningar" skall det
+
+ - vara fritt från minnesläckage (verifieras t.ex. med valgrind)
+ - inte krascha vid körning med valid indata
+ - skydda sig från felaktig indata på lämpligt sätt och i lämplig utsträckning
+ - inte behöva kompileras om när indata ändras
+ - inte ha en massa halvtomma arrayer utan använda länkade strukturer för minneseffektivitet
+
+ Ytterligare icke-funktionella krav är att
+
+ - inga globala variabler 
+ - inga magiska nummer (t.ex. 128 står överallt i koden)
+ - kodens indentering lyfter fram [[http://en.wikipedia.org/wiki/Control_flow][kontrollflödet]]
+ - ingen "machokodning" (t.ex. omotiverade oneliners)
+ - återkommande logik är utbruten och inkapslad i funktioner
+ - namn på filer, variabler, funktioner, etc. skall hjälpa läsaren att förstå deras innebörd, och beteende (t.ex. vilka värden som är rimliga, eller vad man kan förvänta sig från ett funktionsanrop)
+
+ Inlämningsinstruktioner finns i uppgiftstexten!
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20z101&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

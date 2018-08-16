@@ -1,0 +1,18 @@
+#+html: <a name="50"></a>
+** Q50: Mät och resonera kring testkvalitet
+
+ Hur vet man att de test man har är "bra"? Hur vet man vad testen
+ egentligen testar? Använd ett lämpligt verktyg för att t.ex. mäta
+ code coverage, d.v.s. hur stor del av koden som faktiskt testas av
+ testen. Vilka andra kvalitetsmått på tester finns? Måste man testa
+ sina tester? Måste man testa testernas tester? Blir inte detta en
+ oändlig regression?
+
+ Använd t.ex. [[http://en.wikipedia.org/wiki/Gcov][Gcov]] för att mäta code
+ coverage för era tester.
+
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20Q50&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

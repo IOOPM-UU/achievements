@@ -1,0 +1,25 @@
+#+html: <a name="100"></a>
+** TODO Z100: Inlupp 1
+
+*** Redovisa förståelse för grundläggande imperativ programmering i C
+
+ I den första inlämningen fokuserar vi på att programmet gör det
+ det skall, dvs. den korrekta implementationen av specifikationen
+ (som inte kraschar), och lägger mindre vikt vid namngivning,
+ abstraktion, etc. vid bedömning. Observera att det inte är
+ detsamma som att du inte får kommentarer på detta vid
+ redovisningen -- kommentarerna är ju till för att hjälpa, och det
+ är omöjligt att avgöra om $X$ saknas på grund av att $X$ inte
+ fanns med i kravlistan eller för att respondenten ännu inte kommit
+ underfund med $X$.
+
+ Observera att programmet
+
+ - inte får krascha vid körning med valid indata
+ - inte skall behöva kompileras om när indata ändras
+
+ Inlämningsinstruktioner finns i uppgiftstexten!
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20z100&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

@@ -1,0 +1,27 @@
+#+html: <a name="16"></a>
+** G16: Namn-baserad inkapsling
+
+ #+begin_quote
+ Använd åtkomstmodifierare för att styra synligheten hos variabler
+ och metoder.
+ #+end_quote
+
+ Styr åtkomst till både privata metoder och data på ett lämpligt
+ sätt och motivera användandet. Resonera också kring varför
+ namnbaserad inkapsling inte är ett garanterat skydd mot
+ aliasering.
+
+ Använd:
+
+ - ~public~
+ - ~private~
+ - ~protected~ eller motivera varför inte
+ - package protection (saknar nyckelord)
+
+ Vad är Javas standard för inkapsling? Är det vettigt? Varför/varför inte?
+
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20G16&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

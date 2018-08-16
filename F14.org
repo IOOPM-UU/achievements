@@ -1,0 +1,60 @@
+#+html: <a name="14"></a>
+** F14: Svansrekursion 
+
+ (Eng. /tail recursion/)
+
+ Använd svansrekursion för rekursiva funktioner med potentiellt stort djup. 
+
+ Svansrekursion är rekusion där varje rekursivt anrop kommer som
+ det sista funktionen gör. Beakta följande, icke-svansrekursiva funktion:
+
+ #+BEGIN_SRC c
+ int sum(int *numbers[], int num_siz)
+ {
+   if (num_siz > 0)
+     {
+       int rest = sum(numbers+1, num_siz-1);
+       return *numbers + rest;
+     }
+   else
+     {
+       return 0;
+     }
+ }
+ #+END_SRC
+
+ I detta fall används stacken som en temporär lagringsplats för
+ alla temporära resultat. Vi kan skriva om funktionen på detta
+ svansrekursiva vis:
+
+ #+BEGIN_SRC c
+ int sum(int *numbers[], int num_siz, int acc)
+ {
+   if (num_siz > 0)
+     {
+       return sum(numbers+1, num_siz-1, acc + *numbers);
+     }
+   else
+     {
+       return acc;
+     }
+ }
+ #+END_SRC
+
+ I detta fall behövs ingen stack för att lagra tempoära värden
+ (varför?) och som en konsekvens av detta kan en bra kompilator
+ skriva om funktionen så att den kan köra i /konstant
+ minnesutrymme/ (mer eller mindre tranformera koden till en loop).
+
+ Kan en/din C-kompilator göra så-kallad "tail call-optimisation"?
+ Under vilka omständigheter? Hur kan du pröva det? 
+
+ Om din kompilator inte /garanterar/ att svansrekursion
+ transformeras till loopar -- kan det vara problematiskt? Hur? 
+
+ För att bli godkänd på detta mål måste du även visa hur du skriver
+ om en rekursiv funktion på svansrekursivt vis.
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20F14&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

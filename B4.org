@@ -1,0 +1,41 @@
+#+html: <a name="4"></a>
+** B4: Arv och subtypspolymorfism
+
+ #+BEGIN_QUOTE
+ Använd arv, metodspecialisering och superanrop i ett program som
+ drar nytta av subtypspolymorfism.
+ #+END_QUOTE
+
+ Metodspecialisering på engelska översätts ofta till "overriding"
+ men även "[method] specialisation".
+
+ Metodspecialisering avser alltså när en subklass tillhandahåller
+ en mer specifik implementation av en metod. Ponera klasserna
+ ~Egendom~ och ~Hus~ där ~Hus~ ärver av ~Egendom~. Man kan tänka
+ sig att det finns en metod ~skatt()~ för ~Egendom~ som beräknar en
+ viss grundskatt baserat på något givet värde, men att ~Hus~
+ tillhandahåller en egen implementation av ~skatt()~ som är *mer
+ specifik* för just hus, t.ex. gör vissa avdrag etc. som gäller
+ specifikt för hus. Man kan tänka sig att den mer specifika
+ ~skatt()~-metoden anropar den mer generella för återanvändning
+ (räkna ut grundskatten).
+
+ Polymorfism är möjligheten att behandla olika typer av värden
+ genom ett gemensamt gränssnitt eller möjligheten att applicera en
+ funktion på flera olika typer av värden. Det finns många olika
+ typer av polymorfism -- studera detta begrepp vidare! I Haskell
+ stötte ni på polymorfism till exempel i signaturen till ~map :: (a
+ -> b) -> [a] -> [b]~ -- ~map~ tar en funktion från ~a~ till ~b~
+ och en lista av ~a~:n och beräknar en lista av ~b~:n, och fungerar
+ likadant oavsett vilka typer man använder istället för ~a~ och
+ ~b~.
+
+ Subtypspolymorfism avser polymorfism mellan subtyper, t.ex. ~Hus~
+ och ~Egendom~ ovan och husets möjlighet att uppträda/bli behandlat
+ som en generell form av egendom. (Javas dynamiska bindning gör här
+ att huset ändå bibehåller sitt specifika beteende.)
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20B4&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

@@ -1,0 +1,31 @@
+#+html: <a name="10"></a>
+** E10: Implementera genericitet genom void-pekare 
+
+ #+begin_quote
+ Använd void-pekare i C-program för att uppnå genericitet på ett
+ relevant sätt, t.ex. en datasamling som kan lagra godtyckligt data
+ #+end_quote
+
+ Det är inte en bra idé att ha kopior av kod med någon liten
+ förändring, t.ex. en separat implementation av en heltalslista och
+ en flyttalslista. Den underliggande logiken är densamma, och
+ hittar man ett fel i en kopierad del måste man komma ihåg att
+ ändra på samma ställe i alla kopior, etc.
+
+ I C använder man s.k. ~void~-pekare för att göra en datastruktur
+ generell, t.ex. gå från en lista av heltal till en lista som kan
+ hålla godtyckligt data. Detta är ett extremt vanligt C-idiom som
+ även förekommer i C:s standardbibliotek. En ~void~-pekare är en
+ pekare till en minnesplats med okänt innehåll, dvs. C-kompilatorn
+ vet inte vad som finns där och hur man skall använda minnet, eller
+ hur stort det är. Visa att du behärskar dessa idom och förstår
+ deras konsekvenser genom att använda dem på ett lämpligt sätt i
+ ett program.
+
+ Vid redovisning, börja med att förklara vad genericitet är och 
+ varför det kan vara bra i vissa sammanhang.
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20E10&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

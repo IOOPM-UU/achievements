@@ -1,0 +1,20 @@
+#+html: <a name="48"></a>
+** P48: Stäm av ett program mot en refactoringkatalog
+
+ Enkla refactoringmönster avser t.ex. namnändringar, och att flytta
+ tillstånd och/eller beteenden från en plats till en annan. Både
+ Netbeans och Eclipse har inbyggt stöd för refactoring. En bra
+ utgångpunkt för att lära sig om refactoring är http://refactoring.com.
+
+ Finns det några "[[https://en.wikipedia.org/wiki/Code_smell][bad smells]]" i det program som ni just har
+ granskat? Vilka då? Vad är lämpliga ändringar? Föreslå dem via
+ GitHubs issue tracker på samma sätt som tidigare. Nämn
+ gärna det refactoringmönster som ändringarna brukar!
+
+ Notera: Ni behöver självklart inte stämma av programmet mot
+ hela katalogen.
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20P48&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

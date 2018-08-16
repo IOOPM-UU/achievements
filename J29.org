@@ -1,0 +1,20 @@
+#+html: <a name="29"></a>
+** J29: Jämför två metoder för automatisk skräpsamling
+
+ Lämpliga metoder avser t.ex.:
+ - olika former av mark-sweep GC
+ - reference counting
+ - generational GC
+
+ Diskutera deras för- och nackdelar.
+
+
+*** Redovisning
+
+ Detta mål har varit populärt att redovisa i form av en essä (X59) tidigare år. 
+ (Det går också bra att göra genom en diskussion med Tobias på ett labbpass.)
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20J29&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

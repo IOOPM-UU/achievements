@@ -1,0 +1,18 @@
+#+html: <a name="25"></a>
+** I25: Egendefinierade undantag
+
+ #+begin_quote
+ Utöver föregående mål, demonstrera fördjupad förståelse för
+ undantagshantering i Java genom att kasta existerande och
+ egendefinierade kontrollerade och okontrollerade undantag i ett
+ program.
+ #+end_quote
+
+ Demonstrera med relevanta undantag, gärna i ett program du redan
+ har skrivit under en tidigare sprint.
+
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20I25&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

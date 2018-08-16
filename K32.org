@@ -1,0 +1,19 @@
+#+html: <a name="32"></a>
+** K32: Separation of concerns
+
+ #+begin_quote
+ Utveckla resonemanget i K31 med en diskussion om separation of
+ concerns och hur detta har uppnåtts (alt. kan/inte kan) i
+ programmet i fråga.
+ #+end_quote
+
+ Undersök termen/begreppet "separation of concerns" (leta bland
+ annat men inte enbart i litteraturen om aspekt-orienterad
+ programmering). Vad betyder detta begrepp? Relatera det till
+ diskussionen om coupling och cohesion i föregående mål.
+
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20K32&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

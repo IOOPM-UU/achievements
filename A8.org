@@ -1,0 +1,28 @@
+#+html: <a name="8"></a>
+** A8: Gränssnitt 
+
+ #+BEGIN_QUOTE
+ Visa hur man kan separera gränssnitt från implementation med hjälp av Java-interfaces.
+ #+END_QUOTE
+
+ Separation av gränssnitt från implementation är viktigt för att
+ möjliggöra interna förändringar av implementationen utan att
+ externa klienter behöver t.ex. kompileras om.
+
+ Javas ~interface~-konstruktion är ett *förtingligat* gränssitt som
+ kan knytas till en klass som implementerar det. Ett ~interface~
+ kan ses som ett kontrakt och implementationen av ett ~interface~
+ kan ses som ett löfte att uppfylla kontraktet. En klass som
+ implementerar ett ~interface~ måste åtminstone nominellt uppfylla
+ detta kontrakt.
+
+ Detta mål handlar inte bara om att förstå principen för *hur* man
+ gör en separation av detta slag utan också *varför*. Det
+ sistnämnda bör guida det praktiska användandet och kan med fördel
+ förklaras vid en redovisning.
+
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20A8&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

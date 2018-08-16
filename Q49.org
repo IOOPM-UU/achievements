@@ -1,0 +1,27 @@
+#+html: <a name="49"></a>
+** Q49: Enhetstestning 
+
+ #+BEGIN_QUOTE
+ Ta fram lämpliga enhetstester, motivera dem, och förklara vad testerna visar.
+ #+END_QUOTE
+
+ Det står dig fritt fram att använda [[http://cunit.sourceforge.net/example.html][Cunit]], [[http://junit.org][JUnit]], eller
+ motsvarande. Detta kan redovisas både under projektet eller
+ tidigare. Ett tips är att börja skriva tester från sprint 2
+ eftersom tester tenderar att förkorta utvecklingstiden så fort man
+ blivit varm i kläderna med språket man programmerar i.
+
+ Enhetstester fokuserar på enskilda funktioner och metoder. Ett bra
+ enhetstest kan köras helt automatiserat, är läsbart och prövar
+ endast en enda logisk funktion/koncept. Enhetstester har flera
+ funktioner, bl.a. gränssnittsdokumentation genom exempel, stöd vid
+ debuggning av kod genom dokumentation av felaktiga indata, och i
+ testdriven utveckling (TDD) skrivs testerna före koden de skall
+ testa för att bena ut specifikationer och sätta fingret på
+ oklarheter.
+
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20Q49&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

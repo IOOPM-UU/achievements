@@ -1,0 +1,22 @@
+#+html: <a name="12"></a>
+** E12: Designa med parametrisk polymorfism
+
+ #+begin_quote
+ Designa med parametrisk polymorfism för att göra relevanta delar
+ av ett program mer generellt.
+ #+end_quote
+
+ Vid designen av en eller flera klasser -- dra nytta av parametrisk
+ polymorfism för att slippa ange en typ vid definitionen (detta är
+ en äppellåda) och istället ange den vid användandet av lådan
+ (detta är en låda, som i detta fall råkar innehålla enbart
+ äpplen).
+
+ En informell guldstjärna utgår för användanden som inte är
+ samlingsklasser (collections).
+
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20E12&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

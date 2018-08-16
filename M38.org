@@ -1,0 +1,16 @@
+#+html: <a name="38"></a>
+** M38: Värdeöverföring via pekare
+
+ #+BEGIN_QUOTE
+ Använd pekare till stackvariabler för värdeöverföring mellan funktionsanrop.
+ #+END_QUOTE
+
+ Läs [[https://github.com/IOOPM-UU/ioopm15/blob/master/extramaterial/C-addendum-om-stack-och-heap.pdf][C: addendum om stack & heap]] som finns bland extramaterialet.
+
+ Referenssemantik och värdesemantik tas upp redan i kom-igång-uppgiften.
+
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20M38&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

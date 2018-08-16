@@ -1,0 +1,17 @@
+#+html: <a name="51"></a>
+** TODO Q51: Andra verktyg för felsökning
+
+ Använd [[http://findbugs.sourceforge.net][Findbugs]] på ett eller flera av de Javaprogram som du har
+ utvecklat under kursen och studera resultatet. Hittar du buggar i
+ programmet? Får du s.k. "false positives", alltså rapporter om fel
+ som inte är fel i praktiken?
+
+ Använd också [[https://en.wikipedia.org/wiki/American_fuzzy_lop_(fuzzer)][American Fuzzy Lop]], en fuzzer, t.ex. på din
+ lagerhanterare, för att hitta gränsfall som du inte har tänkt på.
+
+ Redovisa genom att diskutera ditt resultat med Tobias, +Elias
+ eller Stephan+.
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20Q51&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

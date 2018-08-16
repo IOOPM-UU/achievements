@@ -1,0 +1,20 @@
+#+html: <a name="20"></a>
+** H20: Värdeöverföring
+
+ #+begin_quote
+ Redovisa förståelse för skillnaden mellan värdesemantik och
+ referenssemantik med hjälp av ett kodexempel.
+ #+end_quote
+
+ Slå upp termerna, pröva gärna även engelska: "value semantics"
+ respektive "reference semantics". Se även parameteröverföring.
+
+ När använder man vilken typ av värdeöverföring? Fungerar C och
+ Java annorlunda? Finns det fördelar/nackdelar med hur C och Java
+ fungerar?
+
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20H20&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

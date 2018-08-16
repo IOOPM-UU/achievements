@@ -1,0 +1,35 @@
+#+html: <a name="30"></a>
+** K30: Gränssnitt mellan moduler
+
+ #+begin_quot!e
+ Specificera tydliga gränssnitt mellan moduler i ett program som
+ bör brytas ned i flera moduler (och implementera).
+ #+end_quote
+
+ Börja med att förklara vad modularisering är och varför det är
+ viktigt!
+
+ Att dela upp ett program i mindre beståndsdelar är i regel att
+ föredra framför ett /monolitiskt/ program. En anledning till detta
+ är att det underlättar /parallellutveckling/ -- dvs. flera
+ programmerare kan vara inblandade i ett projekt samtidigt och
+ jobba på olika delar och därigenom förkorta utvecklingtiden (och
+ öka kvaliteten).
+
+ Naturligtvis duger det inte med att göra vilken uppdelning som
+ helst! Man bör beakta vad som är en naturlig uppdelning; ett
+ program som modellerar ett brädspel kanske kan delas upp i en
+ modul för spelets logik (hur pjäserna interagerar med brädet och
+ varandra) och en modul för spelets grafik. Genom att separera
+ logiken från grafiken underlättar man också för ett framtida
+ utbytande av spelets grafik.
+
+ Pröva din /modulariseringsstrategi/ genom att implementera ett
+ program och notera vilka förändringar du måste göra när din insikt
+ i programmet fördjupas.
+
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20K30&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

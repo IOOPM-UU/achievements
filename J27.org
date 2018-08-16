@@ -1,0 +1,23 @@
+#+html: <a name="27"></a>
+** J27: Manuell minneshantering
+
+ #+begin_quote
+ Demonstrera förståelse för minneshantering i C genom att skriva
+ ett program med dynamiska strukturer som är fritt från
+ minnesläckage och argumentera för varför det är så (och verifiera
+ med valgrind).
+ #+end_quote
+
+ Redovisa bland annat för:
+
+ - Hur uppstår minnesläckage?
+ - Vilken del av ett program ansvarar för att frigöra minne?
+ - När avgör man att en bit allokerat minne är "färdiganvänt" och går att frigöra?
+ - Vad kan hända om ett allokerat utrymme frigörs "för tidigt"?
+ - på vilket sätt hjälper valgrind dig att undvika minnesläckage?
+
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20J27&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

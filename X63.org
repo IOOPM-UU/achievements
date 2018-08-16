@@ -1,0 +1,93 @@
+#+html: <a name="63"></a>
+** TODO X63: Kommuniktion 1:M
+
+ #+BEGIN_QUOTE
+ Samtala avslappnat med andra gruppmedlemmar. Ditt ansvar för
+ gruppen. Gruppens ansvar för dig.
+ #+END_QUOTE
+
+ Detta mål innebär tre fysiska möten under kursens gång. Varje möte
+ skall rapporteras på epost till ioopm@it.uu.se, se vidare
+ under examination nedan. **ETT MAIL PER GRUPP.**
+
+
+*** Möte 1 -- under kursens första 2 veckor
+
+ Det är viktigt att du skaffar en relation till de andra
+ personerna i din grupp. Det är bland dessa som du kommer att välja
+ partners till kodparen och även bilda projektgrupper senare.
+
+ Se till att gruppen möts på något sätt för ett möte som inte är 5
+ minuter i en korridor där alla är på väg åt andra håll och bara
+ tittar på klockan. Gå på en nation! Gå på ett fik! Etc. Låt det ta
+ tid!
+
+ Under detta möte skall du (alla andra får samma instruktion)
+ presentera dig kort. Berätta litet om vem du är och vad du vill
+ åstadkomma med din utbildning generellt, och vad du har för
+ ambitioner med denna kurs specifikt. Beskriv kort din
+ programmeringsbakgrund. Vad vill du jobba med? Kanske kan ni komma
+ överens om att träffas regelbundet och plugga/programmera/etc.?
+
+ Ta detta möte på allvar och använd det som en isbrytare så att det
+ blir lättare att hitta bra programmeringspartners senare under
+ kursen.
+
+ I sammanfattningen (se nedan under examination), fokusera på era
+ drömmar, farhågor och önskemål om kursen. 
+
+ *OBS!* I samband med detta första möte skall ni ge gruppen ett
+ namn som ni/vi kommer att få dras med under resten av kursen. (Vi
+ förbehåller oss rätten att ändra uppenbara dumheter och
+ dubletter.) *Skriv detta namn i mailet som ni skickar in (se
+ nedan).*
+
+
+*** Möte 2 -- efter eller i slutet av fas 1, sprint 2
+
+ Retrospektiv på C. I sammanfattningen (se nedan under examination), 
+ fokusera på upplevelsen av C. 
+
+
+*** Möte 3 -- efter eller i slutet av fas 2, sprint 2
+
+ Retrospektiv på Java. I sammanfattningen (se nedan under
+ examination), fokusera på upplevelsen av Java. Hur upplever ni
+ Java i relation till C?
+
+
+*** Examination
+
+ För varje mötestillfälle skall följande lämnas in, per epost till
+ [[mailto:ioopm@it.uu.se][ioopm@it.uu.se]].
+
+ - En zip-fil (namn på formatet ~X63-gruppens-namn+mötesnummer.zip~, ex. ~X63-Faraonerna+1.zip~) som innehåller 
+   - Samtliga burndown charts i *PDF*-format (~loginnamn1.pdf~, ~loginnamn2.pdf~, etc.)
+   - En *PDF* som visar /summan/ av alla burndown charts, dvs. det totala antalet mål som skall tas, och summan av mål avbockade vid varje sprint -- /inte/ en jämförelse av olika medarbetares prestationer
+   - En kort (tänk 1 sida) sammanfattning om hur ni upplever kursen, ert arbete, era framgångar, etc. (*PDF* eller endast text), inklusive en *flagglista* (se nedan)
+   - En [groupie](http://www.sprakochfolkminnen.se/download/18.3ba9edd1515c7b7a4f5278/1451282128728/Nyordslista+2015+med+logga+NY.pdf) (gruppbild alltså, i *JPG* eller *PNG*) som visar er alla på ett gemensamt möte, helst på en sorts AW eller liknande (det går alltså utmärkt att gå på nation under "skoltid"). Den grupp som har roligast vinner! 
+ - Mailets ämne (subject) skall vara ~[IOOPM] X63-gruppens-namn+mötesnummer~.
+
+ Med *flagglista* avses en lista (som får vara tom) med namn på
+ de gruppmedlemmar som /borde/ diskutera med någon av oss om hur
+ de med vår hjälp skall komma vidare på bästa sätt, eller som 
+ behöver extra stöd av något slag, etc. Gruppen får helt enkelt
+ ta ansvar för att *flagga* de medlemmar som gruppen tycker
+ att vi skall lyfta extra. Ni får själva bestämma hur ni vill 
+ hantera detta och vad flaggning betyder. Om ni vill motivera
+ eller förklara går det bra, men det är inte nödvändigt. 
+ *OBS* frekvent frånvaro medför obligatorisk flaggning! 
+
+ Notera att första mötestillfället har gruppen förmodligen inte
+ bockat av några mål, men ni kan ändå visa ett burndown chart som
+ visar hur många mål ni tillsammans avser att ta!
+
+ Om ni slarvar med namn på filer eller ämnet i mailen kan det
+ förlänga tiden det tar att rätta! (Tänk på vilka volymer vi måste
+ kunna söka i effektivt.)
+
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20X63&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

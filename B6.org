@@ -1,0 +1,31 @@
+#+html: <a name="6"></a>
+** B6: Genomskärande åtaganden och arv
+
+ #+beg!in_quote
+ Förklara hur arv har använts i ett program för att separera
+ genomskärande åtaganden.
+ #+end_quote
+
+ Fördjupa dig i konceptet "genomskärande åtaganden."
+
+ Genomskärande åtaganden är en försvenskning av begreppet
+ [[http://en.wikipedia.org/wiki/Cross-cutting_concern][Cross-cutting concerns]]. Ett åtagande är här något som (en del av)
+ programmet måste göra, "ett stycke funktionalitet" slarvigt
+ uttryckt, som kan vara "direkt" (beräkna $X$) eller "indirekt"
+ (logga händelse under beräkning av $X$ så att programmets beteende
+ kan följas vid en krasch).
+
+ Separation av åtaganden (eng. [[http://en.wikipedia.org/wiki/Separation_of_concerns][separation of concerns]]) handlar om
+ att inte blanda (eng. /tangle/) de olika implementationerna av
+ olika funktionalitet. Om man t.ex. vill ändra på hur den ovan
+ nämnda loggningen går till skall man inte behöva blanda in
+ implementationen av beräkningen av $X$.
+
+ *Överkurs för den intresserade:* Jämför med aspektorienterad
+ programmering!
+
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20B6&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

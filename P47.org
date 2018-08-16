@@ -1,0 +1,15 @@
+#+html: <a name="47"></a>
+** P47: Åtgärda defekter efter en kodgranskning
+
+ Alla kodgranskningar hittar något som kan förbättras. Det kan vara
+ en kommentar, men likaså en allvarlig bugg.
+
+ Utöver föregående mål, gör en [[https://help.github.com/articles/using-pull-requests/][pull request]] med förändringar och
+ arbeta med det mottagande paret tills dess att pull requesten är
+ mergad med deras repo. Notera att det är *det andra parets* kod
+ som ska förbättras.
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20P47&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

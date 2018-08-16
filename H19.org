@@ -1,0 +1,18 @@
+#+html: <a name="19"></a>
+** H19: Skillnaden mellan identitet och ekvivalens 
+
+ #+begin_quote
+ Demonstrera förståelse för skillnaden mellan identitet och
+ ekvivalens genom att demonstrera implementationer av båda
+ koncepten och motivera valet av definition av likhet.
+ #+end_quote
+
+ Vad menas med att två objekt/värden är identiska? Vad menas med
+ att två objekt/värden är ekvivalenta? Hur implementerar man det
+ ena och det andra? 
+
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20H19&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

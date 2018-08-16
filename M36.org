@@ -1,0 +1,14 @@
+#+html: <a name="36"></a>
+** M36: C:s array-notation och pekararitmetik
+
+ Arrayer i C är i regel inget mer än en behändig notation för
+ pekararitmetik. Demonstrera att du förstår likheterna mellan
+ pekare till konsekutiva minnesblock av element av en typ, och
+ arrayer i C i ett i övrigt vettigt program.
+
+ *Tips*: Argumentvektorn till ~main~-funktionen.
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20M36&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

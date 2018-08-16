@@ -1,0 +1,35 @@
+#+html: <a name="65"></a>
+** Y65: Skriv konsekvent bra kod
+
+ Under kursens gång har kodkvalitet beaktats åtskilliga gånger.
+ Under projektet skall ni skriva kod av hög kvalitet! Vad betyder
+ det? (Läsbarhet? Underhållsbarhet? Prestanda? Korrekthet?
+ Testbarhet? Etc...) Hur har det tagit sig uttryck i ert system?
+ Vad har det fått för konsekvenser?
+
+ Hur har ni sett till att koden är läsbar för alla i teamet?
+ (Notera att läsbarhet är mycket mer än bara formattering och var
+ måsvingarna sitter...)
+
+ Använd gärna ett verktyg (t.ex. [[http://astyle.sourceforge.net/astyle.html][astyle]] för att automatiskt
+ formattera kod på ett enhetligt sätt.
+
+
+*** Ni får använda någon av följande kodstandarder
+
+ - [[https://www.gnu.org/prep/standards/standards.pdf][GNU coding standard]]
+ - [[http://httpd.apache.org/dev/styleguide.html][Apache C coding conventions]]
+ - [[https://google-styleguide.googlecode.com/svn/trunk/javaguide.html][Google's Java Style]]
+ - [[https://www.securecoding.cert.org/confluence/display/seccode/CERT+C+Coding+Standard][CERT Secure Coding Standards]]
+
+ Det går bra att välja en annan om man har en bra och utförlig
+ motivation och *får OK i förväg.*
+
+ För en längre text om läsbarhet, se [[http://www.goodreads.com/book/show/8677004-the-art-of-readable-code][The Art of Readable Code]].
+
+ Observera att högkvalitativ kod inte är detsamma som att följa en kodstandard.
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20Y65&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

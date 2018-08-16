@@ -1,0 +1,88 @@
+#+html: <a name="59"></a>
+** X59: Essä
+
+ #+BEGIN_QUOTE
+ Redovisa ett mål på nivå 4 eller 5 som en essä.
+ #+END_QUOTE
+
+ Skriftlig framställning är en viktig del av samtliga kurser på
+ universitetet. Det är oerhört viktigt och användbart att kunna
+ lägga upp en text eller ett resonemang, och veta hur man skall
+ rikta sig till en specifik målgrupp.
+
+ Inte alla mål på nivå 4/5 är kanske lämpliga att redovisa via
+ en essä (t.ex. inte labbhandledningen). Om du är osäker, hör 
+ med Elias eller Tobias först. Det är tillåtet att redovisa 
+ fler en ett mål (max 3) om de kan redovisas med en sammanhängande
+ historia. Se till att få detta godkänt i förväg! Uppsatsen blir
+ förstås längre i detta fall och maxlängdkravet nedan gäller ej.
+
+ Betrakta formkrav och språkliga krav som lika viktiga som
+ ämneskraven. *Du får skriva på svenska eller engelska. De
+ språkliga kraven är lika höga oavsett språk.*
+
+ Här är några tips:
+
+ - För mycket text på en sida utan rubriker blir ogenomträngligt och osexigt
+ - Tänk alltid igenom vad ditt syfte är och vad du vill förmedla till läsaren (vad skall läsaren ta med sig)
+ - Fråga för varje "kapitel" eller stycke vad de har för relation till det ovan nämnda budskapet -- om det är oklart kan man fråga sig om det är motiverat att ha kvar
+ - En text skrivs eller läses sällan linjärt
+ - 66-72 tecken per rad är en optimal radlängd för ögat att följa
+ - Hur du formger din text är också en del av budskapet och hjälper till att driva hem poängerna
+ - Slarvfel och stavfel får dig tråkigt nog att framstå som oseriös och dum
+ - Använd verktyg (t.ex. `M-x flyspell` i Emacs) men förstå deras begränsningar
+ - Använd textverktyg som gör det enkelt att göra förändringar i layout utan för mycket handpåläggning
+ - "Bara för att du har skrivit det är det inte en bra idé att ha det kvar i texten"
+ - När man granskar en text skall man läsa den både "nära" (hur skall den här meningen vara) och "på avstånd" (kanske poängen blir tydligare om man ändrar ordningen på kapitel 1 och 2)
+ - Be alltid någon annan läsa igenom texten och förklara för dig vad det faktiskt står i den
+ - Uppsala Universitet ger dig som student tillgång till professionell skrivhjälp, även för en uppgift som denna
+ - Du skall berätta en story och storyn hjälper läsaren att förstå och knyta samman allt.
+ - Bara för att du gjorde $X$ före $Y$ behöver de inte komma i den ordningen i texten, även om det antyder att du gjorde dem i omvänd ordning
+
+ Fundera över vad för slags ton man bör hålla i en essä, hur man
+ klara av att vara saklig utan att bli tråkig, och fundera över
+ vilken din stil är.
+
+ Det stilistiska är alltid viktigt, oavsett om man skriver ett sms
+ eller en avhandling. Nedanstående briljanta citat kan
+ förhoppningsvis både skänka glädje och inspirera:
+
+ #+BEGIN_QUOTE
+       This sentence has five words. Here are five more words.
+       Five-word sentences are fine. But several together become
+       monotonous. Listen to what is happening. The writing is
+       getting boring. The sound of it drones. It's like a stuck
+       record. The ear demands some variety. Now listen. I vary the
+       sentence length, and I create music. Music. The writing
+       sings. It has a pleasant rhythm, a lilt, a harmony. I use
+       short sentences. And I use sentences of medium length. And
+       sometimes, when I am certain the reader is rested, I will
+       engage him with a sentence of considerable length, a
+       sentence that burns with energy and builds with all the
+       impetus of a crescendo, the roll of the drums, the crash of
+       the cymbals-sounds that say listen to this, it is important.
+
+                                                 -- Gary Provost
+ #+END_QUOTE
+
+ En begränsning är att essän skall vara på ca 7500 tecken. Längre
+ är inte bättre, men det man skriver måste vara av en viss volym
+ för att tillräckligt intressanta frågeställningar om skriftlig
+ framställning skall uppkomma.
+
+*** Inlämning
+ Du lämnar in genom att skicka en genererad PDF från LaTeX-källkod
+ till Tobias, samt en länk till en katalog i ditt repo där källan
+ finns. Kommentarer kommer antingen direkt i PDF:en eller som
+ issues i GitHub, beroende på omständigheterna.
+
+*** Examination
+ Examinationen av essän sker i form av små seminariegrupper där 
+ alla läser och kommenterar på varandras essäer. Mer information
+ om detta anslås senare under kursen. 
+
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20X59&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

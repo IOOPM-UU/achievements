@@ -1,0 +1,18 @@
+#+html: <a name="52"></a>
+** R52: Debuggning med GDB
+
+ Avser att kunna använda GDB (eller lldb) för att stega genom ett
+ C-programs exekvering och sätta breakpoints (ex. b, c, s, n),
+ skriva ut variablers värden, en backtrace, navigera en backtrace
+ med up/down. Redovisa genom att återskapa ett förlopp från en
+ skarp buggjakt med de relevanta stegen och förklara buggen.
+
+ *Du kan lämpligen redovisa detta i samband med att du får ett
+ svårfunnet segfault!*
+
+
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20R52&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

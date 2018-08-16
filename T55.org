@@ -1,0 +1,22 @@
+#+html: <a name="55"></a>
+** T55: Använda Emacs för editering
+
+ Avser förmåg att använda Emacs *utan mus* för att navigera och
+ editera text, öppna filer, bläddra mellan och hantera buffrar,
+ använda kill & yank och mark-stacken.
+
+ Du är klar att redovisa detta mål när du känner att du löser
+ problem tack vare Emacs och inte trots Emacs.
+
+ Installera Emacs på din dator hemma om du inte redan har Emacs där
+ tills ditt muskelminne har memorerat alla viktiga kommandon.
+*** Varför har vi detta mål?
+ [[http://www.theguardian.com/technology/blog/2011/oct/24/programming-ide-editors-choice][Av]] [[http://blog.bittersweetryan.com/2012/02/great-ide-vs-text-editor-debate-why-i.html][flera]] [[https://www.reddit.com/r/learnprogramming/comments/17gr47/text_editors_v_ides/][goda]] [[http://radar.oreilly.com/2014/01/to-ide-or-not-to-ide.html][skäl]], [[http://codecraft.co/2014/05/13/why-you-should-use-an-ide-instead-of-vim-or-emacs/][men inte som ett statement]] eller som en
+ rekommendation för resten av ditt liv.
+*** Jag dör om jag inte får använda vim!
+ Då är det ok. Men vim alltså. Emacs eller vim effektivt sett.
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20T55&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

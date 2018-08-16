@@ -1,0 +1,21 @@
+#+html: <a name="21"></a>
+** A21: Abstrakta klasser, metoder och interface
+
+ #+BEGIN_QUOTE
+ Redovisa förståelse för abstrakta klasser och metoder, samt deras relation till Java-interface.
+ #+END_QUOTE
+
+ Beakta bland annat:
+
+ - Hur skiljer de sig?
+ - Hur är de lika?
+ - När används de och vad har de för konsekvenser på programmen i
+   vilka de används?
+ - Varför är multipelt arv mellan interface tillåtet och
+   väldefinierat medan multipelt implementationsarv inte är det? (I
+   Java, alltså.)
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20H21&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

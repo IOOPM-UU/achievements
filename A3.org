@@ -1,0 +1,22 @@
+#+html: <a name="3"></a>
+** A3: Informationsgömning
+
+ #+BEGIN_QUOTE
+ Demonstrera förståelse för designprincipen informationsgömning i
+ ett C-program med hjälp av =.c= och =.h=-filer.
+ #+END_QUOTE
+
+ Informationsgömning på engelska översätts till "information
+ hiding". En viktig insikt här är att informationsgömning är en
+ princip som är *programspråksagnostisk* och inte knuten till några
+ speciella nyckelord. I Haskell kunde ni uppnå informationsgömning
+ med hjälp av moduler som bara exporterade en del av sitt
+ gränssnitt. Samma princip fungerar i C, men då är gränssnitt och
+ implementation separerade i =.h= respektive =.c=-fil.
+
+ Relatera gärna till koncept från Java, som gränssnitt respektive
+ implementation.
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20A3&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

@@ -1,0 +1,28 @@
+#+html: <a name="31"></a>
+** K31: Coupling & cohesion
+
+ #+begin_quote
+ Givet ett icke-trivialt program uppdelat i moduler som i
+ ovanstående mål, resonera kring begreppen coupling och cohesion
+ för några av modulerna.
+ #+end_quote
+
+ Termerna "low coupling" och "high cohesion" beskriver två
+ egenskaper som krävs för att ett program skall anses
+ välmodulariserat. Med low coupling avses att två moduler endast
+ skall vara löst sammanknutna, så att det är möjligt att byta ut en
+ av dem utan att göra några egentliga förändringar i den andra. Med
+ high cohesion avses att alla delar som finns i en modul skall ha
+ en "hög grad av samhörighet", dvs. att alla delar av modulen avser
+ samma aspekt av programmet. (Varför?)
+
+ Termerna ovan är enkla att beskriva separat från faktisk kod, men
+ för att förstå dem måste du kunna relatera dem till din egen kod,
+ beskriva coupling mellan moduler, cohesion inom moduler, och
+ eventuellt göra motiverade förändringar i den tidigare designen.
+
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20K31&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

@@ -1,0 +1,27 @@
+#+html: <a name="28"></a>
+** J28: Manuell vs. automatisk minneshantering
+
+ #+begin_quote
+ Förklara skillnaden mellan C:s manuella minneshantering och hur
+ Java hanterar minne och beskriv för ett lämpligt Java-program när
+ minne allokeras och frigörs.
+ #+end_quote
+
+ Redovisa bland annat för:
+
+ - När är ett objekt att betrakta som skräp som kan städas bort?
+ - När städas skräp bort?
+ - Hur kan jag som programmerare ta reda på när ett visst objekt städats bort?
+ - Finns det någon typ av minnesfel som jag kan få i C med pekare som jag inte kan få med referenser i Java?
+ - När allokeras minne och hur tar Java reda på hur många bytes ett visst objekt kräver?
+ - Hur tar jag som programmerare reda på hur många bytes ett visst objekt kräver?
+
+ Javas automatiska skräpsamlare kan konfigureras på många sätt, så tänk dig för varenda gång du säger "så här fungerar Javas GC".
+
+ Bonus: hur fungerar "weak references"? Hur relaterar de till pekare?
+
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20J28&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

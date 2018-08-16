@@ -1,0 +1,17 @@
+#+html: <a name="40"></a>
+** N40: Kompilering, länkning och interpretering
+
+ #+BEGIN_QUOTE
+ Demonstrera på lämpligt sätt förståelse för termerna kompilering, länkning, interpretering och JIT-kompilering och hur dessa används i C och Java.
+ #+END_QUOTE
+
+ Fundera över skillnaderna mellan länkning i C och Java och när
+ länkning sker.
+
+ Ledning: med hjälp av enkla prestandamätningar kan man mäta tiden
+ för JIT-kompilering och även dess inverkan på prestanda hos kod
+ efter att den kompilerats.
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20N40&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

@@ -1,0 +1,22 @@
+#+html: <a name="53"></a>
+** S53: Extrahera dokumentation ur kod
+
+ #+BEGIN_QUOTE
+ Använda doxygen eller JavaDoc för att extrahera kommentarer från
+ kod till lämplig API-dokumentation.
+ #+END_QUOTE
+
+ Endast lämpligt att demonstrera i ett större program med flera
+ moduler där gränssnitten behövts dokumenteras. När du
+ demonstrerar, visa också att du kan lägga till, ändra etc. i
+ informationen och generera ny dokumentation, samt visa på både
+ välmotiverat kortfattade och utförliga hjälpavsnitt i
+ dokumentationen.
+
+ Du kan bara redovisa detta mål på kod från sista C-uppgiften,
+ sista Java-uppgiften eller projektet.
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20S53&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

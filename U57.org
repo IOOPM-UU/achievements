@@ -1,0 +1,32 @@
+#+html: <a name="57"></a>
+** U57: Byggverktyget Make
+
+ Många program har komplicerade byggberoenden -- för att kunna
+ bygga ~prg~ måste vi länka ~a~ och ~b~, och för att kunna länka
+ dem måste vi bygga dem. För att bygga ~a~ kanske vi måste länka
+ ~c~ och ~d~ etc. 
+
+ Programmet ~make~ är ett utmärkt verktyg för att hantera
+ *byggberoenden*. Titta i Shaws bok för en minimal intro till
+ ~make~. Det finns också en svensk lathund om make i
+ [[https://github.com/IOOPM-UU/ioopm15/blob/master/extramaterial/lathundar/make/make.pdf][kursmaterialet]]. Make gås också igenom på föreläsning.
+
+ *Du bör använda ~make~ från dag ett på kursen!* Det är nämligen en
+ vanlig källa till fel att man kompilerar ett program utan att
+ kompilera om alla dess delar, etc.
+
+ Du bör inte redovisa detta mål förrän tidigast i sprint 2 -- eller
+ varför inte under projektet? 
+
+ För att redovisa målet måste du bland annat redovisa just
+ beroenden, eftersom det är det som make löser. Det betyder att
+ ha byggregler som beror av varandra. T.ex. om ~A~ är beroende
+ av ~B~, vi ändrar ~A~ men inte ~B~ så skall bara ~A~ kompileras
+ om, inte ~B~. 
+
+
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20U57&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

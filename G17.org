@@ -1,0 +1,21 @@
+#+html: <a name="17"></a>
+** G17: Nästlade och inre klasser
+
+ #+begin_quote
+ Använd nästlade och inre klasser för att kapsla in privata
+ beståndsdelar i ett sammansatt objekt.
+ #+end_quote
+
+ Notera den syntaktiskt subtila men relativt viktiga skillnaden
+ mellan inre och nästlade klasser. Ett annat namn på sammansatta
+ objekt är aggregat.
+
+ Inre och nästlade klasser är ett viktigt sätt att definiera objekt
+ som består av komplicerade aggregat av flera objekttyper, men där
+ man vill skydda/dölja de ingående delarna utifrån.
+
+
+
+-----
+
+*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20G17&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].
