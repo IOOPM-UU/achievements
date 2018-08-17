@@ -3,7 +3,7 @@
 
  #+BEGIN_SUMMARY
  Redovisa förståelse för abstrakta klasser och metoder, samt deras relation till Java-interface.
- #+END_VERSE
+ #+END_SUMMARY
 
  Beakta bland annat:
 

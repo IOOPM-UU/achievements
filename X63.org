@@ -4,7 +4,7 @@
  #+BEGIN_SUMMARY
  Samtala avslappnat med andra gruppmedlemmar. Ditt ansvar för
  gruppen. Gruppens ansvar för dig.
- #+END_VERSE
+ #+END_SUMMARY
 
  Detta mål innebär tre fysiska möten under kursens gång. Varje möte
  skall rapporteras på epost till ioopm@it.uu.se, se vidare

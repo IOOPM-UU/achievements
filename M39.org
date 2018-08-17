@@ -3,7 +3,7 @@
 
  #+BEGIN_SUMMARY
  Använd pekare till pekare (dubbelpekare) på ett lämpligt sätt i ett program.
- #+END_VERSE
+ #+END_SUMMARY
 
  En pekare till en pekare är en väldigt kraftfull mekanism som kan
  vara förvirrande ibland (t.ex. att man blandar ihop vad de olika

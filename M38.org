@@ -3,7 +3,7 @@
 
  #+BEGIN_SUMMARY
  Använd pekare till stackvariabler för värdeöverföring mellan funktionsanrop.
- #+END_VERSE
+ #+END_SUMMARY
 
  Läs [[https://github.com/IOOPM-UU/ioopm15/blob/master/extramaterial/C-addendum-om-stack-och-heap.pdf][C: addendum om stack & heap]] som finns bland extramaterialet.
 

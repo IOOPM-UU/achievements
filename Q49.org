@@ -3,7 +3,7 @@
 
  #+BEGIN_SUMMARY
  Ta fram lämpliga enhetstester, motivera dem, och förklara vad testerna visar.
- #+END_VERSE
+ #+END_SUMMARY
 
  Det står dig fritt fram att använda [[http://cunit.sourceforge.net/example.html][Cunit]], [[http://junit.org][JUnit]], eller
  motsvarande. Detta kan redovisas både under projektet eller

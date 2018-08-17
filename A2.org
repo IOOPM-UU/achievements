@@ -4,7 +4,7 @@
  #+BEGIN_SUMMARY
  Tillämpa objektorienterad abstraktion för att dölja
  implementationsdetaljer bakom väldefinierade gränssnitt._
- #+END_VERSE
+ #+END_SUMMARY
 
  I samband med redovisning bör du kunna förklara
  skillnaden/likheterna mellan procedurell abstraktion och

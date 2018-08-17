@@ -3,7 +3,7 @@
 
  #+BEGIN_SUMMARY
  Håll en välstrukturerad presentation om ett mål på kursen.
- #+END_VERSE
+ #+END_SUMMARY
 
  Se föregående presentationsmål för ytterligare instruktioner.
 

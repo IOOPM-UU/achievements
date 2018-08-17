@@ -5,7 +5,7 @@
 
 #+BEGIN_SUMMARY
  Använd svansrekursion för rekursiva funktioner med potentiellt stort djup. 
-#+END_VERSE
+#+END_SUMMARY
 
  Svansrekursion är rekusion där varje rekursivt anrop kommer som
  det sista funktionen gör. Beakta följande, icke-svansrekursiva funktion:

@@ -3,7 +3,7 @@
 
  #+BEGIN_SUMMARY
  Utöver föregående mål, dra nytta av Emacs inbyggda stöd för programmering.
- #+END_VERSE
+ #+END_SUMMARY
 
  Avser stöd för kompilering och felsökning, textkomplettering el.
  snippets, samt användande av tags eller motsvarande för att

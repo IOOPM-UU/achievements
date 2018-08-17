@@ -4,7 +4,7 @@
  #+BEGIN_SUMMARY
  Använd arv, metodspecialisering och superanrop i ett program som
  drar nytta av subtypspolymorfism.
- #+END_VERSE
+ #+END_SUMMARY
 
  Metodspecialisering på engelska översätts ofta till "overriding"
  men även "[method] specialisation".

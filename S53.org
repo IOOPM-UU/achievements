@@ -4,7 +4,7 @@
  #+BEGIN_SUMMARY
  Använda doxygen eller JavaDoc för att extrahera kommentarer från
  kod till lämplig API-dokumentation.
- #+END_VERSE
+ #+END_SUMMARY
 
  Endast lämpligt att demonstrera i ett större program med flera
  moduler där gränssnitten behövts dokumenteras. När du

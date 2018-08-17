@@ -3,7 +3,7 @@
 
  #+BEGIN_SUMMARY
  Visa hur man kan separera gränssnitt från implementation med hjälp av Java-interfaces.
- #+END_VERSE
+ #+END_SUMMARY
 
  Separation av gränssnitt från implementation är viktigt för att
  möjliggöra interna förändringar av implementationen utan att

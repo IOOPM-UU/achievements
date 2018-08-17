@@ -4,7 +4,7 @@
  #+BEGIN_SUMMARY
  Demonstrera förståelse för designprincipen informationsgömning i
  ett C-program med hjälp av =.c= och =.h=-filer.
- #+END_VERSE
+ #+END_SUMMARY
 
  Informationsgömning på engelska översätts till "information
  hiding". En viktig insikt här är att informationsgömning är en

@@ -3,7 +3,7 @@
 
  #+BEGIN_SUMMARY
  Använda profileringsverktyg för att visa var ett redan skrivet program tillbringar mest tid.
- #+END_VERSE
+ #+END_SUMMARY
 
  Observera att dessa mål passar särskilt bra under projektet.
 

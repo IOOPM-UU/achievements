@@ -3,7 +3,7 @@
 
  #+BEGIN_SUMMARY
  Med ledning resultatet från föregående mål, optimera programmet på ett förtjänstfullt sätt.
- #+END_VERSE
+ #+END_SUMMARY
 
  Observera att dessa mål passar särskilt bra under projektet.
 

@@ -4,7 +4,7 @@
 #+BEGIN_SUMMARY
 Tillämpa procedurell abstraktion på ett konsekvent sätt för att
 öka läsbarheten och undvika upprepningar.
-#+END_VERSE
+#+END_SUMMARY
 
 Abstraktion är en av de viktigaste programmeringsprinciperna. Vi
 vet att djupt, djupt nere under huven är allt bara ettor och

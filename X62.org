@@ -3,7 +3,7 @@
 
  #+BEGIN_SUMMARY
  Visa förmåga att förmedla kunskap genom att handleda ett pass.
- #+END_VERSE
+ #+END_SUMMARY
 
  Att hålla en presentation utan förberedelser är vanligt -- jämför
  t.ex. med "elevator pitch" eller när någon frågar om något som man

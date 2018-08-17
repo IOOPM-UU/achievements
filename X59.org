@@ -3,7 +3,7 @@
 
  #+BEGIN_SUMMARY
  Redovisa ett mål på nivå 4 eller 5 skriftligt genom en essä.
- #+END_VERSE
+ #+END_SUMMARY
 
  Skriftlig framställning är en viktig del av samtliga kurser på
  universitetet. Det är oerhört viktigt och användbart att kunna

@@ -5,7 +5,7 @@
  Delta aktivt och reflektera över ditt deltagande. Fokusera på
  projektet, inte på produkten (även om produkten kan helt
  negligeras).
- #+END_VERSE
+ #+END_SUMMARY
 
  Redovisning sker genom en skriftlig personlig (enskild) reflektion
  som inkluderas i projektrapporten.

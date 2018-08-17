@@ -3,7 +3,7 @@
 
  #+BEGIN_SUMMARY
  Förklara statisk och dynamisk bindning och exemplifiera med programkod.
- #+END_VERSE
+ #+END_SUMMARY
 
  - Hur påverkas möjligheten att återanvända kod? 
  - Blir det enklare/svårare att resonera om vad kod gör med statisk/dynamisk bindning?

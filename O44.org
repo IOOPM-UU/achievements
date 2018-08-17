@@ -3,7 +3,7 @@
 
  #+BEGIN_SUMMARY
  Samma som mål de två ovanstående målen, men beakta också minnesanvändning.
- #+END_VERSE
+ #+END_SUMMARY
 
  Observera att dessa mål passar särskilt bra under projektet.
 
