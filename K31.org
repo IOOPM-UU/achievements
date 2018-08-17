@@ -5,7 +5,7 @@
  Givet ett icke-trivialt program uppdelat i moduler som i
  ovanstående mål, resonera kring begreppen coupling och cohesion
  för några av modulerna.
- #+end_verse
+ #+end_summary
 
  Termerna "low coupling" och "high cohesion" beskriver två
  egenskaper som krävs för att ett program skall anses

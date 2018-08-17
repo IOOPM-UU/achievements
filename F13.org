@@ -4,7 +4,7 @@
  #+begin_summary
  Visa en översättning mellan en rekursiv och en iterativ lösning av
  samma problem samt diskutera för- och nackdelar med sido-effekter.
- #+end_verse
+ #+end_summary
 
  Är någon av lösningarna bättre (vad betyder bättre?)? I så fall,
  varför skulle man någonsin vilja använda den andra lösningen?

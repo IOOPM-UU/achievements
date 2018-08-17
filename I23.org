@@ -5,7 +5,7 @@
  Fånga på lämpliga platser och hantera på ett lämpligt sätt
  kontrollerade och okontrollerade (relevanta) undantag i ett
  program.
- #+end_verse
+ #+end_summary
 
  Fundera över vad som är en lämplig plats och hur man på ett
  lämpligt sätt hanterar ett fel. Är det t.ex. någonsin relevant att

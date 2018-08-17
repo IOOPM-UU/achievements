@@ -4,7 +4,7 @@
  #+begin_summary
  Använd åtkomstmodifierare för att styra synligheten hos variabler
  och metoder.
- #+end_verse
+ #+end_summary
 
  Styr åtkomst till både privata metoder och data på ett lämpligt
  sätt och motivera användandet. Resonera också kring varför

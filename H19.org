@@ -5,7 +5,7 @@
  Demonstrera förståelse för skillnaden mellan identitet och
  ekvivalens genom att demonstrera implementationer av båda
  koncepten och motivera valet av definition av likhet.
- #+end_verse
+ #+end_summary
 
  Vad menas med att två objekt/värden är identiska? Vad menas med
  att två objekt/värden är ekvivalenta? Hur implementerar man det

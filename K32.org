@@ -5,7 +5,7 @@
  Utveckla resonemanget i K31 med en diskussion om separation of
  concerns och hur detta har uppnåtts (alt. kan/inte kan) i
  programmet i fråga.
- #+end_verse
+ #+end_summary
 
  Undersök termen/begreppet "separation of concerns" (leta bland
  annat men inte enbart i litteraturen om aspekt-orienterad

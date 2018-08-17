@@ -4,7 +4,7 @@
  #+begin_summary
  Använd nästlade och inre klasser för att kapsla in privata
  beståndsdelar i ett sammansatt objekt.
- #+end_verse
+ #+end_summary
 
  Notera den syntaktiskt subtila men relativt viktiga skillnaden
  mellan inre och nästlade klasser. Ett annat namn på sammansatta

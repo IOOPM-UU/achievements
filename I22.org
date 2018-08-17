@@ -4,7 +4,7 @@
  #+begin_summary
  Förklara innebörden av, och tillämpa på ett konsekvent sätt,
  defensiv programmering i ett program.
- #+end_verse
+ #+end_summary
 
  Studera konceptet defensiv programmering. Vid tillämpning, använd
  [[https://github.com/IOOPM-UU/ioopm15/blob/master/extramaterial/Defensiv%2520Programmering%2520-%2520Checklista.pdf][checklistan som finns i kursmaterialet]] och fundera på hur man kan

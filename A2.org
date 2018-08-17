@@ -3,7 +3,7 @@
 
  #+BEGIN_SUMMARY
  Tillämpa objektorienterad abstraktion för att dölja
- implementationsdetaljer bakom väldefinierade gränssnitt._
+ implementationsdetaljer bakom väldefinierade gränssnitt.
  #+END_SUMMARY
 
  I samband med redovisning bör du kunna förklara

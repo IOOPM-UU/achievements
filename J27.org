@@ -6,7 +6,7 @@
  ett program med dynamiska strukturer som är fritt från
  minnesläckage och argumentera för varför det är så (och verifiera
  med valgrind).
- #+end_verse
+ #+end_summary
 
  Redovisa bland annat för:
 

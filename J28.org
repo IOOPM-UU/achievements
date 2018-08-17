@@ -5,7 +5,7 @@
  Förklara skillnaden mellan C:s manuella minneshantering och hur
  Java hanterar minne och beskriv för ett lämpligt Java-program när
  minne allokeras och frigörs.
- #+end_verse
+ #+end_summary
 
  Redovisa bland annat för:
 

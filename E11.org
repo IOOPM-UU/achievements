@@ -4,7 +4,7 @@
  #+begin_summary
  Använd parametrisk polymorfism för ökad "statisk typsäkerhet" vid
  interaktion med Javas standardbibliotek.
- #+end_verse
+ #+end_summary
 
  Typsäkerhet avser att ett värde alltid används på tillåtet sätt,
  t.ex. att en bit minne som råkar hålla en baseballspelare med ett

@@ -4,7 +4,7 @@
  #+begin_summary
  Använd kopiering eller liknande för att undvika aliaseringsproblem
  i ett C- eller Javaprogram.
- #+end_verse
+ #+end_summary
 
  Aliaseringsproblem uppstår då pekare oavsiktligt pekar ut samma
  objekt/data så att en förändring via en pekare blir synlig via en

@@ -4,7 +4,7 @@
  #+begin_summary
  Designa med parametrisk polymorfism för att göra relevanta delar
  av ett program mer generellt.
- #+end_verse
+ #+end_summary
 
  Vid designen av en eller flera klasser -- dra nytta av parametrisk
  polymorfism för att slippa ange en typ vid definitionen (detta är

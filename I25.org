@@ -6,7 +6,7 @@
  undantagshantering i Java genom att kasta existerande och
  egendefinierade kontrollerade och okontrollerade undantag i ett
  program.
- #+end_verse
+ #+end_summary
 
  Demonstrera med relevanta undantag, gärna i ett program du redan
  har skrivit under en tidigare sprint.

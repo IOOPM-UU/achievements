@@ -4,7 +4,7 @@
  #+begin_summary
  Dokumentera icke-triviala modulers gränssnitt så att någon
  utomstående kan programmera mot dem.
- #+end_verse
+ #+end_summary
 
  Bra dokumentation är av största vikt vid utveckling. Vid en kort
  kurs som denna är det svårt att uppleva nyttan med dokumentation

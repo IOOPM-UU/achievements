@@ -4,7 +4,7 @@
  #+begin_summary
  Förklara hur arv har använts i ett program för att separera
  genomskärande åtaganden.
- #+end_verse
+ #+end_summary
 
  Fördjupa dig i konceptet "genomskärande åtaganden."
 

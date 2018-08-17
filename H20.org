@@ -4,7 +4,7 @@
  #+begin_summary
  Redovisa förståelse för skillnaden mellan värdesemantik och
  referenssemantik med hjälp av ett kodexempel.
- #+end_verse
+ #+end_summary
 
  Slå upp termerna, pröva gärna även engelska: "value semantics"
  respektive "reference semantics". Se även parameteröverföring.

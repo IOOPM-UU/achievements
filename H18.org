@@ -4,7 +4,7 @@
  #+begin_summary
  Implementera stöd för strukturell likhet med hjälp av ~equals()~ i 
  Java.
- #+end_verse
+ #+end_summary
 
  I Java-program används metoden ~equals()~ för att jämföra två
  godtyckliga objekt oavsett typ. Denna metod bör uppfylla ett antal
