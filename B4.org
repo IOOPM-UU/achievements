@@ -1,10 +1,10 @@
 #+html: <a name="4"></a>
-** B4: Arv och subtypspolymorfism
+** B4: Arv och subtypspolymorfism :G3:Lab:
 
- #+BEGIN_QUOTE
+ #+BEGIN_SUMMARY
  Använd arv, metodspecialisering och superanrop i ett program som
  drar nytta av subtypspolymorfism.
- #+END_QUOTE
+ #+END_VERSE
 
  Metodspecialisering på engelska översätts ofta till "overriding"
  men även "[method] specialisation".

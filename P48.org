@@ -1,5 +1,5 @@
 #+html: <a name="48"></a>
-** P48: Stäm av ett program mot en refactoringkatalog
+** P48: Stäm av ett program mot en refactoringkatalog :G5:Lab:
 
  Enkla refactoringmönster avser t.ex. namnändringar, och att flytta
  tillstånd och/eller beteenden från en plats till en annan. Både

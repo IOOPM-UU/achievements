@@ -1,5 +1,5 @@
 #+html: <a name="101"></a>
-** TODO Z101: Inlupp 2
+** TODO Z101: Inlupp 2 :G3:Lab:
 
 *** Redovisa utökad förståelse för imperativ programmering i C
 

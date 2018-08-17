@@ -1,9 +1,11 @@
 #+html: <a name="14"></a>
-** F14: Svansrekursion 
+** F14: Svansrekursion  :G4:Lab:
 
  (Eng. /tail recursion/)
 
+#+BEGIN_SUMMARY
  Använd svansrekursion för rekursiva funktioner med potentiellt stort djup. 
+#+END_VERSE
 
  Svansrekursion är rekusion där varje rekursivt anrop kommer som
  det sista funktionen gör. Beakta följande, icke-svansrekursiva funktion:

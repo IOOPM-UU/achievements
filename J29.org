@@ -1,5 +1,5 @@
 #+html: <a name="29"></a>
-** J29: Jämför två metoder för automatisk skräpsamling
+** J29: Jämför två metoder för automatisk skräpsamling :G5:Special:
 
  Lämpliga metoder avser t.ex.:
  - olika former av mark-sweep GC

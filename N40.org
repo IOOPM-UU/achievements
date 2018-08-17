@@ -1,9 +1,9 @@
 #+html: <a name="40"></a>
-** N40: Kompilering, länkning och interpretering
+** N40: Kompilering, länkning och interpretering :G3:Lab:
 
- #+BEGIN_QUOTE
+ #+BEGIN_SUMMARY
  Demonstrera på lämpligt sätt förståelse för termerna kompilering, länkning, interpretering och JIT-kompilering och hur dessa används i C och Java.
- #+END_QUOTE
+ #+END_VERSE
 
  Fundera över skillnaderna mellan länkning i C och Java och när
  länkning sker.

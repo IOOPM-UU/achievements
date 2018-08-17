@@ -1,5 +1,5 @@
 #+html: <a name="60"></a>
-** TODO X60: Välstrukturerad presentation 1/2
+** TODO X60: Välstrukturerad presentation 1/2 :G3:Special:
 
  Muntlig framställning är lika viktig som skriftlig. En
  presentation kan lätt bli tråkig om den som talar är oengagerad,

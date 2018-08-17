@@ -1,9 +1,9 @@
 #+html: <a name="38"></a>
-** M38: Värdeöverföring via pekare
+** M38: Värdeöverföring via pekare :G3:Lab:
 
- #+BEGIN_QUOTE
+ #+BEGIN_SUMMARY
  Använd pekare till stackvariabler för värdeöverföring mellan funktionsanrop.
- #+END_QUOTE
+ #+END_VERSE
 
  Läs [[https://github.com/IOOPM-UU/ioopm15/blob/master/extramaterial/C-addendum-om-stack-och-heap.pdf][C: addendum om stack & heap]] som finns bland extramaterialet.
 

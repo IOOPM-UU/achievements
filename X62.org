@@ -1,9 +1,9 @@
 #+html: <a name="62"></a>
-** X62: Kommunikation 1:1
+** X62: Kommunikation 1:1 :G5:Special:
 
- #+BEGIN_QUOTE
+ #+BEGIN_SUMMARY
  Visa förmåga att förmedla kunskap genom att handleda ett pass.
- #+END_QUOTE
+ #+END_VERSE
 
  Att hålla en presentation utan förberedelser är vanligt -- jämför
  t.ex. med "elevator pitch" eller när någon frågar om något som man

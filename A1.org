@@ -1,40 +1,40 @@
 #+html: <a name="1"></a>
-** A1: Procedurell abstraktion
+** A1: Procedurell abstraktion                             :G3:Lab:
 
- #+BEGIN_QUOTE
- Tillämpa procedurell abstraktion på ett konsekvent sätt för att
- öka läsbarheten och undvika upprepningar.
- #+END_QUOTE
+#+BEGIN_SUMMARY
+Tillämpa procedurell abstraktion på ett konsekvent sätt för att
+öka läsbarheten och undvika upprepningar.
+#+END_VERSE
 
- Abstraktion är en av de viktigaste programmeringsprinciperna. Vi
- vet att djupt, djupt nere under huven är allt bara ettor och
- nollor (redan detta är en abstraktion!), men ovanpå dessa har vi
- byggt lager på lager av abstraktioner som låter oss tala om
- program t.ex. i termer av struktar och procedurer.
+Abstraktion är en av de viktigaste programmeringsprinciperna. Vi
+vet att djupt, djupt nere under huven är allt bara ettor och
+nollor (redan detta är en abstraktion!), men ovanpå dessa har vi
+byggt lager på lager av abstraktioner som låter oss tala om
+program t.ex. i termer av struktar och procedurer.
 
- Proceduren ~ritaEnCirkel(int radie, koordinat center)~ utför
- beräkningar och tänder individuella pixlar på en skärm, men i och
- med att dessa rutiner kapslats in i en procedur med ett vettigt
- namn, där indata är uttryckt i termer av koordinater och radie har
- vi abstraherat bort dessa detaljer, och det blir möjligt att rita
- cirklar tills korna kommer hem utan att förstå hur själva
- implementationen ser ut.
+Proceduren ~ritaEnCirkel(int radie, koordinat center)~ utför
+beräkningar och tänder individuella pixlar på en skärm, men i och
+med att dessa rutiner kapslats in i en procedur med ett vettigt
+namn, där indata är uttryckt i termer av koordinater och radie har
+vi abstraherat bort dessa detaljer, och det blir möjligt att rita
+cirklar tills korna kommer hem utan att förstå hur själva
+implementationen ser ut.
 
- Väl utförd abstraktion döljer detaljer och låter oss fokusera på
- färre koncept i taget.
+Väl utförd abstraktion döljer detaljer och låter oss fokusera på
+färre koncept i taget.
 
- Du bör ha en klar uppfattning om bland annat:
+Du bör ha en klar uppfattning om bland annat:
 
- - Varför det är vettigt att identifiera liknande mönster i koden 
-   och extrahera dem och kapsla in dem i en enda procedur som kan
-   anropas istället för upprepningarna?
- - Abstraktioner kan "läcka". Vad betyder det och vad får det för
-   konsekvenser?
- - Vad är skillnaderna mellan "control abstraction" (ex. if-satsen
-   är en abstraktion) och "data abstraction" (ex. en lista är en
-   abstraktion)? Du kan läsa om dessa koncept på t.ex.
-   http://en.wikipedia.org/wiki/Abstraction_(computer_science).
+- Varför det är vettigt att identifiera liknande mönster i koden 
+  och extrahera dem och kapsla in dem i en enda procedur som kan
+  anropas istället för upprepningarna?
+- Abstraktioner kan "läcka". Vad betyder det och vad får det för
+  konsekvenser?
+- Vad är skillnaderna mellan "control abstraction" (ex. if-satsen
+  är en abstraktion) och "data abstraction" (ex. en lista är en
+  abstraktion)? Du kan läsa om dessa koncept på t.ex.
+  http://en.wikipedia.org/wiki/Abstraction_(computer_science).
 
------
+ -----
 
-*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20A1&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].
+ *Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20A1&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

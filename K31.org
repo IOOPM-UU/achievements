@@ -1,11 +1,11 @@
 #+html: <a name="31"></a>
-** K31: Coupling & cohesion
+** K31: Coupling & cohesion :G4:Lab:
 
- #+begin_quote
+ #+begin_summary
  Givet ett icke-trivialt program uppdelat i moduler som i
  ovanstående mål, resonera kring begreppen coupling och cohesion
  för några av modulerna.
- #+end_quote
+ #+end_verse
 
  Termerna "low coupling" och "high cohesion" beskriver två
  egenskaper som krävs för att ett program skall anses

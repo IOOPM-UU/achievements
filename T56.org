@@ -1,9 +1,9 @@
 #+html: <a name="56"></a>
-** T56: Konfigurera Emacs för programmering
+** T56: Konfigurera Emacs för programmering :G4:Lab:
 
- #+BEGIN_QUOTE
+ #+BEGIN_SUMMARY
  Utöver föregående mål, dra nytta av Emacs inbyggda stöd för programmering.
- #+END_QUOTE
+ #+END_VERSE
 
  Avser stöd för kompilering och felsökning, textkomplettering el.
  snippets, samt användande av tags eller motsvarande för att

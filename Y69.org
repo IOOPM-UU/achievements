@@ -1,5 +1,5 @@
 #+html: <a name="69"></a>
-** Y69: Tillämpa regressionstestning under projektet
+** Y69: Tillämpa regressionstestning under projektet :G3:Report:
 
  Regressionstester är till för att fånga buggar och fel som
  uppstått i system efter förändringar. Det är inte helt ovanligt
@@ -11,7 +11,7 @@
 
  Ta fram en uppsättning regressionstester för en del av ett
  program, motivera dem, och förklara vad testerna visar. (Ett test
- är inte ett test om det inte är automatiserat, minst `make test`.)
+ är inte ett test om det inte är automatiserat, minst ~make test~.)
 
  En uppsättning regressionstester är ingenting man tar fram på en
  eftermiddag, utan de växer fram gradvis över tid. Vi kan t.ex.

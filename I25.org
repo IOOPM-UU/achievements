@@ -1,12 +1,12 @@
 #+html: <a name="25"></a>
-** I25: Egendefinierade undantag
+** I25: Egendefinierade undantag :G4:Lab:
 
- #+begin_quote
+ #+begin_summary
  Utöver föregående mål, demonstrera fördjupad förståelse för
  undantagshantering i Java genom att kasta existerande och
  egendefinierade kontrollerade och okontrollerade undantag i ett
  program.
- #+end_quote
+ #+end_verse
 
  Demonstrera med relevanta undantag, gärna i ett program du redan
  har skrivit under en tidigare sprint.

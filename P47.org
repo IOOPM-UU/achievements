@@ -1,5 +1,5 @@
 #+html: <a name="47"></a>
-** P47: Åtgärda defekter efter en kodgranskning
+** P47: Åtgärda defekter efter en kodgranskning :G4:Lab:
 
  Alla kodgranskningar hittar något som kan förbättras. Det kan vara
  en kommentar, men likaså en allvarlig bugg.

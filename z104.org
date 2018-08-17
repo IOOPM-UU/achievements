@@ -1,5 +1,5 @@
 #+html: <a name="104"></a>
-** TODO Z104: Inlupp 4
+** TODO Z104: Inlupp 4 :G3:Lab:
 
 *** Redovisa förståelse för  objektorienterad programmering i Java
 
@@ -29,21 +29,21 @@
  - återkommande logik är utbruten och inkapslad i egna metoder eller klasser 
  - namn på filer, variabler, funktioner, etc. skall hjälpa läsaren att förstå deras innebörd, och beteende (t.ex. vilka värden som är rimliga, eller vad man kan förvänta sig från ett funktionsanrop)
  - har tydligt dokumenterade gränssnitt som går att förstå utan att läsa koden och *helst* är formaterade med Doxygen eller JavaDoc
- - programmet går att bygga och testa med en makefil (`make all` och `make test`)
+ - programmet går att bygga och testa med en makefil (~make all~ och ~make test~)
  - programmet har enhetstester för alla viktiga metoder
    - som inte bara skrevs efter att programmet var klart "för att ha tester"
    - som använder junit
    - där varje test prövar en sak, och flera tester görs ej i samma testfunktion
 
  Vidare måste en annan grupp ha granskat uppgiften innan den kan
- bli helt godkänd (jämlikt [P45](http://auportal.herokuapp.com/achievements/45)).
+ bli helt godkänd (jämlikt [[au:45][P45]]).
 
  **Ändring 2016:** meningen "Vidare måste en annan grupp ha
- granskat uppgiften innan den kan bli helt godkänd (jämlikt P45)."
+ granskat uppgiften innan den kan bli helt godkänd (jämlikt [[au:45][P45]])."
  ersätts av "Vidare vore det väldigt trevligt, stimulerande för
  djuplärningen, och kanske också positivt för programmets kvalitet,
  om en annan grupp har granskat uppgiften innan den redovisas
- (jämlikt P45)."
+ (jämlikt [[au:45][P45]])."
 
  Inlämningsinstruktioner finns i uppgiftstexten!
 

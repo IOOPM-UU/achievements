@@ -1,5 +1,5 @@
 #+html: <a name="57"></a>
-** U57: Byggverktyget Make
+** U57: Byggverktyget Make :G3:Lab:
 
  Många program har komplicerade byggberoenden -- för att kunna
  bygga ~prg~ måste vi länka ~a~ och ~b~, och för att kunna länka
@@ -20,9 +20,9 @@
 
  För att redovisa målet måste du bland annat redovisa just
  beroenden, eftersom det är det som make löser. Det betyder att
- ha byggregler som beror av varandra. T.ex. om ~A~ är beroende
- av ~B~, vi ändrar ~A~ men inte ~B~ så skall bara ~A~ kompileras
- om, inte ~B~. 
+ ha byggregler som beror av varandra. T.ex. om $A$ är beroende
+ av $B$, vi ändrar $A$ men inte $B$ så skall bara $A$ kompileras
+ om, inte $B$. 
 
 
 

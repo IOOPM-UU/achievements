@@ -1,11 +1,12 @@
 #+html: <a name="52"></a>
-** R52: Debuggning med GDB
+** R52: Debuggning med GDB :G3:Lab:
 
  Avser att kunna använda GDB (eller lldb) för att stega genom ett
- C-programs exekvering och sätta breakpoints (ex. b, c, s, n),
- skriva ut variablers värden, en backtrace, navigera en backtrace
- med up/down. Redovisa genom att återskapa ett förlopp från en
- skarp buggjakt med de relevanta stegen och förklara buggen.
+ C-programs exekvering och sätta breakpoints (ex. [[key:b]], [[key:c]],
+ [[key:s]], [[key:n]]), skriva ut variablers värden, en backtrace,
+ navigera en backtrace med up/down. Redovisa genom att återskapa
+ ett förlopp från en skarp buggjakt med de relevanta stegen och
+ förklara buggen.
 
  *Du kan lämpligen redovisa detta i samband med att du får ett
  svårfunnet segfault!*

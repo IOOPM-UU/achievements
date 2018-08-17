@@ -1,9 +1,9 @@
 #+html: <a name="61"></a>
-** X61:  Välstrukturerad presentation 2/2
+** X61:  Välstrukturerad presentation 2/2 :G4:Special:
 
- #+BEGIN_QUOTE
+ #+BEGIN_SUMMARY
  Håll en välstrukturerad presentation om ett mål på kursen.
- #+END_QUOTE
+ #+END_VERSE
 
  Se föregående presentationsmål för ytterligare instruktioner.
 

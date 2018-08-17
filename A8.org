@@ -1,9 +1,9 @@
 #+html: <a name="8"></a>
-** A8: Gränssnitt 
+** A8: Gränssnitt  :G4:Lab:
 
- #+BEGIN_QUOTE
+ #+BEGIN_SUMMARY
  Visa hur man kan separera gränssnitt från implementation med hjälp av Java-interfaces.
- #+END_QUOTE
+ #+END_VERSE
 
  Separation av gränssnitt från implementation är viktigt för att
  möjliggöra interna förändringar av implementationen utan att

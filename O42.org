@@ -1,9 +1,9 @@
 #+html: <a name="42"></a>
-** TODO O42: Profilering och optimering 1/3 
+** TODO O42: Profilering och optimering 1/3  :G3:Lab:
 
- #+BEGIN_QUOTE
+ #+BEGIN_SUMMARY
  Använda profileringsverktyg för att visa var ett redan skrivet program tillbringar mest tid.
- #+END_QUOTE
+ #+END_VERSE
 
  Observera att dessa mål passar särskilt bra under projektet.
 
@@ -32,7 +32,7 @@
 
 *** Profilera ett C-program
 
- Man kan använda verktyget `gprof` för att mäta körtiden hos ett
+ Man kan använda verktyget =gprof= för att mäta körtiden hos ett
  C-program. Det finns flera tutorials på näten, t.ex. denna:
  http://www.thegeekstuff.com/2012/08/gprof-tutorial/.
 

@@ -1,9 +1,9 @@
 #+html: <a name="39"></a>
-** M39: Pekare till pekare
+** M39: Pekare till pekare :G4:Lab:
 
- #+BEGIN_QUOTE
+ #+BEGIN_SUMMARY
  Använd pekare till pekare (dubbelpekare) på ett lämpligt sätt i ett program.
- #+END_QUOTE
+ #+END_VERSE
 
  En pekare till en pekare är en väldigt kraftfull mekanism som kan
  vara förvirrande ibland (t.ex. att man blandar ihop vad de olika

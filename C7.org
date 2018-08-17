@@ -1,5 +1,5 @@
 #+html: <a name="7"></a>
-** C7: Planering och uppföljning
+** C7: Planering och uppföljning :G3:Special:
 
  Planering och uppföljning är en viktig aspekt av kursen --
  programutveckling är ofta svårt på grund av osäkerhet och

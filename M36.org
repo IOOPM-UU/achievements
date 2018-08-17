@@ -1,5 +1,5 @@
 #+html: <a name="36"></a>
-** M36: C:s array-notation och pekararitmetik
+** M36: C:s array-notation och pekararitmetik :G3:Lab:
 
  Arrayer i C är i regel inget mer än en behändig notation för
  pekararitmetik. Demonstrera att du förstår likheterna mellan

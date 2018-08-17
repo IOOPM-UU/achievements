@@ -1,5 +1,5 @@
 #+html: <a name="68"></a>
-** TODO Y68: Redovisa en fungerande projektuppgift
+** TODO Y68: Redovisa en fungerande projektuppgift :G3:Report:
 
  Se övriga Y-mål som alla hör till projektet!
 
@@ -17,7 +17,7 @@
 
  Ytterligare icke-funktionella krav är att:
 
- - kodens indentering lyfter fram [kontrollflödet](http://en.wikipedia.org/wiki/Control_flow)
+ - kodens indentering lyfter fram [[http://en.wikipedia.org/wiki/Control_flow][kontrollflödet]]
  - ingen "machokodning" (t.ex. omotiverade oneliners)
  - återkommande logik är utbruten och inkapslad i funktioner
  - namn på filer, variabler, funktioner, etc. skall hjälpa läsaren att förstå deras innebörd, och beteende (t.ex. vilka värden som är rimliga, eller vad man kan förvänta sig från ett funktionsanrop)
@@ -31,7 +31,7 @@
  - ha en vettig git log
  - överensstämma med aktiviteter på Trello
 
- Lämna in detta program genom att skriva i `readme.md`-filen i
+ Lämna in detta program genom att skriva i ~readme.md~-filen i
  roten på **gruppens** GitHub-repo vilken commit som var
  inlämningen, alltså:
 

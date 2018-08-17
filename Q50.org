@@ -1,5 +1,5 @@
 #+html: <a name="50"></a>
-** Q50: Mät och resonera kring testkvalitet
+** Q50: Mät och resonera kring testkvalitet :G4:Lab:
 
  Hur vet man att de test man har är "bra"? Hur vet man vad testen
  egentligen testar? Använd ett lämpligt verktyg för att t.ex. mäta

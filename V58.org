@@ -1,5 +1,5 @@
 #+html: <a name="58"></a>
-** V58: Grundläggande terminalkommandon
+** V58: Grundläggande terminalkommandon :G3:Lab:
 
  Att kunna navigera i terminalen är grundläggande som utvecklare.
  Det är standard att behöva logga in på maskiner på andra sidan
@@ -23,7 +23,7 @@
  - =xargs=
  - =&&=
  - =&=
- - [[key:C-z]]
+ - [[key:C-z]], [[key:C-c]] och [[key:C-d]] (ung. suspend, abort och quit)
  - =fg=
  - =bg=
  - =cut=
@@ -129,90 +129,90 @@
 
  Använd gärna =tree= för att se trädstrukturen.
 
-****  Ledning
+***  Ledning
 
- Varje kommando spottar ut radorienterad text. Arbetsflöden skapas
- genom att kommandon "pipe:as ihop", kommand1 | kommando2 där all
- output från kommando1 blir input till kommando2. Diverse
- hjälpprogram används för att "massera texten" t.ex. om kommando1
- listar A,B,C,D,E och vi vill ha C kan vi använda t.ex. ~cut -d , -f 3~
- för att säga "tolka detta som fält separerade av , och ta fält 3".
+Varje kommando spottar ut radorienterad text. Arbetsflöden skapas
+genom att kommandon "pipe:as ihop", kommand1 | kommando2 där all
+output från kommando1 blir input till kommando2. Diverse
+hjälpprogram används för att "massera texten" t.ex. om kommando1
+listar A,B,C,D,E och vi vill ha C kan vi använda t.ex. ~cut -d , -f 3~
+för att säga "tolka detta som fält separerade av , och ta fält 3".
 
- Ett år stötte jag (Tobias) på en student på kursen som hade blandat
- ihop ^C och ^Z och som därför hade 50+ instanser av
- lagerhanteraren igång eftersom han, varje gång han trodde att han
- slog ihjäl programmet med ^Z, bara hade pausat det.
+Ett år stötte jag (Tobias) på en student på kursen som hade blandat
+ihop ^C och ^Z och som därför hade 50+ instanser av
+lagerhanteraren igång eftersom han, varje gång han trodde att han
+slog ihjäl programmet med ^Z, bara hade pausat det.
 
- Det löste vi geschwint så här:
-
- #+BEGIN_EXAMPLE
-     ps aux | grep ~whoami~ | grep ./lagret | cut -b 10-14 | xargs kill
-     (1)      (2)             (3)             (4)            (5)
- #+END_EXAMPLE
-
- Steg (1) tar fram en lista över processer:
-
- #+BEGIN_EXAMPLE
-     root        27002  0.0  0.0 175880 15736 ?        Ss   dec05   0:00 ...
-     foobar      27005  0.0  0.1 199584 18480 ?        S    dec05   0:00 ...
-     foobar      27007  0.0  0.1 309656 32528 ?        S    dec05   0:01 ./lagret
-     root        27110  0.0  0.0   4496   780 ?        S    09:45   0:00 ...
-     foobar      27111  0.3  0.0  92592 10912 ?        S    09:45   1:41 ...
- #+END_EXAMPLE
-
- ... som skickas till steg (2) som filtrerar (grep:ar) fram alla
- rader som matchar resultatet av ~whoami~ (foobar ovan). Resultatet:
-
- #+BEGIN_EXAMPLE
-     foobar      27005  0.0  0.1 199584 18480 ?        S    dec05   0:00 ...
-     foobar      27007  0.0  0.1 309656 32528 ?        S    dec05   0:01 ./lagret
-     foobar      27111  0.3  0.0  92592 10912 ?        S    09:45   1:41 ...
- #+END_EXAMPLE
-
- ... som skickas till steg (3) som filtrerar ytterligare:
-
- #+BEGIN_EXAMPLE
-     foobar      27007  0.0  0.1 309656 32528 ?        S    dec05   0:01 ./lagret
- #+END_EXAMPLE
-
- ... som skickas till steg (4) som tar fram numret på processerna:
-
- #+BEGIN_EXAMPLE
-     27007
- #+END_EXAMPLE
-
- ... som skickas till steg (5) som för vart och ett av numren som
- trillar in (i detta fall endast ett) kör "kill <numret>". Alltså,
- kommandot ps aux | grep ~whoami~ | grep ./lagret | cut -b 10-14 |
- xargs kill utför slutligen
-
- #+BEGIN_EXAMPLE
-     kill 27007
- #+END_EXAMPLE
-
- ... vilket i det skarpa läget förra året blev över 50 anrop till
- kill, och alla lagerprogram stoppades.
-
- Pröva gärna själv, men ersätt =kill= med =echo= för att inte slå
- ihjäl något program!
-
-* Om programmet student inte finns/inte fungerar
-
-Skapa en fil ~student.sh~ med följande innehåll:
+Det löste vi geschwint så här:
 
 #+BEGIN_EXAMPLE
-#!/bin/sh
-finger $1 | head -n 1 | awk -F: '{ print $3 }' | cut -c 2-
+    ps aux | grep ~whoami~ | grep ./lagret | cut -b 10-14 | xargs kill
+    (1)      (2)             (3)             (4)            (5)
 #+END_EXAMPLE
 
-Gör den exekverbar:
+Steg (1) tar fram en lista över processer:
 
 #+BEGIN_EXAMPLE
-    chmod a+x student.sh
+    root        27002  0.0  0.0 175880 15736 ?        Ss   dec05   0:00 ...
+    foobar      27005  0.0  0.1 199584 18480 ?        S    dec05   0:00 ...
+    foobar      27007  0.0  0.1 309656 32528 ?        S    dec05   0:01 ./lagret
+    root        27110  0.0  0.0   4496   780 ?        S    09:45   0:00 ...
+    foobar      27111  0.3  0.0  92592 10912 ?        S    09:45   1:41 ...
 #+END_EXAMPLE
 
-Gör klart uppgiften men använd ~student.sh~ istället för student
+... som skickas till steg (2) som filtrerar (grep:ar) fram alla
+rader som matchar resultatet av ~whoami~ (foobar ovan). Resultatet:
 
------
+#+BEGIN_EXAMPLE
+    foobar      27005  0.0  0.1 199584 18480 ?        S    dec05   0:00 ...
+    foobar      27007  0.0  0.1 309656 32528 ?        S    dec05   0:01 ./lagret
+    foobar      27111  0.3  0.0  92592 10912 ?        S    09:45   1:41 ...
+#+END_EXAMPLE
 
-*Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20V58&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].
+... som skickas till steg (3) som filtrerar ytterligare:
+
+#+BEGIN_EXAMPLE
+    foobar      27007  0.0  0.1 309656 32528 ?        S    dec05   0:01 ./lagret
+#+END_EXAMPLE
+
+... som skickas till steg (4) som tar fram numret på processerna:
+
+#+BEGIN_EXAMPLE
+    27007
+#+END_EXAMPLE
+
+... som skickas till steg (5) som för vart och ett av numren som
+trillar in (i detta fall endast ett) kör "kill <numret>". Alltså,
+kommandot ps aux | grep ~whoami~ | grep ./lagret | cut -b 10-14 |
+xargs kill utför slutligen
+
+#+BEGIN_EXAMPLE
+    kill 27007
+#+END_EXAMPLE
+
+... vilket i det skarpa läget förra året blev över 50 anrop till
+kill, och alla lagerprogram stoppades.
+
+Pröva gärna själv, men ersätt =kill= med =echo= för att inte slå
+ihjäl något program!
+
+*** Om programmet student inte finns/inte fungerar
+
+  Skapa en fil ~student.sh~ med följande innehåll:
+
+  #+BEGIN_EXAMPLE
+  #!/bin/sh
+  finger $1 | head -n 1 | awk -F: '{ print $3 }' | cut -c 2-
+  #+END_EXAMPLE
+
+  Gör den exekverbar:
+
+  #+BEGIN_EXAMPLE
+      chmod a+x student.sh
+  #+END_EXAMPLE
+
+  Gör klart uppgiften men använd ~student.sh~ istället för student
+
+  -----
+
+  *Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20V58&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

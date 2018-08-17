@@ -1,10 +1,10 @@
 #+html: <a name="26"></a>
-** J26: Allokering på stacken vs. på heapen
+** J26: Allokering på stacken vs. på heapen :G3:Lab:
 
- #+begin_quote
+ #+begin_summary
  Demonstrera förståelse för skillnaden mellan allokering på stacken
  och allokering på heapen med hjälp av ett C-program.
- #+end_quote
+ #+end_verse
 
  Läs [[https://github.com/IOOPM-UU/ioopm15/blob/master/extramaterial/C-addendum-om-stack-och-heap.pdf][C: addendum om stack & heap]]
 

@@ -1,9 +1,9 @@
 #+html: <a name="44"></a>
-** O44: Profilering och optimering 3/3
+** O44: Profilering och optimering 3/3 :G5:Lab:
 
- #+BEGIN_QUOTE
+ #+BEGIN_SUMMARY
  Samma som mål de två ovanstående målen, men beakta också minnesanvändning.
- #+END_QUOTE
+ #+END_VERSE
 
  Observera att dessa mål passar särskilt bra under projektet.
 

@@ -1,10 +1,10 @@
 #+html: <a name="53"></a>
-** S53: Extrahera dokumentation ur kod
+** S53: Extrahera dokumentation ur kod :G3:Lab:
 
- #+BEGIN_QUOTE
+ #+BEGIN_SUMMARY
  Använda doxygen eller JavaDoc för att extrahera kommentarer från
  kod till lämplig API-dokumentation.
- #+END_QUOTE
+ #+END_VERSE
 
  Endast lämpligt att demonstrera i ett större program med flera
  moduler där gränssnitten behövts dokumenteras. När du

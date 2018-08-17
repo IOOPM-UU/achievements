@@ -1,10 +1,10 @@
 #+html: <a name="63"></a>
-** TODO X63: Kommuniktion 1:M
+** TODO X63: Kommuniktion 1:M :G3:Special:
 
- #+BEGIN_QUOTE
+ #+BEGIN_SUMMARY
  Samtala avslappnat med andra gruppmedlemmar. Ditt ansvar för
  gruppen. Gruppens ansvar för dig.
- #+END_QUOTE
+ #+END_VERSE
 
  Detta mål innebär tre fysiska möten under kursens gång. Varje möte
  skall rapporteras på epost till ioopm@it.uu.se, se vidare
@@ -65,7 +65,7 @@
    - Samtliga burndown charts i *PDF*-format (~loginnamn1.pdf~, ~loginnamn2.pdf~, etc.)
    - En *PDF* som visar /summan/ av alla burndown charts, dvs. det totala antalet mål som skall tas, och summan av mål avbockade vid varje sprint -- /inte/ en jämförelse av olika medarbetares prestationer
    - En kort (tänk 1 sida) sammanfattning om hur ni upplever kursen, ert arbete, era framgångar, etc. (*PDF* eller endast text), inklusive en *flagglista* (se nedan)
-   - En [groupie](http://www.sprakochfolkminnen.se/download/18.3ba9edd1515c7b7a4f5278/1451282128728/Nyordslista+2015+med+logga+NY.pdf) (gruppbild alltså, i *JPG* eller *PNG*) som visar er alla på ett gemensamt möte, helst på en sorts AW eller liknande (det går alltså utmärkt att gå på nation under "skoltid"). Den grupp som har roligast vinner! 
+   - En [[http://www.sprakochfolkminnen.se/download/18.3ba9edd1515c7b7a4f5278/1451282128728/Nyordslista+2015+med+logga+NY.pdf][groupie]] (gruppbild alltså, i *JPG* eller *PNG*) som visar er alla på ett gemensamt möte, helst på en sorts AW eller liknande (det går alltså utmärkt att gå på nation under "skoltid"). Den grupp som har roligast vinner! 
  - Mailets ämne (subject) skall vara ~[IOOPM] X63-gruppens-namn+mötesnummer~.
 
  Med *flagglista* avses en lista (som får vara tom) med namn på
