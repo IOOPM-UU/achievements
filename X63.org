@@ -8,7 +8,7 @@ gruppen. Gruppens ansvar för dig.
 
 Detta mål *omfattar sex fysiska möten under kursens gång*. Varje möte
 skall dokumenteras med en /gemensam/ rapport. Se detaljerade 
-instruktioner [[file:~/t/ioopm/2018/site/team.org::*Group%20Meetings][här]].
+instruktioner [[http://wrigstad.com/ioopm18/team.org::*Group%20Meetings][här]].
 
 -----
 

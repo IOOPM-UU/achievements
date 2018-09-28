@@ -1,24 +1,36 @@
 #+html: <a name="100"></a>
-** TODO Z100: Inlupp 1 :G3:Lab:
+** DONE Z100: Inlupp 1                                               :G3:Lab:
 
 *** Redovisa förståelse för grundläggande imperativ programmering i C
 
- I den första inlämningen fokuserar vi på att programmet gör det
- det skall, dvs. den korrekta implementationen av specifikationen
- (som inte kraschar), och lägger mindre vikt vid namngivning,
- abstraktion, etc. vid bedömning. Observera att det inte är
- detsamma som att du inte får kommentarer på detta vid
- redovisningen -- kommentarerna är ju till för att hjälpa, och det
- är omöjligt att avgöra om $X$ saknas på grund av att $X$ inte
- fanns med i kravlistan eller för att respondenten ännu inte kommit
- underfund med $X$.
+Detta mål är knutet till den första inlämningsuppgiften. Tekniskt
+sett är detta inte ett mål på samma sätt som de vanliga målen, men
+vi undviker ytterligare ett system för bokhållning om vi gör detta
+till ett mål. 
 
- Observera att programmet
+För att vara färdig med inlämningsuppgiften skall du ha utfört
+/alla/ steg i uppgiftsbeskrivningen förutom de som uttryckligen är
+frivilliga. 
 
- - inte får krascha vid körning med valid indata
- - inte skall behöva kompileras om när indata ändras
+Programmet skall:
+- Använda för uppgiften lämpliga abstraktioner
+- "Skydda sig" från fel (du skall kunna förklara hur fel hanteras,
+  och motivera valet av mekanism/strategi)
+- Dokumentera alla publika gränssnittsfunktioner så att en annan
+  programmerare skulle kunna använda implementationen
+- Använda korrekt namngivning (t.ex. ~ioopm_~)
+- Vara indenterat på ett sådant sätt att kontrollflödet är synligt
+- Ha relevanta enhetstester som kan köras automatiskt
+- Kunna byggas med make eller liknande verktyg
+- Inte ha minnesläckage eller använda oinitierat minne 
+- Inte krascha vid körning med valid indata
+- Inga ha några globala variabler 
+- Inga magiska nummer (t.ex. 128 står överallt i koden)
+- Ingen "machokodning" (t.ex. omotiverade oneliners)
+- Återkommande logik är utbruten och inkapslad i funktioner
+- Namn på filer, variabler, funktioner, etc. skall hjälpa läsaren att förstå deras innebörd, och beteende (t.ex. vilka värden som är rimliga, eller vad man kan förvänta sig från ett funktionsanrop)
 
- Inlämningsinstruktioner finns i uppgiftstexten!
+Inlämningsinstruktioner finns i uppgiftstexten!
 
 -----
 

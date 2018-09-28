@@ -1,18 +1,17 @@
 #+html: <a name="2"></a>
 ** A2: Objektorienterad abstraktion :G3:Lab:
+#+BEGIN_SUMMARY
+Tillämpa objektorienterad abstraktion för att dölja
+implementationsdetaljer bakom väldefinierade gränssnitt.
+#+END_SUMMARY
 
- #+BEGIN_SUMMARY
- Tillämpa objektorienterad abstraktion för att dölja
- implementationsdetaljer bakom väldefinierade gränssnitt.
- #+END_SUMMARY
+I samband med redovisning bör du kunna förklara
+skillnaden/likheterna mellan procedurell abstraktion och
+objektorienterad abstraktion.
 
- I samband med redovisning bör du kunna förklara
- skillnaden/likheterna mellan procedurell abstraktion och
- objektorienterad abstraktion.
-
- Vad innebär egentligen objekt-orienterad programmering? En ledning
- är att OOP är ett *synsätt* snarare än speciella nyckelord eller
- konstruktioner i ett programspråk.
+Vad innebär egentligen objekt-orienterad programmering? En ledning
+är att OOP är ett *synsätt* snarare än speciella nyckelord eller
+konstruktioner i ett programspråk.
 -----
 
 *Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20A2&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

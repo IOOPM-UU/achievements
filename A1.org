@@ -1,6 +1,5 @@
 #+html: <a name="1"></a>
 ** A1: Procedurell abstraktion                             :G3:Lab:
-
 #+BEGIN_SUMMARY
 Tillämpa procedurell abstraktion på ett konsekvent sätt för att
 öka läsbarheten och undvika upprepningar.
@@ -10,8 +9,35 @@ Abstraktion är en av de viktigaste programmeringsprinciperna. Vi
 vet att djupt, djupt nere under huven är allt bara ettor och
 nollor (redan detta är en abstraktion!), men ovanpå dessa har vi
 byggt lager på lager av abstraktioner som låter oss tala om
-program t.ex. i termer av struktar och procedurer.
+program t.ex. i termer av struktar och procedurer. 
 
+Procedurell abstraktion handlar om att separera användande från
+implementation. Varje procedur utför -- idealiskt -- en enda,
+välspecificerad funktion, t.ex. en viss beräkning, en förändring
+av programmets tillstånd, uppdaterar en datastruktur, stänger en
+fil, etc.
+
+En väldöpt procedur (funktion) t.ex. ~open_file_for_reading()~ ger
+en tydlig beskrivning av /vad/ den gör, men /hur/ den gör det --
+dess implementation -- är inkapslad och inte synlig utifrån.
+Använder den systemanropet ~fopen()~ eller någon annan funktion?
+*Det skall vi strunta i!* Det är inte[fn::Iallafall i normal- och
+idealfallet.] inte något vi skall behöva bry oss om, och dessutom
+något som kan komma att ändras, eller skilja sig beroende på
+vilken dator jag kör programmet på.
+
+Ta som tumregel att varje procedur skall kunna beskrivas enkelt
+och kortfattat. En procedur vars beteende inte går att beskrivas
+enkelt och kortfattat skall förmodligen brytas upp i flera mindre
+procedurer.
+
+I ett nötskal handlar procedurell abstraktion alltså om att
+/kapsla in/ alla "conceptual units of behaviour" i en /procedur/.
+En procedur är ungefär detsamma som en /funktion/ och många
+programspråk (t.ex. C) gör ingen skilland på dem.
+
+
+*** Exempel
 Proceduren ~ritaEnCirkel(int radie, koordinat center)~ utför
 beräkningar och tänder individuella pixlar på en skärm, men i och
 med att dessa rutiner kapslats in i en procedur med ett vettigt
@@ -23,6 +49,7 @@ implementationen ser ut.
 Väl utförd abstraktion döljer detaljer och låter oss fokusera på
 färre koncept i taget.
 
+*** Redovisning
 Du bör ha en klar uppfattning om bland annat:
 
 - Varför det är vettigt att identifiera liknande mönster i koden 
@@ -34,6 +61,18 @@ Du bör ha en klar uppfattning om bland annat:
   är en abstraktion) och "data abstraction" (ex. en lista är en
   abstraktion)? Du kan läsa om dessa koncept på t.ex.
   http://en.wikipedia.org/wiki/Abstraction_(computer_science).
+- Ge exempel på procedurell abstraktion i ditt program! Kritisera den! Kan den förbättras? 
+- Vad är den kortfattade beskrivningen av vad funktionerna gör? 
+- Ger namnen på funktionerna en bra ledning om vad funktionerna gör? 
+- Finns det exempel på *läckande abstraktioner*, dvs. där den som
+  anropar funktionen måste känna till hur funktionen faktiskt är
+  implementerad för att fungera, eller förutsätter en viss
+  implementation?
+- Låt $f_1$, $f_2$ och $f_3$ vara funktioner. $f_1$ och $f_2$ är
+  delar av samma bibliotek och $f_2$ använder $f_3$ i sin
+  implementation. Skiljer sig nivån av abstraktion mellan dessa på
+  något sätt? Hur?
+- Är abstraktion möjlig utan inkapsling? (Bonusfråga)
 
  -----
 

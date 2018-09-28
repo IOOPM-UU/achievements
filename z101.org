@@ -1,28 +1,36 @@
 #+html: <a name="101"></a>
-** TODO Z101: Inlupp 2 :G3:Lab:
+** DONE Z101: Inlupp 2                                               :G3:Lab:
 
-*** Redovisa utökad förståelse för imperativ programmering i C
+*** Redovisa förståelse för grundläggande imperativ programmering i C
 
- I den andra inlämningen blir programmets icke-funktionella
- aspekter viktigare. Utöver att det implementerar specifikationen
- fullständigt, modulo "frivilliga utökningar" skall det
+Detta mål är knutet till den första inlämningsuppgiften. Tekniskt
+sett är detta inte ett mål på samma sätt som de vanliga målen, men
+vi undviker ytterligare ett system för bokhållning om vi gör detta
+till ett mål. 
 
- - vara fritt från minnesläckage (verifieras t.ex. med valgrind)
- - inte krascha vid körning med valid indata
- - skydda sig från felaktig indata på lämpligt sätt och i lämplig utsträckning
- - inte behöva kompileras om när indata ändras
- - inte ha en massa halvtomma arrayer utan använda länkade strukturer för minneseffektivitet
+För att vara färdig med inlämningsuppgiften skall du ha utfört
+/alla/ steg i uppgiftsbeskrivningen förutom de som uttryckligen är
+frivilliga. 
 
- Ytterligare icke-funktionella krav är att
+Programmet skall:
+- Använda för uppgiften lämpliga abstraktioner
+- "Skydda sig" från fel (du skall kunna förklara hur fel hanteras,
+  och motivera valet av mekanism/strategi)
+- Dokumentera alla publika gränssnittsfunktioner så att en annan
+  programmerare skulle kunna använda implementationen
+- Använda korrekt namngivning (t.ex. ~ioopm_~)
+- Vara indenterat på ett sådant sätt att kontrollflödet är synligt
+- Ha relevanta enhetstester som kan köras automatiskt
+- Kunna byggas med make eller liknande verktyg
+- Inte ha minnesläckage eller använda oinitierat minne 
+- Inte krascha vid körning med valid indata
+- Inga ha några globala variabler 
+- Inga magiska nummer (t.ex. 128 står överallt i koden)
+- Ingen "machokodning" (t.ex. omotiverade oneliners)
+- Återkommande logik är utbruten och inkapslad i funktioner
+- Namn på filer, variabler, funktioner, etc. skall hjälpa läsaren att förstå deras innebörd, och beteende (t.ex. vilka värden som är rimliga, eller vad man kan förvänta sig från ett funktionsanrop)
 
- - inga globala variabler 
- - inga magiska nummer (t.ex. 128 står överallt i koden)
- - kodens indentering lyfter fram [[http://en.wikipedia.org/wiki/Control_flow][kontrollflödet]]
- - ingen "machokodning" (t.ex. omotiverade oneliners)
- - återkommande logik är utbruten och inkapslad i funktioner
- - namn på filer, variabler, funktioner, etc. skall hjälpa läsaren att förstå deras innebörd, och beteende (t.ex. vilka värden som är rimliga, eller vad man kan förvänta sig från ett funktionsanrop)
-
- Inlämningsinstruktioner finns i uppgiftstexten!
+Inlämningsinstruktioner finns i uppgiftstexten!
 
 -----
 
