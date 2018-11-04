@@ -1,5 +1,5 @@
 #+html: <a name="21"></a>
-** A21: Abstrakta klasser, metoder och interface :G5:Lab:
+** H21: Abstrakta klasser, metoder och interface                     :G5:Lab:
 
  #+BEGIN_SUMMARY
  Redovisa förståelse för abstrakta klasser och metoder, samt deras relation till Java-interface.

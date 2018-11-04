@@ -1,6 +1,5 @@
 #+html: <a name="8"></a>
-** A8: Gränssnitt  :G4:Lab:
-
+** A8: Gränssnitt                                                    :G4:Lab:
  #+BEGIN_SUMMARY
  Visa hur man kan separera gränssnitt från implementation med hjälp av Java-interfaces.
  #+END_SUMMARY
