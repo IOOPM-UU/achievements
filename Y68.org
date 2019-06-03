@@ -35,7 +35,8 @@
  roten på **gruppens** GitHub-repo vilken commit som var
  inlämningen, alltså:
 
-*** TODO Tagga projektuppgiften med ...
+*** Tagga projektuppgiften med =project_done=
+
 
 
 -----
