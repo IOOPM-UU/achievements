@@ -16,15 +16,18 @@
  visat sig vara en "falsk optimering") intuitivt verkar vara en
  optimering.
 
- Observera att det är dumt att optimera ett grafiskt program typ
- lagerhanteraren. Däremot kan man optimera /delar/ av
- lagerhanteraren. Ta binärträdsbalanseringen som ett exempel. Den
- går kanske att göra bättre utan att först skriva ned hela trädet i
- en array?
+ Observera att det är dumt att optimera ett interaktivt program
+ som t.ex. Assigment 2. Däremot kan man optimera /delar/ av dess
+ underliggande modell. Ta hashtabellen som ett exempel.
+ Implementation av dynamisk storleksförändring ("Adapting the
+ Number of Buckets") är ett utmärkt exempel på en optimering som
+ förändrar tiden för insättning och borttagning.
 
- Sedan får man demonstrera uppdateringen kanske genom att göra *1
- miljon* insättning av varor i databasen och göra 1 miljon
- sökningar med de olika sorteringsimplementationerna och jämföra.
+ Sedan får man demonstrera uppdateringen kanske genom att göra $N$
+ insättningar av element och göra $M$ sökningar med de olika
+ sorteringsimplementationerna och jämföra (för /stora/ värden på
+ $N$ och $M$ för att se skillnad -- millisekunder är inte stora
+ nog).
 
 
 
