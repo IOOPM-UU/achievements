@@ -20,7 +20,7 @@
  - Crash don't trash
  - Defensiv programmering
  - Undantagshantering (till exempel i Java)
- - Hur fel hanteras i C med [[http://mylinuxbook.com/error-handling-in-c-programming-on-linux/][errno]]
+ - Hur fel hanteras i C med [[https://www.tutorialspoint.com/cprogramming/c_error_handling.htm][errno]]
 
  Ge exempel på hur dessa koncept använts i dina olika
  inlämningsuppgifter, och vad konsekvensen av att byta mellan dem i
