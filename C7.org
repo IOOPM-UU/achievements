@@ -40,7 +40,7 @@
  publik så att den går att komma åt! Om du har planerat varje
  program får du gärna inkludera den planeringen också!
 
- Skicka ditt burndown chart på epost till [[mailto:gustaf.borgstrom@it.uu.se?subject=%5BIOOPM%5D%20C7][Gustaf]] enligt följande
+ Skicka ditt burndown chart på epost till [[mailto:someone@it.uu.se?subject=%5BIOOPM%5D%20C7][huvudassistenten]] enligt följande
  instruktioner:
 
  - Ämnesraden *skall* vara =[IOOPM] C7=. Den första raden i mejlet
