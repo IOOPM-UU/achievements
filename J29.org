@@ -1,18 +1,24 @@
 #+html: <a name="29"></a>
 ** J29: Jämför två metoder för automatisk skräpsamling :G5:Special:
 
- Lämpliga metoder avser t.ex.:
- - olika former av mark-sweep GC
- - reference counting
- - generational GC
+Lämpliga metoder avser t.ex.:
+- olika former av mark-sweep GC
+- reference counting
+- generational GC
 
- Diskutera deras för- och nackdelar.
+Beskriv övergripande hur de valda metoderna fungerar. 
+Diskutera deras för- och nackdelar. 
+Lämpliga aspekter att beakta för en jämförelse omfattar bland annat följande koncept:
+- throughput
+- latency
+- jitter
+
 
 
 *** Redovisning
 
- Detta mål har varit populärt att redovisa i form av en essä (X59) tidigare år. 
- (Det går också bra att göra genom en diskussion med Tobias på ett labbpass.)
+Detta mål har varit populärt att redovisa i form av en essä (X59) tidigare år. 
+(Det går också bra att göra genom en diskussion med Tobias på ett labbpass.)
 
 
 -----

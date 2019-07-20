@@ -1,40 +1,78 @@
 #+html: <a name="4"></a>
 ** B4: Arv och subtypspolymorfism :G3:Lab:
 
- #+BEGIN_SUMMARY
- Använd arv, metodspecialisering och superanrop i ett program som
- drar nytta av subtypspolymorfism.
- #+END_SUMMARY
+#+BEGIN_SUMMARY
+Make use of inheritance, overriding and super calls in a program
+that leverages subtype polymorfism.
+#+END_SUMMARY
 
- Metodspecialisering på engelska översätts ofta till "overriding"
- men även "[method] specialisation".
+*** Metodspecialisering (aka overriding)
 
- Metodspecialisering avser alltså när en subklass tillhandahåller
- en mer specifik implementation av en metod. Ponera klasserna
- ~Egendom~ och ~Hus~ där ~Hus~ ärver av ~Egendom~. Man kan tänka
- sig att det finns en metod ~skatt()~ för ~Egendom~ som beräknar en
- viss grundskatt baserat på något givet värde, men att ~Hus~
- tillhandahåller en egen implementation av ~skatt()~ som är *mer
- specifik* för just hus, t.ex. gör vissa avdrag etc. som gäller
- specifikt för hus. Man kan tänka sig att den mer specifika
- ~skatt()~-metoden anropar den mer generella för återanvändning
- (räkna ut grundskatten).
+Metodspecialisering avser när en subklass tillhandahåller en mer
+specifik implementation av en metod än sin superklass. Ponera
+klasserna ~Egendom~ och ~Hus~ där ~Hus~ ärver av ~Egendom~. Man
+kan tänka sig att det finns en metod ~skatt()~ för ~Egendom~ som
+beräknar en viss grundskatt baserat på något givet värde, men att
+~Hus~ tillhandahåller en egen implementation av ~skatt()~ som är
+*mer specifik* för just hus, t.ex. gör vissa avdrag etc. som
+gäller specifikt för hus. Man kan tänka sig att den mer specifika
+~skatt()~-metoden anropar den mer generella för återanvändning
+(räkna ut grundskatten).
 
- Polymorfism är möjligheten att behandla olika typer av värden
- genom ett gemensamt gränssnitt eller möjligheten att applicera en
- funktion på flera olika typer av värden. Det finns många olika
- typer av polymorfism -- studera detta begrepp vidare! I Haskell
- stötte ni på polymorfism till exempel i signaturen till ~map :: (a
- -> b) -> [a] -> [b]~ -- ~map~ tar en funktion från ~a~ till ~b~
- och en lista av ~a~:n och beräknar en lista av ~b~:n, och fungerar
- likadant oavsett vilka typer man använder istället för ~a~ och
- ~b~.
+Polymorfism är möjligheten att behandla olika typer av värden
+genom ett gemensamt gränssnitt eller möjligheten att applicera en
+funktion på flera olika typer av värden. Det finns många olika
+typer av polymorfism -- studera detta begrepp vidare! I Haskell
+stötte ni på polymorfism till exempel i signaturen till ~map :: (a
+-> b) -> [a] -> [b]~ -- ~map~ tar en funktion från ~a~ till ~b~
+ch en lista av ~a~:n och beräknar en lista av ~b~:n, och fungerar
+likadant oavsett vilka typer man använder istället för ~a~ och
+~b~.
 
- Subtypspolymorfism avser polymorfism mellan subtyper, t.ex. ~Hus~
- och ~Egendom~ ovan och husets möjlighet att uppträda/bli behandlat
- som en generell form av egendom. (Javas dynamiska bindning gör här
- att huset ändå bibehåller sitt specifika beteende.)
+Subtypspolymorfism avser polymorfism mellan subtyper, t.ex. ~Hus~
+och ~Egendom~ ovan och husets möjlighet att uppträda/bli behandlat
+som en generell form av egendom. (Javas dynamiska bindning gör här
+att huset ändå bibehåller sitt specifika beteende.)
 
+
+*** Inheritance in relation to subtype polymorphism
+
+Inheritance facilitates (or even allows) the modularisation of
+definitions, which can be very useful even if a class hierarchy
+never branches out (meaning that no class has more than one
+subclass). Imagine a class hierarchy with classes $A$, $B$ and
+$C$, such that $A$ is a superclass of $B$, and $B$ is a superclass
+of $C$. The implementation of a behaviour $b$ might be split over
+$A$, $B$ and $C$ through three separate, overriding,
+implementations of a method $m$. Thus, $m$ is defined in $A$, $B$
+and $C$ such that a subclass' $m$ overrides all its superclasses'
+$m$'s. Through the use of /super calls/, $C$'s $m$ may call $B$'s
+$m$. This effectively means that a specialised method can reuse or
+extend a more general method in a super class. This was already
+referenced above: "It is possible that the more specific
+~calculateTax()~" method calls the more general method for reuse,
+e.g., to calculate basic tax."
+
+This allows us to distribute the specification of a behaviour over
+multiple source locations in a way that may facilitate software
+development and software evolution when used correctly. For
+example, in the above example it is immediately clear from the
+code that house taxation can be understood as a clean extension to
+property taxation. This might be even more useful if ~Property~
+has several subclasses each subject to its own specific tax laws
+as it allows reuse (because of the modular description) of the
+basic property tax laws, making each delta small. In the case
+where the variation in taxation is greater, we might implement
+taxation as several methods working together, which allows a more
+fine-grained overriding in subclasses. Be careful to not create
+too unwieldy programs where the logic is hard to follow due to the
+/implicit/ (possibility of) branching in dynamic dispatch.
+Overriding for its own sake shall be avoided.
+
+If you find inheritance interesting, Tobias recommends a recent
+paper by Black, Bruce and Noble on the [[https://arxiv.org/abs/1601.02059][The Essence of Inheritance]]
+which he enjoyed immensely, especially Andrew's presentation. Here
+is a(nother) [[https://www.youtube.com/watch?v=Rmg_trKnanU][recording of this presentation from WadlerFest]].
 
 -----
 

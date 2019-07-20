@@ -1,32 +1,66 @@
 #+html: <a name="5"></a>
-** B5: Överlagring och overriding :G3:Lab:
+** B5: Liskov's Substitution Principle  :G3:Lab:
 
- #+begin_summary
- Visa att du kan använda både överlagring och overriding på
- lämpligt sätt.
- #+end_summary
+#+begin_summary
+Demonstrate understanding of Liskov's substitution principle by
+relating it to how you have used it in your implementations of the
+assignments or project.
+#+end_summary
 
- *Överlagring* (overloading) av operatorer, funktioner, metoder och
- konstruktorer sker när de har samma namn, men olika typer på sina
- inparametrar, d.v.s. de har *olika* signatur. Ett klassiskt
- exempel på överlagring är ~+~-operatorn som fungerar olika
- beroende på typer: ~"1" + "2"~ konkatenerar två strängar
- (resultatet blir strängen ~"12"~), medan ~1 + 2~ adderar två
- heltalsliteraler (resultatet blir heltalet ~3~).
+Let $C$ and $D$ be classes, and $P$ be a program that uses
+instance of class $C$.
 
- *Specialisering* (overriding) av metoder och konstruktorer sker
- när en subklass tillhandahåller en konstruktor med *samma*
- signatur. Se motsvarande mål för metodspecialisering. En skillnad
- mellan metodspecialisering och konstuktorspecialisering i Java är
- att i fallet konstruktorer måste åtminstone en konstruktor anropas
- per klass i en klasshierarki, d.v.s. om klassen ~Hus~ är en
- subklass till ~Egendom~ måste alla konstruktorer i ~Hus~ anropa en
- konstruktor i ~Egendom~ (givet att en sådan finns). Notera att ett
- sådant anrop måste stå först i konstruktorn eftersom objekt
- initieras i stigande specialiseringsordning, d.v.s. mest generella
- klass först (alla delar som hör till ~Object~), sedan näst mest
- generella (~Egendom~ i föreliggande exempel) och sist det mest
- specifika (här ~Hus~).
+Liskov's substitution principle (LSP) states that if $D$ is a
+subtype of $C$, then we should be able to change $C$-objects for
+$D$-objects in $P$ without altering any desirable property of the
+program. 
+
+What does that mean? 
+
+In particular, from active use in your implementations, you must
+demonstrate understanding of the following concepts:
+
+- The difference between /subclass/ and /subtype/ 
+- The concept of overriding
+- The concept of overloading
+- Understand the rule of /covariance/ and /contravariance/ with
+  respect to method parameters and returns in relation to
+  overriding, and how it relates to weakening preconditions and
+  strengthening postconditions
+- How the semantics of Java corresponds or deviates with the LSP
+
+*Bonus*: is LSP the only possible definition of subtype?
+
+Relate LSP to object-oriented reuse and/or software evolution
+and/or maintenance.
+
+*** Incomplete Background (see lectures for complete coverage)
+
+*Överlagring* (overloading) av operatorer, funktioner, metoder och
+konstruktorer /i Java/ sker när de har samma namn, men olika typer
+på sina inparametrar, d.v.s. de har *olika* signatur. Ett
+klassiskt exempel på överlagring är ~+~-operatorn som fungerar
+olika beroende på typer: ~"1" + "2"~ konkatenerar två strängar
+(resultatet blir strängen ~"12"~), medan ~1 + 2~ adderar två
+heltalsliteraler (resultatet blir heltalet ~3~). C stöder inte
+överlagring alls. Många statiskt otypade programspråk stöder
+överlagring med avseende på antalet parametrar[fn::Tekniskt sett
+är detta samma sak som att funktionen har en annan typ.]
+
+*Specialisering* (overriding) av metoder och konstruktorer sker
+när en subklass tillhandahåller en konstruktor med /kompatibel/
+signatur (detta avser regler för hur typer på returer och
+parametrar får ändras -- se kovarians och kontravarians). En
+skillnad mellan metodspecialisering och konstuktorspecialisering i
+Java är att i fallet konstruktorer måste åtminstone en konstruktor
+anropas per klass i en klasshierarki, d.v.s. om klassen ~Hus~ är
+en subklass till ~Egendom~ måste alla konstruktorer i ~Hus~ anropa
+en konstruktor i ~Egendom~ (givet att en sådan finns). Notera att
+ett sådant anrop måste stå först i konstruktorn eftersom objekt
+initieras i stigande specialiseringsordning, d.v.s. mest generella
+klass först (alla delar som hör till ~Object~), sedan näst mest
+generella (~Egendom~ i föreliggande exempel) och sist det mest
+specifika (här ~Hus~).
 
 
 

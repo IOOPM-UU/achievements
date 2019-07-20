@@ -31,6 +31,8 @@
  för pre- och postvillkor?
 
 
+- https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/
+- https://developer.mozilla.org/en-US/docs/MDN/Contribute/Howto/Write_interface_reference_documentation/Sample_interface_document
 
 -----
 

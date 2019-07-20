@@ -1,19 +1,22 @@
 #+html: <a name="23"></a>
 ** I23: Undantagshantering :G3:Lab:
 
- #+begin_summary
- Fånga på lämpliga platser och hantera på ett lämpligt sätt
- kontrollerade och okontrollerade (relevanta) undantag i ett
- program.
- #+end_summary
+#+begin_summary
+Fånga på lämpliga platser och hantera på ett lämpligt sätt
+kontrollerade och okontrollerade (relevanta) undantag i ett
+program.
+#+end_summary
 
- Fundera över vad som är en lämplig plats och hur man på ett
- lämpligt sätt hanterar ett fel. Är det t.ex. någonsin relevant att
- fånga ett ~NullPointerException~? Vilka fel kan t.ex. hanteras
- utan att programmet snarare borde följa principen "crash, don't
- trash"?
+Fundera över vad som är en lämplig plats och hur man på ett
+lämpligt sätt hanterar ett fel. Är det t.ex. någonsin relevant att
+fånga ett ~NullPointerException~? Vilka fel kan t.ex. hanteras
+utan att programmet snarare borde följa principen "crash, don't
+trash"?
 
-
+För att bli godkänd måste du kunna 
+- kasta och fånga undantag, 
+- kunna resonera kring lämpligheten av varför undantag fångas där de görs, och vad som lämpligen ska hända när detta sker, samt
+- förstå skillnaden mellan kontrollerade och okontrollerade undantag.
 
 -----
 

@@ -1,56 +1,28 @@
 #+html: <a name="61"></a>
-** TODO X61:  Välstrukturerad presentation 2/2                   :G4:Special:
+** TODO X61: Running Group Meetings Responsibly          :G3:Special:New2019:
 
-#+begin_note
-Under 2018 examineras *ej* detta mål, dvs. X61 krävs inte för
-betygen 4 eller 5 på kursen.
-#+end_note
+#+BEGIN_SUMMARY
+Participate in five group meetings throughout the course and hand
+in the corresponding reports.
+#+END_SUMMARY
 
+The group meetings serve as a way for students to come up for air,
+talk about what's hard, what's possible, exchange useful advice
+etc. The course website includes useful information about group
+meetings on the [[file:team.org][Team]] page. 
 
- #+BEGIN_SUMMARY
- Håll en välstrukturerad presentation om ett mål på kursen.
- #+END_SUMMARY
+To tick off this goal, you must participate in all the meetings
+for your group. Follow the instructions for running meetings and
+hand in the report, which should contain the names of everyone
+present at the meeting. Email the report to =[[mailto:ioopm@it.uu.se][ioopm@it.uu.se]]= and
+CC your coach who takes care of checking who is present and
+eventually ticking this goal off for you. 
 
- Se föregående presentationsmål för ytterligare instruktioner.
+*You must keep track of what meetings you have or have not
+attended.* If you fail to show up for a meeting, take this up with
+the coach first, who will likely refer you to the head teacher who
+will give you an extra assignment instead.
 
- Du skall ha ett tydligt mål med din presentation: du vill lära ut
- X, etc. Något som åhörarna i efterhand kan ta ställning till om du
- har lyckats med eller inte och kan använda som utgångspunkt för
- återkopplingen på din presentation.
-
- Som ämne skall du välja något mål på kursen. En lämplig längd på
- presentationen är 15 minuter.
-
- Fundera över vad för slags presentation du skall ge. Kolla t.ex.
- [[http://www.skillsyouneed.com/presentation-skills.html][här]] för inspiration och vägledning.
-
- Fundera över vad du tycker är svårt med en presentation och
- fokusera på det. Tycker du att det är svårt att berätta en
- sammanhängande historia -- jobba med det. Är det svåra att stå
- inför folk -- jobba med det.
-
- På första bilden av din presentation, ange:
-
- - Målet med din presentation
- - Vad du aktivt försöker träna på (t.ex. inte vara nervös)
-
- Om du inte använder bilder kan du bara berätta det.
-
- Här bedömer vi två saker:
-
- - Din förmåga att presentera (bl.a. uppfylla det mål som du själv
-   satt)
- - Innehållet för det mål som du presenterar
-
- Du kan bli godkänd på båda mål individuellt, alltså presentationen
- i sig och målet som var ämnet för presentationen. Det betyder att
- om du gör ett bra jobb har du möjlighet att bocka av två mål här.
-
- Presentationerna kommer att gå till på samma sätt som i föregående
- mål, dvs. du presenterar både inför andra studenter och lärare.
- För att anmäla dig för en presentation, skicka ett mail till
- [[mailto:gustaf.borgstrom@it.uu.se][Gustaf]]. Tider för presentationer hanteras på mail i takt med att
- anmälningar kommer in.
 
 
 -----

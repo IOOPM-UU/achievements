@@ -2,7 +2,7 @@
 ** A1: Procedurell abstraktion                             :G3:Lab:
 #+BEGIN_SUMMARY
 Tillämpa procedurell abstraktion på ett konsekvent sätt för att
-öka läsbarheten och undvika upprepningar.
+öka läsbarheten och undvika upprepningar. Motivera abstraktionsnivån!
 #+END_SUMMARY
 
 Abstraktion är en av de viktigaste programmeringsprinciperna. Vi
@@ -77,3 +77,5 @@ Du bör ha en klar uppfattning om bland annat:
  -----
 
  *Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20A1&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].
+
+# Note: const value = 2; är en simpel abstraktion 

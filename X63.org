@@ -1,14 +1,19 @@
 #+html: <a name="63"></a>
-** TODO X63: Kommuniktion 1:M :G3:Special:
+** TODO X63: Kommuniktion 1:M :G3:Special:New2019:
 
 #+BEGIN_SUMMARY
-Samtala avslappnat med andra gruppmedlemmar. Ditt ansvar för
-gruppen. Gruppens ansvar för dig.
+Present yourself---both to your fellow group members and to the head teachers. 
 #+END_SUMMARY
 
-Detta mål *omfattar sex fysiska möten under kursens gång*. Varje möte
-skall dokumenteras med en /gemensam/ rapport. Se detaljerade 
-instruktioner [[http://wrigstad.com/ioopm18/team.org::*Group%20Meetings][här]].
+In a plain text email to [[mailto:ioopm@it.uu.se][=ioopm@it.uu.se=]], describe:
+
+- Yourself in 2 sentences without talking about university or computers. (Background, interests, etc.)
+- What is your computing and programming background?
+- What is your goal with this course -- what would you like to get out of it?
+- What are the current plans for your future? What would you like to do or work with? What motivates you?
+- Attach a clear picture of your face (This last bit is *important* to help us connect names and faces when emailing or discussing online!)
+
+Also present the same at the first meeting with your group!
 
 -----
 

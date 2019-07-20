@@ -1,8 +1,8 @@
 #+html: <a name="60"></a>
-** TODO X60: Välstrukturerad presentation 1/2 :G3:Special:
+** TODO X60: Välstrukturerad presentation 1                      :G3:Special:
 
 #+begin_note
-Under 2018 examineras detta som en del av projektets slutpresentation. 
+Under 2019 examineras detta som en del av projektets slutpresentation. 
 Varje person blir alltså individuellt godkänd eller ej på seminariets
 presentation i och med detta mål. Om man schabblar bort presentationen,
 eller inte är närvarande får man ett extra redovisningstillfälle,
