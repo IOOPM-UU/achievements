@@ -1,0 +1,198 @@
+* A1: Procedural Abstraction
+Apply procedural abstraction in a consistent manner to increase readability and avoid unwarranted repetition.
+
+* A2: Object-Oriented Abstraction
+Apply object-oriented abstraction to hide implementation detauls behind well-defined interfaces.
+
+* A3: Information Hiding
+Demonstrate understanding of the design principle of information hiding in a C program using =.c= and =.h= files.
+
+* A8: Gränssnitt
+Show how it is possible to separate interfaces (the concept) from implementation using Java interfaces (the construct).
+
+* B4: Inheritance and Subtype Polymorphism
+Use inhertiance, method specialisation and super calls in a program that leverages subtype polymorphism.
+
+* B5: Overloading and Overriding
+Demonstate through multiple uses in code that you understand how (and when) to use overloading and overriding. 
+
+* B6: Cross-Cutting Concerns and Inheritance
+Explain how you have used inheritance in a program to separate cross-cutting concerns. Also explain how inheritance cannot "factor out" all cross-cutting concerns, and why.
+
+* C7: Planning and Execution
+
+* D9: Documentation
+Write API documentation for non-trivial modules in such a way that they can be used easily by others. 
+
+* E10: Use Void Pointers to Implement Gereric Data Structures
+In a C program, use void pointers to implement genericity in a relevant way, for example a collection data structure that can store arbitrary data.
+
+* E11: Parametric Polymorphism and Type Safety
+When using Java's standard libraries, leverage the support for parametric polymorphism to achieve static type safety.
+
+* E12: Design Classes Using Parametric Polymorphism
+Use parametric polymorphism in design of classes to make suitable parts of a program more generic.
+
+* F13: Iteration vs. Recursion
+Show both an iterative and a recursive solution of the same problem, and discuss the pros and cons of each, including pros and cons of side-effects.
+
+* F14: Tail Recursion
+Use tail recursion in recursive functions with potentially deep recursion.
+
+* G15: Aliasig
+Use copying or a similar solution to avoid aliasing problems in a C program or Java program.
+
+* G16: Name-Based Encapsulation
+Use name-based encapsulation to control the visibility of variables, methods and -- if needed -- nested and inner classes.
+
+* G17: Nested and Inner Classes
+Use nested and inner classes to encapsulate private parts of an aggregate objects (i.e., an object constructed from several part-objects).
+
+* H18: Object Comparison with ~equals()~
+Implement the ~equals()~ method properly for your classes according to the Java specification (possibly through inheritance). 
+
+* H19: Equality and Identity
+Demonstrate understanding of the differences between the concepts of equality and identity through implementation of both concepts in appropriate places in the code, and motivate the chosen definition of equality.
+
+* H20: Pass by Value
+Demonstrate your understanding of the difference between /value semantics/ and /reference semantics/ (pointer semantics) through their appropriate uses in your implementations.
+
+* H21: Abstract Classes, Methods and Interfaces
+Demonstrate understanding of the abstract class concept and the abstract method concept and their relation to Java interfaces. Now that Java interfaces support ~default~-annotated methods, do we need abstract classes and methods? 
+
+* I22: Defensive Programming
+Demonstrate understanding of defensive programming by its proper and consistent use throughout some part(s) of your program(s).
+
+* I23: Handling Errors with Exception Handling 
+Use the built-in exception handling mechanism in Java to throw, capture and recover from exceptional behaviour in your code. 
+
+* I24: Compare Different Methods for Handling Errors
+
+* I25: Program-Specific Exceptions
+Building on [[./I23.org::Link_From_I25][I23]], demonstrate a deeper understanding of exception handling through the definition of your own exceptions -- both checked and unchecked exceptions -- specific to your program(s), thrown and handled as usual, and also the use of ~finally~ clauses to handle e.g. correctly returning resources in the face of "jumps up the stack" due to exception handling.
+
+* J26: Memory Allocation on the Stack vs. on the Heap
+Demonstrate an understanding for allocation works on the stack and on the heap. How do these two forms affect object life times and deallocation? How do you chose between them? 
+
+Are there circumstances where one is required? 
+
+* J27: Manual Memory Management
+Demonstrate understanding of manual memory management by writing a program that uses dynamic allocations and dynamically growing data structures that is free from memory leaks, read accesses to uninitialised memory, and accesses outside of allocation bounds. 
+
+* J28: Manual vs. Automatic Memory Management
+Explain the difference between manual memory management (as exemplified by C) and automatic memory management (as exemplified by Java). Explain the life cycle of objects (allocations). Also, for a suitable Java program, explain when memory is actually deallocated (as opposed to being unreachable).
+
+* J29: Compare Two Different Methods for Automatic Garbage Collection
+
+* K30: Interface Between Modules
+Specify clear interfaces between modules in a program that is decomposed into several modules. Are there any invariants? How do the interfaces keep the modules from becoming too intimately
+entangled?
+
+* K31: Coupling & Cohesion
+Given a non-trivial program consisting of several modules, reason about coupling and cohesion of (some of) the modules.
+
+* K32: Separation of Concerns
+Further develop your reasoning in [[./K31.org::K31:%20Coupling%20&%20Cohesion][K31]] and discuss whether your modularisation achieves proper separation of concerns or not, and if not, where is the room for improvement.
+
+* M36: C's Array Construct and Pointer Arithmetic
+Demonstrate understanding of the relationship between C's notion of arrays and pointer arithmetic.
+
+* M37: Design and Implement Linked Structures using Pointers
+Demonstrate understanding of the pointer concept through its successful use in the design and implementation of linked data structures, such as a list, tree, hash table etc.
+
+* M38: Pass by Reference
+Demonstrate your understanding of the difference between pass by value and pass by reference (pointers) by using both concepts reasonably in your implementation(s). 
+
+Also show the use of pointers to stack variables as a way to implement "out parameters", i.e., returning values back to the caller outside of the normal function return.
+
+* M39: Pointers to Pointers
+Use pointers to pointers (often referred to as "double pointers" in class) in a useful way in a program. 
+
+* N40: Compilation, Interpretation and Linking
+Exaplain -- and exemplity using programs you have developed -- the terms compilation, linking, interpretation, and JIT compilation and how these concepts are used in C and Java.
+
+* N41: Binding, Lookup and Resolution
+Explain static and dynamic binding, and demonstrate your understanding of these concepts through their suitable uses in your programs.
+
+* O42: Profiling & Optimisation 1/3
+Demonstrate basic understanding of the practise profiling by using at least one type of profiler on a program to explain its behaviour, e.g. where it spends most of its time during execution.
+
+* O43: Profiling and Optimisation 2/3
+Based on your [[./O42.org::O42:%20Profiling%20&%20Optimisation%201/3][O42]] results, optimise the execution time of your program in a suitable way. 
+
+* O44: Profiling and Optimisation 3/3
+Based on your [[./O42.org::O42:%20Profiling%20&%20Optimisation%201/3][O42]] results, optimise the memory use of your program in a suitable way. 
+
+* P45: Perform an Informal Code Review during Phase 1
+
+* P46: Perform an Informal Code Review during Phase 2
+
+* P47: Fix Defects Reported Discovered During Code Review
+In addition to the previous goal, make a [[https://help.github.com/articles/using-pull-requests/][pull request]] with changes and cooperate with the owners of the receiving code base until the pull request has been successfully merged. Note that it is the code of the other team that should be improved.
+
+* P48: Search for Code Smells and Apply Refactoring Patterns to Fix Them 
+Look at at least one a catalogue of refactoring patterns; learn about code smells, and go through your code in search for such smells and use the patterns to fix them. 
+
+Rely on your unit tests to make sure that you do not accidentally introduce any bugs during refactoring.
+
+* Q49: Unit Testing
+For at least one full program write suitable unit tests for all non-user facing functions, motivate your tests, and explain what the tests show.
+
+* Q50: Measure and Reason the Quality of your Tests
+Use a code coverage tool to see how large portions of your code is tested with respect to at least one relevant converage metric. 
+
+* Q51: Additional Tools for Finding Bugs
+Demonstrate your undestanding of the difference between static analysis and mutation-based testing by applying FindBugs and American Fuzzy Lop to look for bugs in your program.
+
+* R52: Debuggning using GDB 
+Demonstrate your ability to debug simple programming errors through a live demonstration of GDB on actual bugs during the development of your programs.
+
+* S53: Extract Documentation from Code Files
+Use Doxygen or JavaDoc to extract comments from your code to properly written API documentation.
+
+* T55: Proper use of Emacs for Efficien Editing of Code Files
+
+* T56: Configure Emacs for Programming
+In addition to T55, configure Emacs to support your programming workflow using e.g. existing Emacs packages or by extending the init.el file with additional elisp macros.
+
+* U57: Build Management with Make
+Demonstrate understanding of the importance of build management support for software projects through proper use of GNU make.
+
+Use dependencies, targets, preferably also variables etc. to faciliate simple extension to your Makefiles, both with new targets, code files or compiler flags. 
+
+Add phony convenience targets like "clean" to remove any automatically generated files, and "test" to run tests and "memtest" to run tests through valgrind. 
+
+* V58: Basic Shell Commands
+
+* X59: Essay 
+Write an essay in place of an oral demonstration for an achievement on level 4 or 5.
+
+* X60: Well-Structured, Well-Delivered Presentation 1/2
+
+* X61: Well-Structured, Well-Delivered Presentation 2/2
+
+* X62: 1:1 Communication
+Demonstrate your ability to do knowledge transfer and help peers get themselves unstuck by working as TA during one lab session.
+
+* X63: 1:M Communication
+
+* Y64: Use a Known Development Process and Reflect on Its Impact on Your Work/Accomplishments
+
+* Y65: Write Good Code Consistently
+
+* Y66: Successfully Apply a Code-Review Process supported by Pull Requests and Issues
+
+* Y67: Actively Participate in a Programming Project
+Actively participate, pull your own weight, and reflect on your participation. Focus on the project more than the "product".
+
+* Y68: Successfully Deliver a Working Piece of Software
+
+* Y69: Continuously Work with Regression Testing Throughout the Project
+
+* Z100: Assignment 1
+
+* Z101: Assignment 2
+
+* Z103: Assignment 3
+
+* Z104: Assignment 4
