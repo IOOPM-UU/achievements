@@ -1,5 +1,5 @@
 #+html: <a name="24"></a>
-** I24: Olika metoder för felhantering :G4:Lab:
+** I24: Compare Different Methods for Handling Errors                :G4:Lab:
 
  Ett generellt problem i systemutveckling är hur fel skall
  hanteras. Ofta uppstår felen i en del av programmet där det inte

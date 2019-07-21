@@ -1,5 +1,5 @@
 #+html: <a name="104"></a>
-** TODO Z104: Inlupp 4 :G3:Lab:
+** TODO Z104: Assignment 4                                           :G3:Lab:
 
 *** Redovisa förståelse för  objektorienterad programmering i Java
 

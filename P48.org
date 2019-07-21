@@ -1,18 +1,27 @@
 #+html: <a name="48"></a>
-** P48: Stäm av ett program mot en refactoringkatalog :G5:Lab:
+** P48: Search for Code Smells and Apply Refactoring Patterns to Fix Them :G5:Lab:
 
- Enkla refactoringmönster avser t.ex. namnändringar, och att flytta
- tillstånd och/eller beteenden från en plats till en annan. Både
- Netbeans och Eclipse har inbyggt stöd för refactoring. En bra
- utgångpunkt för att lära sig om refactoring är http://refactoring.com.
+#+begin_summary
+Look at at least one a catalogue of refactoring patterns; learn
+about code smells, and go through your code in search for such
+smells and use the patterns to fix them. 
 
- Finns det några "[[https://en.wikipedia.org/wiki/Code_smell][bad smells]]" i det program som ni just har
- granskat? Vilka då? Vad är lämpliga ändringar? Föreslå dem via
- GitHubs issue tracker på samma sätt som tidigare. Nämn
- gärna det refactoringmönster som ändringarna brukar!
+Rely on your unit tests to make sure that you do not accidentally
+introduce any bugs during refactoring.
+#+end_summary
 
- Notera: Ni behöver självklart inte stämma av programmet mot
- hela katalogen.
+Enkla refactoringmönster avser t.ex. namnändringar, och att flytta
+tillstånd och/eller beteenden från en plats till en annan. Både
+Netbeans och Eclipse har inbyggt stöd för refactoring. En bra
+utgångpunkt för att lära sig om refactoring är http://refactoring.com.
+
+Finns det några "[[https://en.wikipedia.org/wiki/Code_smell][bad smells]]" i det program som ni just har
+granskat? Vilka då? Vad är lämpliga ändringar? Föreslå dem via
+GitHubs issue tracker på samma sätt som tidigare. Nämn
+gärna det refactoringmönster som ändringarna brukar!
+
+Notera: Ni behöver självklart inte stämma av programmet mot
+hela katalogen.
 
 
 -----

@@ -1,10 +1,8 @@
 #+html: <a name="14"></a>
-** F14: Svansrekursion  :G4:Lab:
-
- (Eng. /tail recursion/)
+** F14: Tail Recursion                                               :G4:Lab:
 
 #+BEGIN_SUMMARY
- Använd svansrekursion för rekursiva funktioner med potentiellt stort djup. 
+Use tail recursion in recursive functions with potentially deep recursion.
 #+END_SUMMARY
 
  Svansrekursion är rekusion där varje rekursivt anrop kommer som

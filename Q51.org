@@ -1,16 +1,22 @@
 #+html: <a name="51"></a>
-** TODO Q51: Andra verktyg för felsökning :G5:Report:
+** TODO Q51: Additional Tools for Finding Bugs                    :G5:Report:
 
- Använd [[http://findbugs.sourceforge.net][Findbugs]] på ett eller flera av de Javaprogram som du har
- utvecklat under kursen och studera resultatet. Hittar du buggar i
- programmet? Får du s.k. "false positives", alltså rapporter om fel
- som inte är fel i praktiken?
+#+begin_summary
+Demonstrate your undestanding of the difference between static
+analysis and mutation-based testing by applying FindBugs and
+American Fuzzy Lop to look for bugs in your program.
+#+end_summary
 
- Använd också [[https://en.wikipedia.org/wiki/American_fuzzy_lop_(fuzzer)][American Fuzzy Lop]], en fuzzer, t.ex. på din
- lagerhanterare, för att hitta gränsfall som du inte har tänkt på.
+Använd [[http://findbugs.sourceforge.net][Findbugs]] på ett eller flera av de Javaprogram som du har
+utvecklat under kursen och studera resultatet. Hittar du buggar i
+programmet? Får du s.k. "false positives", alltså rapporter om fel
+som inte är fel i praktiken?
 
- Redovisa genom att diskutera ditt resultat med Tobias, +Elias
- eller Stephan+.
+Använd också [[https://en.wikipedia.org/wiki/American_fuzzy_lop_(fuzzer)][American Fuzzy Lop]], en fuzzer, t.ex. på din
+lagerhanterare, för att hitta gränsfall som du inte har tänkt på.
+
+Redovisa genom att diskutera ditt resultat med Tobias, +Elias
+eller Stephan+.
 
 -----
 

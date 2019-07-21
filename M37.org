@@ -1,11 +1,17 @@
 #+html: <a name="37"></a>
-** M37: Använda pekare för att skapa länkade strukturer :G3:Lab:
+** M37: Design and Implement Linked Structures using Pointers :G3:Lab:
 
- En länkad struktur är en struktur uppbygd av separat-allokerade
- objekt som pekar till varandra, t.ex. en länkad lista eller ett
- träd. Länkade strukturer växer och krymper dynamiskt, dvs. deras
- storlek varierar med körning och under körning och kräver i regel
- minnesallokering på heapen.
+#+begin_summary
+Demonstrate understanding of the pointer concept through its
+successful use in the design and implementation of linked
+data structures, such as a list, tree, hash table etc.
+#+end_summary
+
+En länkad struktur är en struktur uppbygd av separat-allokerade
+objekt som pekar till varandra, t.ex. en länkad lista eller ett
+träd. Länkade strukturer växer och krymper dynamiskt, dvs. deras
+storlek varierar med körning och under körning och kräver i regel
+minnesallokering på heapen.
 
 
 -----

@@ -1,5 +1,5 @@
 #+html: <a name="61"></a>
-** TODO X61:  Välstrukturerad presentation 2/2                   :G4:Special:
+** TODO X61:  Well-Structured, Well-Delivered Presentation 2/2   :G4:Special:
 
 #+begin_note
 Under 2018 examineras *ej* detta mål, dvs. X61 krävs inte för

@@ -1,10 +1,11 @@
 #+html: <a name="18"></a>
-** H18: Jämförelsemetoden ~equals()~ :G5:Lab:
+** H18: Object Comparison with ~equals()~           :G5:Lab:
 
- #+begin_summary
- Implementera stöd för strukturell likhet med hjälp av ~equals()~ i 
- Java.
- #+end_summary
+#+begin_summary
+Implement the ~equals()~ method properly for your classes
+according to the Java specification (possibly through
+inheritance). 
+#+end_summary
 
  I Java-program används metoden ~equals()~ för att jämföra två
  godtyckliga objekt oavsett typ. Denna metod bör uppfylla ett antal

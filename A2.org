@@ -1,8 +1,8 @@
 #+html: <a name="2"></a>
-** A2: Objektorienterad abstraktion :G3:Lab:
+** A2: Object-Oriented Abstraction                                   :G3:Lab:
 #+BEGIN_SUMMARY
-Tillämpa objektorienterad abstraktion för att dölja
-implementationsdetaljer bakom väldefinierade gränssnitt.
+Apply object-oriented abstraction to hide implementation
+detauls behind well-defined interfaces.
 #+END_SUMMARY
 
 I samband med redovisning bör du kunna förklara

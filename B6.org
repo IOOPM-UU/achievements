@@ -1,10 +1,10 @@
 #+html: <a name="6"></a>
-** B6: Genomskärande åtaganden och arv :G4:Lab:
+** B6: Cross-Cutting Concerns and Inheritance :G4:Lab:
 
- #+begin_summary
- Förklara hur arv har använts i ett program för att separera
- genomskärande åtaganden.
- #+end_summary
+#+begin_summary
+Explain how you have used inheritance in a program to separate cross-cutting concerns.
+Also explain how inheritance cannot "factor out" all cross-cutting concerns, and why.
+#+end_summary
 
  Fördjupa dig i konceptet "genomskärande åtaganden."
 

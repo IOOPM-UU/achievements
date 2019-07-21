@@ -1,5 +1,5 @@
 #+html: <a name="103"></a>
-** TODO Z103: Inlupp 3 :G3:Lab:
+** TODO Z103: Assignment 3                                           :G3:Lab:
 *** Redovisa förståelse för grundläggande objektorienterad programmering i Java
 
  Detta är det första Java-program som skrivs på kursen. Precis som

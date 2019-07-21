@@ -1,9 +1,15 @@
 #+html: <a name="38"></a>
-** M38: Värdeöverföring via pekare :G3:Lab:
+** M38: Pass by Reference                  :G3:Lab:
 
- #+BEGIN_SUMMARY
- Använd pekare till stackvariabler för värdeöverföring mellan funktionsanrop.
- #+END_SUMMARY
+#+BEGIN_SUMMARY
+Demonstrate your understanding of the difference between pass by
+value and pass by reference (pointers) by using both concepts
+reasonably in your implementation(s). 
+
+Also show the use of pointers to stack variables as a way to 
+implement "out parameters", i.e., returning values back to the 
+caller outside of the normal function return.
+#+END_SUMMARY
 
  Läs [[https://github.com/IOOPM-UU/ioopm15/blob/master/extramaterial/C-addendum-om-stack-och-heap.pdf][C: addendum om stack & heap]] som finns bland extramaterialet.
 

@@ -1,18 +1,21 @@
 #+html: <a name="39"></a>
-** M39: Pekare till pekare :G4:Lab:
+** M39: Pointers to Pointers                       :G4:Lab:
 
- #+BEGIN_SUMMARY
- Använd pekare till pekare (dubbelpekare) på ett lämpligt sätt i ett program.
- #+END_SUMMARY
+#+BEGIN_SUMMARY
+Use pointers to pointers (often referred to as "double pointers" in class) 
+in a useful way in a program. 
+#+END_SUMMARY
 
- En pekare till en pekare är en väldigt kraftfull mekanism som kan
- vara förvirrande ibland (t.ex. att man blandar ihop vad de olika
- pekarna pekar på).
+/Neither of these pointers should be an array in disguise./
 
- Tips: iteratorer till datasamlingar som ger möjlighet att länka in och länka ur.
+En pekare till en pekare är en väldigt kraftfull mekanism som kan
+vara förvirrande ibland (t.ex. att man blandar ihop vad de olika
+pekarna pekar på).
 
- Argumentvektorn i ~main~-funktionen är visserligen en pekare till
- en pekare, men skall /inte/ användas för demonstration här.
+Tips: iteratorer till datasamlingar som ger möjlighet att länka in och länka ur.
+
+Argumentvektorn i ~main~-funktionen är visserligen en pekare till
+en pekare, men skall /inte/ användas för demonstration här.
 
 
 

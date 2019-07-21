@@ -1,11 +1,13 @@
 #+html: <a name="28"></a>
-** J28: Manuell vs. automatisk minneshantering :G4:Lab:
+** J28: Manual vs. Automatic Memory Management :G4:Lab:
 
  #+begin_summary
- Förklara skillnaden mellan C:s manuella minneshantering och hur
- Java hanterar minne och beskriv för ett lämpligt Java-program när
- minne allokeras och frigörs.
- #+end_summary
+Explain the difference between manual memory management (as
+exemplified by C) and automatic memory management (as exemplified
+by Java). Explain the life cycle of objects (allocations). Also,
+for a suitable Java program, explain when memory is actually
+deallocated (as opposed to being unreachable).
+#+end_summary
 
  Redovisa bland annat för:
 

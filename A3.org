@@ -1,21 +1,21 @@
 #+html: <a name="3"></a>
-** A3: Informationsgömning :G4:Lab:
+** A3: Information Hiding                                            :G4:Lab:
 
- #+BEGIN_SUMMARY
- Demonstrera förståelse för designprincipen informationsgömning i
- ett C-program med hjälp av =.c= och =.h=-filer.
- #+END_SUMMARY
+#+BEGIN_SUMMARY
+Demonstrate understanding of the design principle of information
+hiding in a C program using =.c= and =.h= files.
+#+END_SUMMARY
 
- Informationsgömning på engelska översätts till "information
- hiding". En viktig insikt här är att informationsgömning är en
- princip som är *programspråksagnostisk* och inte knuten till några
- speciella nyckelord. I Haskell kunde ni uppnå informationsgömning
- med hjälp av moduler som bara exporterade en del av sitt
- gränssnitt. Samma princip fungerar i C, men då är gränssnitt och
- implementation separerade i =.h= respektive =.c=-fil.
+Informationsgömning på engelska översätts till "information
+hiding". En viktig insikt här är att informationsgömning är en
+princip som är *programspråksagnostisk* och inte knuten till några
+speciella nyckelord. I Haskell kunde ni uppnå informationsgömning
+med hjälp av moduler som bara exporterade en del av sitt
+gränssnitt. Samma princip fungerar i C, men då är gränssnitt och
+implementation separerade i =.h= respektive =.c=-fil.
 
- Relatera gärna till koncept från Java, som gränssnitt respektive
- implementation.
+Relatera gärna till koncept från Java, som gränssnitt respektive
+implementation.
 
 -----
 

@@ -1,5 +1,5 @@
 #+html: <a name="60"></a>
-** TODO X60: Välstrukturerad presentation 1/2 :G3:Special:
+** TODO X60: Well-Structured, Well-Delivered Presentation 1/2    :G3:Special:
 
 #+begin_note
 Under 2018 examineras detta som en del av projektets slutpresentation. 

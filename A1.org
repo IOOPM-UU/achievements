@@ -1,8 +1,8 @@
 #+html: <a name="1"></a>
-** A1: Procedurell abstraktion                             :G3:Lab:
+** A1: Procedural Abstraction                                        :G3:Lab:
 #+BEGIN_SUMMARY
-Tillämpa procedurell abstraktion på ett konsekvent sätt för att
-öka läsbarheten och undvika upprepningar.
+Apply procedural abstraction in a consistent manner to increase
+readability and avoid unwarranted repetition.
 #+END_SUMMARY
 
 Abstraktion är en av de viktigaste programmeringsprinciperna. Vi

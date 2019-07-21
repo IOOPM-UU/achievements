@@ -1,16 +1,16 @@
 #+html: <a name="58"></a>
-** V58: Grundläggande terminalkommandon :G3:Lab:
+** V58: Basic Shell Commands          :G3:Lab:
 
- Att kunna navigera i terminalen är grundläggande som utvecklare.
- Det är standard att behöva logga in på maskiner på andra sidan
- jorden och kolla i loggar, starta om tjänster, etc. Drift och
- utveckling hänger samman, och det är sällan man har fönstersystem
- att tillgå (och ändå mer sällan som det vore vettigt att använda
- dem).
+Att kunna navigera i terminalen är grundläggande som utvecklare.
+Det är standard att behöva logga in på maskiner på andra sidan
+jorden och kolla i loggar, starta om tjänster, etc. Drift och
+utveckling hänger samman, och det är sällan man har fönstersystem
+att tillgå (och ändå mer sällan som det vore vettigt att använda
+dem).
 
- _Detta mål kan du inte redovisa vid kursens början. Observera att
- detta mål skiljer sig genom att det innehåller en uppgift som du
- skall använda för att redovisa._
+_Detta mål kan du inte redovisa vid kursens början. Observera att
+detta mål skiljer sig genom att det innehåller en uppgift som du
+skall använda för att redovisa._
 
 *** Du bör kunna använda följande:
 

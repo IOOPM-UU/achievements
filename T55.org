@@ -1,5 +1,5 @@
 #+html: <a name="55"></a>
-** T55: Använda Emacs för editering :G3:Lab:
+** T55: Proper use of Emacs for Editing Code Files :G3:Lab:
 
  Avser förmåg att använda Emacs *utan mus* för att navigera och
  editera text, öppna filer, bläddra mellan och hantera buffrar,

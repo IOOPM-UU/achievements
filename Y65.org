@@ -1,5 +1,5 @@
 #+html: <a name="65"></a>
-** Y65: Skriv konsekvent bra kod :G3:Report:
+** Y65: Write Good Code Consistently                              :G3:Report:
 
  Under kursens gång har kodkvalitet beaktats åtskilliga gånger.
  Under projektet skall ni skriva kod av hög kvalitet! Vad betyder

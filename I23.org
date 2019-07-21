@@ -1,11 +1,9 @@
 #+html: <a name="23"></a>
-** I23: Undantagshantering :G3:Lab:
+** I23: Handling Errors with Exception Handling <<Link_From_I25>>    :G3:Lab:
 
- #+begin_summary
- Fånga på lämpliga platser och hantera på ett lämpligt sätt
- kontrollerade och okontrollerade (relevanta) undantag i ett
- program.
- #+end_summary
+#+begin_summary
+Use the built-in exception handling mechanism in Java to throw, capture and recover from exceptional behaviour in your code. 
+#+end_summary
 
  Fundera över vad som är en lämplig plats och hur man på ett
  lämpligt sätt hanterar ett fel. Är det t.ex. någonsin relevant att

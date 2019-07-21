@@ -1,5 +1,5 @@
 #+html: <a name="63"></a>
-** TODO X63: Kommuniktion 1:M :G3:Special:
+** TODO X63: 1:M Communication                                   :G3:Special:
 
 #+BEGIN_SUMMARY
 Samtala avslappnat med andra gruppmedlemmar. Ditt ansvar för

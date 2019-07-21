@@ -1,5 +1,5 @@
 #+html: <a name="45"></a>
-** TODO P45: Gör en informell kodgranskning under fas 1 :G3:Lab:
+** P45: Perform an Informal Code Review during Phase 1               :G3:Lab:
 
  Gör en informell kodgranskning på ett program utvecklat av ett
  annat kodpar i samma grupp (det får inte finnas några

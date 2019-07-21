@@ -1,5 +1,5 @@
 #+html: <a name="64"></a>
-** Y64: Använd en namngiven utvecklingsprocess och reflektera över utkomsten :G3:Report:
+** Y64: Use a Known Development Process and Reflect on Its Impact on Your Work/Accomplishments :G3:Report:
 
  Redovisning sker genom en gemensam (för alla medlemmar i
  projektet) skriftlig beskrivning av den valda processen (på hög

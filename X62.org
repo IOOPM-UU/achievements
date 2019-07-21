@@ -1,9 +1,10 @@
 #+html: <a name="62"></a>
-** X62: Kommunikation 1:1 :G5:Special:
+** X62: 1:1 Communication                                        :G5:Special:
 
- #+BEGIN_SUMMARY
- Visa förmåga att förmedla kunskap genom att handleda ett pass.
- #+END_SUMMARY
+#+BEGIN_SUMMARY
+Demonstrate your ability to do knowledge transfer and help peers
+get themselves unstuck by working as TA during one lab session.
+#+END_SUMMARY
 
  Att hålla en presentation utan förberedelser är vanligt -- jämför
  t.ex. med "elevator pitch" eller när någon frågar om något som man

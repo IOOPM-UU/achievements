@@ -1,9 +1,11 @@
 #+html: <a name="56"></a>
-** T56: Konfigurera Emacs för programmering :G4:Lab:
+** T56: Configure Emacs for Programming                              :G4:Lab:
 
- #+BEGIN_SUMMARY
- Utöver föregående mål, dra nytta av Emacs inbyggda stöd för programmering.
- #+END_SUMMARY
+#+BEGIN_SUMMARY
+In addition to T55, configure Emacs to support your programming
+workflow using e.g. existing Emacs packages or by extending the
+=init.el= file with additional elisp macros.
+#+END_SUMMARY
 
  Avser stöd för kompilering och felsökning, textkomplettering el.
  snippets, samt användande av tags eller motsvarande för att

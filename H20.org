@@ -1,10 +1,10 @@
 #+html: <a name="20"></a>
-** H20: Värdeöverföring :G3:Lab:
+** H20: Pass by Value                                                :G3:Lab:
 
- #+begin_summary
- Redovisa förståelse för skillnaden mellan värdesemantik och
- referenssemantik med hjälp av ett kodexempel.
- #+end_summary
+#+begin_summary
+Demonstrate your understanding of the difference between /value semantics/ and /reference semantics/ (pointer semantics)
+through their appropriate uses in your implementations.
+#+end_summary
 
  Slå upp termerna, pröva gärna även engelska: "value semantics"
  respektive "reference semantics". Se även parameteröverföring.

@@ -1,5 +1,5 @@
 #+html: <a name="69"></a>
-** Y69: Tillämpa regressionstestning under projektet :G3:Report:
+** Y69: Continuously Work with Regression Testing Throughout the Project :G3:Report:
 
  Regressionstester är till för att fånga buggar och fel som
  uppstått i system efter förändringar. Det är inte helt ovanligt

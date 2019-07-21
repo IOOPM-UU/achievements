@@ -1,5 +1,12 @@
 #+html: <a name="52"></a>
-** R52: Debuggning med GDB :G3:Lab:
+** R52: Debuggning using GDB                                         :G3:Lab:
+
+#+begin_summary
+Demonstrate your ability to debug simple programming errors
+through a live demonstration of GDB on actual bugs during the
+development of your programs.
+#+end_summary
+
 
  Avser att kunna använda GDB (eller lldb) för att stega genom ett
  C-programs exekvering och sätta breakpoints (ex. [[key:b]], [[key:c]],

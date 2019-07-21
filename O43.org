@@ -1,9 +1,9 @@
 #+html: <a name="43"></a>
-** O43: Profilering och optimering 2/3 :G4:Lab: 
+** O43: Profiling and Optimisation 2/3                               :G4:Lab: 
 
- #+BEGIN_SUMMARY
- Med ledning resultatet från föregående mål, optimera programmet på ett förtjänstfullt sätt.
- #+END_SUMMARY
+#+BEGIN_SUMMARY
+Based on your [[./O42.org::O42:%20Profiling%20&%20Optimisation%201/3][O42]] results, optimise the execution time of your program in a suitable way. 
+#+END_SUMMARY
 
  Observera att dessa mål passar särskilt bra under projektet.
 

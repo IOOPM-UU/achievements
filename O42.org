@@ -1,9 +1,11 @@
 #+html: <a name="42"></a>
-** TODO O42: Profilering och optimering 1/3  :G3:Lab:
+** O42: Profiling & Optimisation 1/3                            :G3:Lab:
 
- #+BEGIN_SUMMARY
- Använda profileringsverktyg för att visa var ett redan skrivet program tillbringar mest tid.
- #+END_SUMMARY
+#+BEGIN_SUMMARY
+Demonstrate basic understanding of the practise profiling by using
+at least one type of profiler on a program to explain its
+behaviour, e.g. where it spends most of its time during execution.
+#+END_SUMMARY
 
  Observera att dessa mål passar särskilt bra under projektet.
 
@@ -45,3 +47,5 @@
 -----
 
 *Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20O42&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].
+
+

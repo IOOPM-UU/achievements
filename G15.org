@@ -1,10 +1,10 @@
 #+html: <a name="15"></a>
-** G15: Aliasering :G3:Lab:
+** G15: Aliasig                                                      :G3:Lab:
 
- #+begin_summary
- Använd kopiering eller liknande för att undvika aliaseringsproblem
- i ett C- eller Javaprogram.
- #+end_summary
+#+begin_summary
+Use copying or a similar solution to avoid aliasing problems in a
+C program or Java program.
+#+end_summary
 
  Aliaseringsproblem uppstår då pekare oavsiktligt pekar ut samma
  objekt/data så att en förändring via en pekare blir synlig via en

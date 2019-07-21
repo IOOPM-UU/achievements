@@ -1,9 +1,11 @@
 #+html: <a name="41"></a>
-** TODO N41: Bindning :G4:Lab:
+** TODO N41: Binding                                                 :G4:Lab:
 
- #+BEGIN_SUMMARY
- Förklara statisk och dynamisk bindning och exemplifiera med programkod.
- #+END_SUMMARY
+#+BEGIN_SUMMARY
+Explain static and dynamic binding, and demonstrate your
+understanding of these concepts through their suitable uses in
+your programs.
+#+END_SUMMARY
 
  - Hur påverkas möjligheten att återanvända kod? 
  - Blir det enklare/svårare att resonera om vad kod gör med statisk/dynamisk bindning?

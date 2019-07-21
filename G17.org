@@ -1,10 +1,9 @@
 #+html: <a name="17"></a>
-** G17: Nästlade och inre klasser :G4:Lab:
+** G17: Nested and Inner Classes            :G4:Lab:
 
- #+begin_summary
- Använd nästlade och inre klasser för att kapsla in privata
- beståndsdelar i ett sammansatt objekt.
- #+end_summary
+#+begin_summary
+Use nested and inner classes to encapsulate private parts of an aggregate objects (i.e., an object constructed from several part-objects).
+#+end_summary
 
  Notera den syntaktiskt subtila men relativt viktiga skillnaden
  mellan inre och nästlade klasser. Ett annat namn på sammansatta

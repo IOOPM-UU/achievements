@@ -1,12 +1,17 @@
 #+html: <a name="36"></a>
-** M36: C:s array-notation och pekararitmetik :G3:Lab:
+** M36: C's Array Construct and Pointer Arithmetic :G3:Lab:
 
- Arrayer i C är i regel inget mer än en behändig notation för
- pekararitmetik. Demonstrera att du förstår likheterna mellan
- pekare till konsekutiva minnesblock av element av en typ, och
- arrayer i C i ett i övrigt vettigt program.
+#+begin_summary
+Demonstrate understanding of the relationship between C's notion
+of arrays and pointer arithmetic.
+#+end_summary
 
- *Tips*: Argumentvektorn till ~main~-funktionen.
+Arrayer i C är i regel inget mer än en behändig notation för
+pekararitmetik. Demonstrera att du förstår likheterna mellan
+pekare till konsekutiva minnesblock av element av en typ, och
+arrayer i C i ett i övrigt vettigt program.
+
+*Tips*: Argumentvektorn till ~main~-funktionen.
 
 
 -----

@@ -1,10 +1,10 @@
 #+html: <a name="13"></a>
-** F13: Iteration vs. rekursion  :G3:Lab:
+** F13: Iteration vs. Recursion                                      :G3:Lab:
 
- #+begin_summary
- Visa en översättning mellan en rekursiv och en iterativ lösning av
- samma problem samt diskutera för- och nackdelar med sido-effekter.
- #+end_summary
+#+begin_summary
+Show both an iterative and a recursive solution of the same problem, 
+and discuss the pros and cons of each, including pros and cons of side-effects.
+#+end_summary
 
  Är någon av lösningarna bättre (vad betyder bättre?)? I så fall,
  varför skulle man någonsin vilja använda den andra lösningen?

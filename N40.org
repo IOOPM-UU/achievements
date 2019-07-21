@@ -1,16 +1,18 @@
 #+html: <a name="40"></a>
-** N40: Kompilering, länkning och interpretering :G3:Lab:
+** N40: Compilation, Interpretation and Linking                      :G3:Lab:
 
- #+BEGIN_SUMMARY
- Demonstrera på lämpligt sätt förståelse för termerna kompilering, länkning, interpretering och JIT-kompilering och hur dessa används i C och Java.
- #+END_SUMMARY
+#+BEGIN_SUMMARY
+Exaplain -- and exemplity using programs you have developed -- the
+terms compilation, linking, interpretation, and JIT compilation
+and how these concepts are used in C and Java.
+#+END_SUMMARY
 
- Fundera över skillnaderna mellan länkning i C och Java och när
- länkning sker.
+Fundera över skillnaderna mellan länkning i C och Java och när
+länkning sker.
 
- Ledning: med hjälp av enkla prestandamätningar kan man mäta tiden
- för JIT-kompilering och även dess inverkan på prestanda hos kod
- efter att den kompilerats.
+Ledning: med hjälp av enkla prestandamätningar kan man mäta tiden
+för JIT-kompilering och även dess inverkan på prestanda hos kod
+efter att den kompilerats.
 
 -----
 

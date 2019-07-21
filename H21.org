@@ -1,9 +1,10 @@
 #+html: <a name="21"></a>
-** H21: Abstrakta klasser, metoder och interface                     :G5:Lab:
+** H21: Abstract Classes, Methods and Interfaces :G5:Lab:
 
- #+BEGIN_SUMMARY
- Redovisa förståelse för abstrakta klasser och metoder, samt deras relation till Java-interface.
- #+END_SUMMARY
+#+BEGIN_SUMMARY
+Demonstrate understanding of the abstract class concept and the abstract method concept and their relation to Java interfaces.
+Now that Java interfaces support ~default~-annotated methods, do we need abstract classes and methods? 
+#+END_SUMMARY
 
  Beakta bland annat:
 
@@ -14,7 +15,7 @@
  - Varför är multipelt arv mellan interface tillåtet och
    väldefinierat medan multipelt implementationsarv inte är det? (I
    Java, alltså.)
-
+ - Överkurs: mixins and traits
 
 -----
 

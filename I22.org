@@ -1,10 +1,9 @@
 #+html: <a name="22"></a>
-** I22: Defensiv programmering :G3:Lab:
+** I22: Defensive Programming                                        :G3:Lab:
 
- #+begin_summary
- Förklara innebörden av, och tillämpa på ett konsekvent sätt,
- defensiv programmering i ett program.
- #+end_summary
+#+begin_summary
+Demonstrate understanding of defensive programming by its proper and consistent use throughout some part(s) of your program(s).
+#+end_summary
 
  Studera konceptet defensiv programmering. Vid tillämpning, använd
  [[https://github.com/IOOPM-UU/ioopm15/blob/master/extramaterial/Defensiv%2520Programmering%2520-%2520Checklista.pdf][checklistan som finns i kursmaterialet]] och fundera på hur man kan

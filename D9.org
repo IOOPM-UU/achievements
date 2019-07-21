@@ -1,10 +1,20 @@
 #+html: <a name="9"></a>
-** D9: Dokumentation :G3:Lab:
+** D9: Documentation                                                 :G3:Lab:
 
- #+begin_summary
- Dokumentera icke-triviala modulers gränssnitt så att någon
- utomstående kan programmera mot dem.
- #+end_summary
+#+begin_summary
+Write API documentation for non-trivial modules in such a way that
+they can be used easily by others. 
+#+end_summary
+
+- Consider who is your audienece! Documenting something specific
+  to one project you can expect your reader to know something
+  about the domain of the system. If you document a general API
+  (like say a hash table), you can assume very little from your
+  reader.
+- Explain parameters
+- Explain preconditions and postconditions
+- State any key invariants 
+- Give useful examples of uses
 
  Bra dokumentation är av största vikt vid utveckling. Vid en kort
  kurs som denna är det svårt att uppleva nyttan med dokumentation

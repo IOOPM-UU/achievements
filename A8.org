@@ -1,24 +1,25 @@
 #+html: <a name="8"></a>
 ** A8: Gränssnitt                                                    :G4:Lab:
- #+BEGIN_SUMMARY
- Visa hur man kan separera gränssnitt från implementation med hjälp av Java-interfaces.
- #+END_SUMMARY
+#+BEGIN_SUMMARY
+Show how it is possible to separate interfaces (the concept) from implementation
+using Java interfaces (the construct).
+#+END_SUMMARY
 
- Separation av gränssnitt från implementation är viktigt för att
- möjliggöra interna förändringar av implementationen utan att
- externa klienter behöver t.ex. kompileras om.
+Separation av gränssnitt från implementation är viktigt för att
+möjliggöra interna förändringar av implementationen utan att
+externa klienter behöver t.ex. kompileras om.
 
- Javas ~interface~-konstruktion är ett *förtingligat* gränssitt som
- kan knytas till en klass som implementerar det. Ett ~interface~
- kan ses som ett kontrakt och implementationen av ett ~interface~
- kan ses som ett löfte att uppfylla kontraktet. En klass som
- implementerar ett ~interface~ måste åtminstone nominellt uppfylla
- detta kontrakt.
+Javas ~interface~-konstruktion är ett *förtingligat* gränssitt som
+kan knytas till en klass som implementerar det. Ett ~interface~
+kan ses som ett kontrakt och implementationen av ett ~interface~
+kan ses som ett löfte att uppfylla kontraktet. En klass som
+implementerar ett ~interface~ måste åtminstone nominellt uppfylla
+detta kontrakt.
 
- Detta mål handlar inte bara om att förstå principen för *hur* man
- gör en separation av detta slag utan också *varför*. Det
- sistnämnda bör guida det praktiska användandet och kan med fördel
- förklaras vid en redovisning.
+Detta mål handlar inte bara om att förstå principen för *hur* man
+gör en separation av detta slag utan också *varför*. Det
+sistnämnda bör guida det praktiska användandet och kan med fördel
+förklaras vid en redovisning.
 
 
 

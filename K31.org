@@ -1,25 +1,24 @@
 #+html: <a name="31"></a>
-** K31: Coupling & cohesion :G4:Lab:
+** K31: Coupling & Cohesion :G4:Lab:
 
- #+begin_summary
- Givet ett icke-trivialt program uppdelat i moduler som i
- ovanstående mål, resonera kring begreppen coupling och cohesion
- för några av modulerna.
- #+end_summary
+#+begin_summary
+Given a non-trivial program consisting of several modules, reason
+about coupling and cohesion of (some of) the modules.
+#+end_summary
 
- Termerna "low coupling" och "high cohesion" beskriver två
- egenskaper som krävs för att ett program skall anses
- välmodulariserat. Med low coupling avses att två moduler endast
- skall vara löst sammanknutna, så att det är möjligt att byta ut en
- av dem utan att göra några egentliga förändringar i den andra. Med
- high cohesion avses att alla delar som finns i en modul skall ha
- en "hög grad av samhörighet", dvs. att alla delar av modulen avser
- samma aspekt av programmet. (Varför?)
+Termerna "low coupling" och "high cohesion" beskriver två
+egenskaper som krävs för att ett program skall anses
+välmodulariserat. Med low coupling avses att två moduler endast
+skall vara löst sammanknutna, så att det är möjligt att byta ut en
+av dem utan att göra några egentliga förändringar i den andra. Med
+high cohesion avses att alla delar som finns i en modul skall ha
+en "hög grad av samhörighet", dvs. att alla delar av modulen avser
+samma aspekt av programmet. (Varför?)
 
- Termerna ovan är enkla att beskriva separat från faktisk kod, men
- för att förstå dem måste du kunna relatera dem till din egen kod,
- beskriva coupling mellan moduler, cohesion inom moduler, och
- eventuellt göra motiverade förändringar i den tidigare designen.
+Termerna ovan är enkla att beskriva separat från faktisk kod, men
+för att förstå dem måste du kunna relatera dem till din egen kod,
+beskriva coupling mellan moduler, cohesion inom moduler, och
+eventuellt göra motiverade förändringar i den tidigare designen.
 
 
 

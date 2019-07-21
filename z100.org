@@ -1,5 +1,5 @@
 #+html: <a name="100"></a>
-** DONE Z100: Inlupp 1                                               :G3:Lab:
+** DONE Z100: Assignment 1                                           :G3:Lab:
 
 *** Redovisa förståelse för grundläggande imperativ programmering i C
 

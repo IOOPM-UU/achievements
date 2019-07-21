@@ -1,10 +1,10 @@
 #+html: <a name="5"></a>
-** B5: Överlagring och overriding :G3:Lab:
+** B5: Overloading and Overriding                     :G3:Lab:
 
- #+begin_summary
- Visa att du kan använda både överlagring och overriding på
- lämpligt sätt.
- #+end_summary
+#+begin_summary
+Demonstate through multiple uses in code that you understand 
+how (and when) to use overloading and overriding. 
+#+end_summary
 
  *Överlagring* (overloading) av operatorer, funktioner, metoder och
  konstruktorer sker när de har samma namn, men olika typer på sina

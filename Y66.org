@@ -1,5 +1,5 @@
 #+html: <a name="66"></a>
-** Y66: Tillämpa kodgranskning löpande :G3:Report:
+** Y66: Successfully Apply a Code-Review Process supported by Pull Requests and Issues :G3:Report:
 
  Tidigare under kursen har ni tillämpad kodgranskning på helt nya
  program som inte skrivit. Under projektet får ni äntligen

@@ -1,10 +1,9 @@
 #+html: <a name="16"></a>
-** G16: Namn-baserad inkapsling :G3:Lab:
+** G16: Name-Based Encapsulation                                     :G3:Lab:
 
- #+begin_summary
- Använd åtkomstmodifierare för att styra synligheten hos variabler
- och metoder.
- #+end_summary
+#+begin_summary
+Use name-based encapsulation to control the visibility of variables, methods and -- if needed -- nested and inner classes.
+#+end_summary
 
  Styr åtkomst till både privata metoder och data på ett lämpligt
  sätt och motivera användandet. Resonera också kring varför

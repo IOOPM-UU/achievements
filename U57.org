@@ -1,5 +1,18 @@
 #+html: <a name="57"></a>
-** U57: Byggverktyget Make :G3:Lab:
+** U57: Build Management with Make                 :G3:Lab:
+
+#+begin_summary
+Demonstrate understanding of the importance of build management
+support for software projects through proper use of GNU make.
+
+Use dependencies, targets, preferably also variables etc. to 
+faciliate simple extension to your Makefiles, both with new
+targets, code files or compiler flags. 
+
+Add phony convenience targets like "clean" to remove any
+automatically generated files, and "test" to run tests and
+"memtest" to run tests through valgrind. 
+#+end_summary
 
  Många program har komplicerade byggberoenden -- för att kunna
  bygga ~prg~ måste vi länka ~a~ och ~b~, och för att kunna länka

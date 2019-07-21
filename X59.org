@@ -1,9 +1,9 @@
 #+html: <a name="59"></a>
-** X59: Essä :G4:Special:
+** X59: Essay                                                    :G4:Special:
 
- #+BEGIN_SUMMARY
- Redovisa ett mål på nivå 4 eller 5 skriftligt genom en essä.
- #+END_SUMMARY
+#+BEGIN_SUMMARY
+Write an essay in place of an oral demonstration for an achievement on level 4 or 5.
+#+END_SUMMARY
 
  Skriftlig framställning är en viktig del av samtliga kurser på
  universitetet. Det är oerhört viktigt och användbart att kunna

@@ -1,5 +1,5 @@
 #+html: <a name="47"></a>
-** P47: Åtgärda defekter efter en kodgranskning :G4:Lab:
+** P47: Fix Defects Reported Discovered During Code Review :G4:Lab:
 
 In addition to the previous goal, make a [[https://help.github.com/articles/using-pull-requests/][pull request]] with changes
 and cooperate with the owners of the receiving code base until the

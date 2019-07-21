@@ -1,11 +1,10 @@
 #+html: <a name="67"></a>
-** Y67: Delta aktivt i ett programmeringsprojekt :G3:Report:
+** Y67: Actively Participate in a Programming Project :G3:Report:
 
- #+BEGIN_SUMMARY
- Delta aktivt och reflektera över ditt deltagande. Fokusera på
- projektet, inte på produkten (även om produkten kan helt
- negligeras).
- #+END_SUMMARY
+#+BEGIN_SUMMARY
+Actively participate, pull your own weight, and reflect on your participation. 
+Focus on the project more than the "product".
+#+END_SUMMARY
 
  Redovisning sker genom en skriftlig personlig (enskild) reflektion
  som inkluderas i projektrapporten.

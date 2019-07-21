@@ -1,11 +1,10 @@
 #+html: <a name="19"></a>
-** H19: Skillnaden mellan identitet och ekvivalens  :G3:Lab:
+** H19: Equality and Identity :G3:Lab:
 
- #+begin_summary
- Demonstrera förståelse för skillnaden mellan identitet och
- ekvivalens genom att demonstrera implementationer av båda
- koncepten och motivera valet av definition av likhet.
- #+end_summary
+#+begin_summary
+Demonstrate understanding of the differences between the concepts of equality and identity
+through implementation of both concepts in appropriate places in the code, and motivate the chosen definition of equality.
+#+end_summary
 
  Vad menas med att två objekt/värden är identiska? Vad menas med
  att två objekt/värden är ekvivalenta? Hur implementerar man det

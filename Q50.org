@@ -1,15 +1,21 @@
 #+html: <a name="50"></a>
-** Q50: Mät och resonera kring testkvalitet :G4:Lab:
+** Q50: Measure and Reason the Quality of your Tests :G4:Lab:
 
- Hur vet man att de test man har är "bra"? Hur vet man vad testen
- egentligen testar? Använd ett lämpligt verktyg för att t.ex. mäta
- code coverage, d.v.s. hur stor del av koden som faktiskt testas av
- testen. Vilka andra kvalitetsmått på tester finns? Måste man testa
- sina tester? Måste man testa testernas tester? Blir inte detta en
- oändlig regression?
+#+begin_summary
+Use a code coverage tool to see how large portions of your code is
+tested with respect to at least one relevant converage metric. 
+#+end_summary
 
- Använd t.ex. [[http://en.wikipedia.org/wiki/Gcov][Gcov]] för att mäta code
- coverage för era tester.
+
+Hur vet man att de test man har är "bra"? Hur vet man vad testen
+egentligen testar? Använd ett lämpligt verktyg för att t.ex. mäta
+code coverage, d.v.s. hur stor del av koden som faktiskt testas av
+testen. Vilka andra kvalitetsmått på tester finns? Måste man testa
+sina tester? Måste man testa testernas tester? Blir inte detta en
+oändlig regression?
+
+Använd t.ex. [[http://en.wikipedia.org/wiki/Gcov][Gcov]] för att mäta code
+coverage för era tester.
 
 
 

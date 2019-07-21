@@ -1,10 +1,10 @@
 #+html: <a name="12"></a>
-** E12: Designa med parametrisk polymorfism :G4:Lab:
+** E12: Design Classes Using Parametric Polymorphism                 :G4:Lab:
 
- #+begin_summary
- Designa med parametrisk polymorfism för att göra relevanta delar
- av ett program mer generellt.
- #+end_summary
+#+begin_summary
+Use parametric polymorphism in design of classes to make suitable
+parts of a program more generic.
+#+end_summary
 
  Vid designen av en eller flera klasser -- dra nytta av parametrisk
  polymorfism för att slippa ange en typ vid definitionen (detta är

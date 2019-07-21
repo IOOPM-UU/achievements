@@ -1,12 +1,14 @@
 #+html: <a name="27"></a>
-** J27: Manuell minneshantering :G3:Lab:
+** J27: Manual Memory Management                                     :G3:Lab:
 
- #+begin_summary
- Demonstrera förståelse för minneshantering i C genom att skriva
- ett program med dynamiska strukturer som är fritt från
- minnesläckage och argumentera för varför det är så (och verifiera
- med valgrind).
- #+end_summary
+#+begin_summary
+Demonstrate understanding of manual memory management by writing a program 
+that uses dynamic allocations and dynamically growing data structures that is 
+free from memory leaks, read accesses to uninitialised memory, and accesses 
+outside of allocation bounds. 
+#+end_summary
+
+Du måste använda C för detta mål och verfifiera med valgrind. 
 
  Redovisa bland annat för:
 

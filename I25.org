@@ -1,15 +1,17 @@
 #+html: <a name="25"></a>
-** I25: Egendefinierade undantag :G4:Lab:
+** I25: Program-Specific Exceptions          :G4:Lab:
 
- #+begin_summary
- Utöver föregående mål, demonstrera fördjupad förståelse för
- undantagshantering i Java genom att kasta existerande och
- egendefinierade kontrollerade och okontrollerade undantag i ett
- program.
- #+end_summary
+#+begin_summary
+Building on [[./I23.org::Link_From_I25][I23]], demonstrate a deeper understanding of exception
+handling through the definition of your own exceptions -- both
+checked and unchecked exceptions -- specific to your program(s),
+thrown and handled as usual, and also the use of ~finally~ clauses
+to handle e.g. correctly returning resources in the face of "jumps
+up the stack" due to exception handling.
+#+end_summary
 
- Demonstrera med relevanta undantag, gärna i ett program du redan
- har skrivit under en tidigare sprint.
+Demonstrera med relevanta undantag, gärna i ett program du redan
+har skrivit under en tidigare sprint.
 
 
 

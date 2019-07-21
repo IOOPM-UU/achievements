@@ -1,24 +1,26 @@
 #+html: <a name="49"></a>
-** Q49: Enhetstestning  :G3:Lab:
+** Q49: Unit Testing                                                 :G3:Lab:
 
- #+BEGIN_SUMMARY
- Ta fram lämpliga enhetstester, motivera dem, och förklara vad testerna visar.
- #+END_SUMMARY
+#+BEGIN_SUMMARY
+For at least one full program write suitable unit tests for all
+non-user facing functions, motivate your tests, and explain what
+the tests show.
+#+END_SUMMARY
 
- Det står dig fritt fram att använda [[http://cunit.sourceforge.net/example.html][Cunit]], [[http://junit.org][JUnit]], eller
- motsvarande. Detta kan redovisas både under projektet eller
- tidigare. Ett tips är att börja skriva tester från sprint 2
- eftersom tester tenderar att förkorta utvecklingstiden så fort man
- blivit varm i kläderna med språket man programmerar i.
+Det står dig fritt fram att använda [[http://cunit.sourceforge.net/example.html][Cunit]], [[http://junit.org][JUnit]], eller
+motsvarande. Detta kan redovisas både under projektet eller
+tidigare. Ett tips är att börja skriva tester från sprint 2
+eftersom tester tenderar att förkorta utvecklingstiden så fort man
+blivit varm i kläderna med språket man programmerar i.
 
- Enhetstester fokuserar på enskilda funktioner och metoder. Ett bra
- enhetstest kan köras helt automatiserat, är läsbart och prövar
- endast en enda logisk funktion/koncept. Enhetstester har flera
- funktioner, bl.a. gränssnittsdokumentation genom exempel, stöd vid
- debuggning av kod genom dokumentation av felaktiga indata, och i
- testdriven utveckling (TDD) skrivs testerna före koden de skall
- testa för att bena ut specifikationer och sätta fingret på
- oklarheter.
+Enhetstester fokuserar på enskilda funktioner och metoder. Ett bra
+enhetstest kan köras helt automatiserat, är läsbart och prövar
+endast en enda logisk funktion/koncept. Enhetstester har flera
+funktioner, bl.a. gränssnittsdokumentation genom exempel, stöd vid
+debuggning av kod genom dokumentation av felaktiga indata, och i
+testdriven utveckling (TDD) skrivs testerna före koden de skall
+testa för att bena ut specifikationer och sätta fingret på
+oklarheter.
 
 
 

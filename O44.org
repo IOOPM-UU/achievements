@@ -1,11 +1,11 @@
 #+html: <a name="44"></a>
-** O44: Profilering och optimering 3/3 :G5:Lab:
+** O44: Profiling and Optimisation 3/3                               :G5:Lab:
 
- #+BEGIN_SUMMARY
- Samma som mål de två ovanstående målen, men beakta också minnesanvändning.
- #+END_SUMMARY
+#+BEGIN_SUMMARY
+Based on your [[./O42.org::O42:%20Profiling%20&%20Optimisation%201/3][O42]] results, optimise the memory use of your program in a suitable way. 
+#+END_SUMMARY
 
- Observera att dessa mål passar särskilt bra under projektet.
+Observera att dessa mål passar särskilt bra under projektet.
 
  Beakta inte enbart exekveringstid och frekvens, men minnesåtgången
  för strukturer och funktioner/metoder och -- möjligen ännu viktiga

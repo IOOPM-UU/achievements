@@ -1,10 +1,14 @@
 #+html: <a name="11"></a>
-** E11: Parametrisk polymorfism och typsäkerhet :G3:Lab:
+** E11: Parametric Polymorphism and Type Safety :G3:Lab:
 
- #+begin_summary
- Använd parametrisk polymorfism för ökad "statisk typsäkerhet" vid
- interaktion med Javas standardbibliotek.
- #+end_summary
+#+begin_summary
+When using Java's standard libraries, leverage the support for
+parametric polymorphism to achieve static type safety.
+#+end_summary
+
+- Bonus points if you understand wildcards
+- Bonus points if you understand the limitations of static type safety in Java
+- Bonus points if you can link to erasure 
 
  Typsäkerhet avser att ett värde alltid används på tillåtet sätt,
  t.ex. att en bit minne som råkar hålla en baseballspelare med ett
