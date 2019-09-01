@@ -25,9 +25,10 @@
 
  I funktionella språk som Haskell är pre- och postvillkor bra sätt
  att dokumentera förväntningar och löften på ett sätt som inte
- exponerar onödiga detaljer. Javaprogram har i regel tonvis med
- sido-effekter -- vad får det för konsekvens för pre- och
- postvillkor?
+ exponerar onödiga detaljer. Program skrivna i imperativa språk
+ har i regel tonvis med sido-effekter (även på låg nivå i C, t.ex.
+ minne som allokeras eller frigöra) -- vad får det för konsekvens
+ för pre- och postvillkor?
 
 
 

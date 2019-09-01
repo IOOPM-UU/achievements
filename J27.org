@@ -8,13 +8,13 @@
  med valgrind).
  #+end_summary
 
- Redovisa bland annat för:
+ Redogör bland annat för:
 
  - Hur uppstår minnesläckage?
  - Vilken del av ett program ansvarar för att frigöra minne?
  - När avgör man att en bit allokerat minne är "färdiganvänt" och går att frigöra?
  - Vad kan hända om ett allokerat utrymme frigörs "för tidigt"?
- - på vilket sätt hjälper valgrind dig att undvika minnesläckage?
+ - På vilket sätt hjälper valgrind dig att undvika minnesläckage?
 
 
 

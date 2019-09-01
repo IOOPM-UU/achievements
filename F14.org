@@ -57,6 +57,8 @@
  För att bli godkänd på detta mål måste du även visa hur du skriver
  om en rekursiv funktion på svansrekursivt vis.
 
+ Och slutligen: är svansrekursiva funktioner iterativa? 
+
 -----
 
 *Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20F14&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].

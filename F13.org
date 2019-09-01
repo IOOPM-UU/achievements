@@ -3,7 +3,8 @@
 
  #+begin_summary
  Visa en översättning mellan en rekursiv och en iterativ lösning av
- samma problem samt diskutera för- och nackdelar med sido-effekter.
+ samma problem samt -- om du använder sådana -- diskutera för- och 
+ nackdelar med sido-effekter.
  #+end_summary
 
  Är någon av lösningarna bättre (vad betyder bättre?)? I så fall,
@@ -13,6 +14,9 @@
  gäller det omvända? Ibland ger rekursion en "historik" över
  vilken väg genom en datastruktur man tagit som försvinner vid en
  naiv översättning till iteration.
+
+ Kan rekursiva funktioner vara iterativa? Vad är egentligen definitionen
+ av att något är iterativt eller rekursivt? 
 
  Rekursiva datastrukturer som t.ex. träd är bra för att demonstrera
  detta.

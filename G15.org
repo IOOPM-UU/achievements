@@ -43,8 +43,9 @@
  Det är vanligt att subobjekt flyttas mellan objekt och byter
  ägare, eller skapas utanför objektet och flyttas in i det vid
  initiering. Mainstreamprogramspråk saknar dock koncept för
- ägarskap vilket kan leda till representationsläckage om man inte
- är aktsam.
+ ägarskap[[fn::På senare tid har Rust dykt upp som ett spännande
+ alternativ och som har ägarskap som ett centralt koncept.]] vilket
+ kan leda till representationsläckage om man inte är aktsam.
 
 
 
