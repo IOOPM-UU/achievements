@@ -1,36 +1,36 @@
 #+html: <a name="9"></a>
 ** D9: Dokumentation :G3:Lab:
 
- #+begin_summary
- Dokumentera icke-triviala modulers gränssnitt så att någon
- utomstående kan programmera mot dem.
- #+end_summary
+#+begin_summary
+Dokumentera icke-triviala modulers gränssnitt så att någon
+utomstående kan programmera mot dem.
+#+end_summary
 
- Bra dokumentation är av största vikt vid utveckling. Vid en kort
- kurs som denna är det svårt att uppleva nyttan med dokumentation
- som man själv skriver eftersom det inte hinner gå tillräckligt
- lång tid under kursen för att sådant man utvecklat skall falla
- tillräckligt i glömska. (Ta gärna fram någon gammal
- inlämningsuppgift i Haskell från PKD och försök följa logiken och
- ändra i den.)
+Bra dokumentation är av största vikt vid utveckling. Vid en kort
+kurs som denna är det svårt att uppleva nyttan med dokumentation
+som man själv skriver eftersom det inte hinner gå tillräckligt
+lång tid under kursen för att sådant man utvecklat skall falla
+tillräckligt i glömska. (Ta gärna fram någon gammal
+inlämningsuppgift i Haskell från PKD och försök följa logiken och
+ändra i den.)
 
- - Det är svårt att balansera mängden dokumentation som krävs för
-   att beskriva något. Vem vänder man sig till? Vad kan man
-   förvänta sig hos den som läser? Vad vill denne åstadkomma?
- - Vad är en bra balans mellan för lite information och för mycket?
-   Vad är en lämplig detaljnivå?
- - Hur mycket av den interna implementationen bör man beskriva?
-   Varför?
- - Hur beskriver man komplexa och tvetydiga processer?
+- Det är svårt att balansera mängden dokumentation som krävs för
+  att beskriva något. Vem vänder man sig till? Vad kan man
+  förvänta sig hos den som läser? Vad vill denne åstadkomma?
+- Vad är en bra balans mellan för lite information och för mycket?
+  Vad är en lämplig detaljnivå?
+- Hur mycket av den interna implementationen bör man beskriva?
+  Varför?
+- Hur beskriver man komplexa och tvetydiga processer?
 
- I funktionella språk som Haskell är pre- och postvillkor bra sätt
- att dokumentera förväntningar och löften på ett sätt som inte
- exponerar onödiga detaljer. Program skrivna i imperativa språk
- har i regel tonvis med sido-effekter (även på låg nivå i C, t.ex.
- minne som allokeras eller frigöra) -- vad får det för konsekvens
- för pre- och postvillkor?
+I funktionella språk som Haskell är pre- och postvillkor bra sätt
+att dokumentera förväntningar och löften på ett sätt som inte
+exponerar onödiga detaljer. Program skrivna i imperativa språk
+har i regel tonvis med sido-effekter (även på låg nivå i C, t.ex.
+minne som allokeras eller frigöra) -- vad får det för konsekvens
+för pre- och postvillkor?
 
-
+Här är bra länkar att starta med:
 - https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/
 - https://developer.mozilla.org/en-US/docs/MDN/Contribute/Howto/Write_interface_reference_documentation/Sample_interface_document
 
