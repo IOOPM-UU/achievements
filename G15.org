@@ -38,14 +38,14 @@
  vilket de konceptuellt tillhör. Om man t.ex. kunde få ett handtag
  till en länk i en sorterad länkad lista utanför listan kan man
  göra borttagningar eller insättningar som förstör listans
- sorteringsordning.
-
- Det är vanligt att subobjekt flyttas mellan objekt och byter
- ägare, eller skapas utanför objektet och flyttas in i det vid
- initiering. Mainstreamprogramspråk saknar dock koncept för
- ägarskap[[fn::På senare tid har Rust dykt upp som ett spännande
- alternativ och som har ägarskap som ett centralt koncept.]] vilket
+ sorteringsordning. Det är vanligt att subobjekt flyttas mellan
+ objekt och byter ägare, eller skapas utanför objektet och flyttas
+ in i det vid initiering,  vilket
  kan leda till representationsläckage om man inte är aktsam.
+
+ Mainstreamprogramspråk saknar koncept för
+ ägarskap. På senare tid har [[https://en.wikipedia.org/wiki/Rust_(programming_language)][Rust]] dykt upp som ett spännande
+ alternativ och som har ägarskap som ett centralt koncept.
 
 
 
