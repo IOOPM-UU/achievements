@@ -20,7 +20,7 @@
  - [[https://www.gnu.org/prep/standards/standards.pdf][GNU coding standard]]
  - [[http://httpd.apache.org/dev/styleguide.html][Apache C coding conventions]]
  - [[https://google.github.io/styleguide/javaguide.html][Google's Java Style]]
- - [[https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard.][CERT Secure Coding Standards]]
+ - [[https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard][CERT Secure Coding Standards]]
 
  Det går bra att välja en annan om man har en bra och utförlig
  motivation och *får OK i förväg.*

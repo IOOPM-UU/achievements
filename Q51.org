@@ -9,8 +9,9 @@
  Använd också [[https://en.wikipedia.org/wiki/American_fuzzy_lop_(fuzzer)][American Fuzzy Lop]], en fuzzer, t.ex. på din
  lagerhanterare, för att hitta gränsfall som du inte har tänkt på.
 
- Redovisa genom att diskutera ditt resultat med Tobias, +Elias
- eller Stephan+.
+ Redovisa genom att diskutera ditt resultat med
+ [[./teaching-staff.org][en lärare eller huvudassistenten]].
+# Tobias, +Elias eller Stephan+.
 
 -----
 

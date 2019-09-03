@@ -23,8 +23,6 @@ attended.* If you fail to show up for a meeting, take this up with
 the coach first, who will likely refer you to the head teacher who
 will give you an extra assignment instead.
 
-
-
 -----
 
 *Report a bug on this achievement?* Please place an issue on [[https://github.com/IOOPM-UU/achievements/issues/new?title=Bug%20in%20achievement%20X61&body=Please%20describe%20the%20bug,%20comment%20or%20issue%20here&assignee=TobiasWrigstad][GitHub]].
