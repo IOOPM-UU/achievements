@@ -17,7 +17,7 @@
  leda till ett typfel.
 
  Ponera en lista i Java där elementpekarna är av typen ~Object~. En
- sådan lista kan innehålla vad data som helst, men vanligt är att
+ sådan lista kan innehålla vilken data som helst, men vanligt är att
  man är intresserad av en lista av basebollspelare etc.
 
  Javas stöd för parametrisk polymorfism (även kallat *generics*)
