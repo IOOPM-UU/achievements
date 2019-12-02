@@ -12,7 +12,7 @@
 
  Inte alla mål på nivå 4/5 är kanske lämpliga att redovisa via
  en essä (t.ex. inte labbhandledningen). Om du är osäker, hör 
- med Elias eller Tobias först. Det är tillåtet att redovisa 
+ med en av lärarna eller huvudassistenterna först. Det är tillåtet att redovisa 
  fler en ett mål (max 3) om de kan redovisas med en sammanhängande
  historia. Se till att få detta godkänt i förväg! Uppsatsen blir
  förstås längre i detta fall och maxlängdkravet nedan gäller ej.
@@ -72,7 +72,7 @@ the cymbals-sounds that say listen to this, it is important.
 
 *** Inlämning
  Du lämnar in genom att skicka en genererad PDF från LaTeX-källkod
- till Tobias, samt en länk till en katalog i ditt repo där källan
+ till ioopm@it.uu.se, samt en länk till en katalog i ditt repo där källan
  finns. Kommentarer kommer antingen direkt i PDF:en eller som
  issues i GitHub, beroende på omständigheterna.
 

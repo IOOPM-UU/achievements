@@ -6,23 +6,29 @@ Visa förmåga att förmedla kunskap genom att handleda ett pass.
 #+END_SUMMARY
 
 Att hålla en presentation utan förberedelser är vanligt -- jämför
-t.ex. med "elevator pitch" eller när någon frågar om något som man
+t.ex. med  [[https://en.wikipedia.org/wiki/Elevator_pitch]["elevator pitch"]] eller när någon frågar om något som man
 känner till. Vid labbhandledning är det vanligt att man måste
 berätta om olika koncept etc.
 
 Även om man inte kan en viss aspekt av kursen bör man kunna hjälpa
 någon med en diskussion, både lyssna och tala.
 
-Redovisning sker med hjälp av ordinarie labassar som bitvis följer
-med dig och lyssnar på dina förklaringar etc. till andra.
-Obeservera att du inte får ta redovisningar.
+Redovisning sker inför en av kursens lärare eller seniora assistenter
+som delvis följer med dig och lyssnar på dina förklaringar etc. till andra.
+Observera att du inte själv får ta redovisningar utan bara ge handledning!
+
+Du skall göra (minst) fyra handledningar för olika studenter. Du och de
+studenter du handleder skall fylla i [[./misc/checklist-x62.pdf][den här blanketten]], så skriv ut och
+ta med dig den. Som avslutning blir det en kort
+diskussion med läraren/assistenten som examinerar målet.
 
 Ett bra sätt att förbereda sig är att sätta sig in i labassens
 roll genom att titta på hur (särskilt de seniora) labassarna gör.
 
- Om du vill redovisa detta mål, maila till [[mailto:ioopm@it.uu.se][ioopm@it.uu.se]].
+När du vill redovisa detta mål, maila till [[mailto:ioopm@it.uu.se][ioopm@it.uu.se]]. Du kommer
+att få (förslag på) en tid då du kan göra handledningen. 
 
-Det blir lätt fullt i slutet av kursen, så hör av dig i tid!
+Det blir lätt fullt i slutet av kursen, så var ute i god tid!
 
 
 

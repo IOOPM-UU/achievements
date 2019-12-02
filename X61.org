@@ -14,7 +14,8 @@ meetings on the [[file:team.org][Team]] page.
 To tick off this goal, you must participate in all the meetings
 for your group. Follow the instructions for running meetings and
 hand in the report, which should contain the names of everyone
-present at the meeting. Email the report to =[[mailto:ioopm@it.uu.se][ioopm@it.uu.se]]= and
+present at the meeting. Email the report to
+[[mailto:ioopm@it.uu.se][ioopm@it.uu.se]] and
 CC your coach who takes care of checking who is present and
 eventually ticking this goal off for you. 
 
