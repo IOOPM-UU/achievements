@@ -1,21 +1,21 @@
 #+html: <a name="55"></a>
-** T55: Använda Emacs för editering :G3:Lab:
+** TODO T55: Mer Avacerad Versionhantering                           :G3:Lab:
 
- Avser förmåg att använda Emacs *utan mus* för att navigera och
- editera text, öppna filer, bläddra mellan och hantera buffrar,
- använda kill & yank och mark-stacken.
+Detta mål är nytt för 2020. Det står på vår lista att förbättra denna text. 
 
- Du är klar att redovisa detta mål när du känner att du löser
- problem tack vare Emacs och inte trots Emacs.
+När man utvecklar kod har man ofta flera version av samma program
+igång som kanske utvecklas parallellt av olika personer,
+alternativt man experimenterar med någon utökning eller förändring
+för att se konsekvensen för programmet i stort. Detta gör att en
+kodbas förgrenar sig, vilket i regel finns stöd för i moderna
+versionshanteringssystem.
 
- Installera Emacs på din dator hemma om du inte redan har Emacs där
- tills ditt muskelminne har memorerat alla viktiga kommandon.
-*** Varför har vi detta mål?
- [[http://www.theguardian.com/technology/blog/2011/oct/24/programming-ide-editors-choice][Av]] [[http://blog.bittersweetryan.com/2012/02/great-ide-vs-text-editor-debate-why-i.html][flera]] [[https://www.reddit.com/r/learnprogramming/comments/17gr47/text_editors_v_ides/][goda]] [[http://radar.oreilly.com/2014/01/to-ide-or-not-to-ide.html][skäl]], [[http://codecraft.co/2014/05/13/why-you-should-use-an-ide-instead-of-vim-or-emacs/][men inte som ett statement]] eller som en
- rekommendation för resten av ditt liv.
-*** Jag dör om jag inte får använda vim!
- Då är det ok. Men vim alltså. Emacs eller vim effektivt sett.
+- Lär dig att arbeta med branches som är förgreningar i koden. 
+- Lär dig att bemästra ett arbetsflöde där du skapar en ny branch för en specifik ny feature, visa att du kan göra rebase på din branch för att synka med förändringar i "master branch", och integrera den med master.
+- Lär dig att skapa pull requests från branches och integrera dem i master branch.
+- Lär dig att frisera din commit-historik så att versionsloggen blir tydlig och lätt att följa. 
 
+Demonstration av detta mål skall -- som vanligt -- ske på kod i inluppar eller projekt. Det viktiga här är att förstå koncepten, terminologin och det bakomliggande syftet. 
 
 -----
 
