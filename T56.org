@@ -1,18 +1,12 @@
 #+html: <a name="56"></a>
-** T56: Konfigurera Emacs för programmering :G4:Lab:
+** TODO T56: Continuous Integration                                  :G4:Lab:
 
- #+BEGIN_SUMMARY
- Utöver föregående mål, dra nytta av Emacs inbyggda stöd för programmering.
- #+END_SUMMARY
+Detta mål är nytt för 2020. Det står på vår lista att förbättra denna text. 
 
- Avser stöd för kompilering och felsökning, textkomplettering el.
- snippets, samt användande av tags eller motsvarande för att
- navigera kod.
-
- Några startpunkter att titta på:
- - C/C++ Development Environment for Emacs :: https://tuhdo.github.io/c-ide.html
- - Emacs: What's the Best Setup for Coding :: http://ergoemacs.org/emacs/emacs_whats_best_setup_for_xyz.html
-
+Använd GitHubs stöd för continuous integration -- för varje
+commit, kör tester, ev. linter etc. och producera en rapport så
+att du kan verifiera att all kod i versionshanteringssystemet är
+korrekt.
 
 
 -----
