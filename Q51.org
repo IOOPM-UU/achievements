@@ -1,7 +1,7 @@
 #+html: <a name="51"></a>
 ** TODO Q51: Andra verktyg för felsökning :G5:Report:
 
- Använd [[http://findbugs.sourceforge.net][Findbugs]] på ett eller flera av de Javaprogram som du har
+ Använd [[https://spotbugs.github.io/][SpotBugs]] på ett eller flera av de Javaprogram som du har
  utvecklat under kursen och studera resultatet. Hittar du buggar i
  programmet? Får du s.k. "false positives", alltså rapporter om fel
  som inte är fel i praktiken?
