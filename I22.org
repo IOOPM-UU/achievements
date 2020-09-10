@@ -7,7 +7,7 @@
  #+end_summary
 
  Studera konceptet defensiv programmering. Vid tillämpning, använd
- [[https://github.com/IOOPM-UU/ioopm15/blob/master/extramaterial/Defensiv%2520Programmering%2520-%2520Checklista.pdf][checklistan som finns i kursmaterialet]] och fundera på hur man kan
+ [[https://github.com/IOOPM-UU/ioopm15/blob/master/extramaterial/Defensiv%20Programmering%20-%20Checklista.pdf][checklistan som finns i kursmaterialet]] och fundera på hur man kan
  kritisera den.
 
 
