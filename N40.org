@@ -7,10 +7,15 @@
 
  Fundera över skillnaderna mellan länkning i C och Java och när
  länkning sker.
+ 
+ Det här målet handlar om att resonera om vad som händer under länkning, kompilering och interpretering och varför. Vad länkas ihop och varför? När händer det? Vad är skillnaden mellan C och Java? Vad är skillnaden mellan en JIT-kompilator, en "vanlig" ahead-of-time-kompilator som GCC, och att interpretera ett program? Vilka steg är inblandade? Kan Javas HotSpot göra saker som GCC inte kan, och vice versa? Osv.
+ 
+ Ett lästips (som går in väldigt mycket djupare än du behöver göra) för länkning är boken [[https://tinyurl.com/yxwjg83m][Linkers & Loaders av John Levine]].
 
  Ledning: med hjälp av enkla prestandamätningar kan man mäta tiden
  för JIT-kompilering och även dess inverkan på prestanda hos kod
  efter att den kompilerats.
+ 
 
 -----
 
